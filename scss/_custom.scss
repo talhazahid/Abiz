@@ -1,0 +1,210 @@
+
+input::-webkit-input-placeholder {
+  color: #AAAAAA !important;
+  }
+  input::-moz-placeholder {
+    color: #AAAAAA !important;
+  }
+  input:-moz-placeholder { /* Older versions of Firefox */
+    color: #AAAAAA !important;
+  }
+  input:-ms-input-placeholder {
+    color: #AAAAAA !important;
+  }
+
+
+
+.login-container {
+  height: 100vh;
+}
+
+
+
+.login-container .login-box {
+  width: 450px;
+  border: 1px solid #a4b0be;
+  border-top: 0px;
+}
+
+.title-bar {
+  background: #747d8c;
+  color: #fff;
+  padding: 5px;
+  font-size: 13px;
+  padding-left: 15px;
+}
+
+.login-container  .login-section-logo {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.login-container 
+.login-form {
+  padding: 0px 20px;
+  font-size: 15px;
+}
+
+.login-container .login-form input {
+  margin-top: 3px;
+}
+
+.login-container .login-form input {
+  background: #f8f8f8;
+  box-shadow: none;
+  border: 1px solid #d6d6d6;
+  padding: 7px 10px;
+  @include theme-border;
+}
+
+.login-container .login-form button {
+  margin: 30px 0px 25px;
+}
+
+.login-container .or {
+  font-size: 14px;
+  color: #3e3e3e;
+  padding: 0px 20px;
+  position: relative;
+}
+
+.login-container .or::before {
+  display: inline-block;
+  content: "";
+  border-top: 1px solid #c8c8c8;
+  width: 45%;
+  /* margin: 0 1rem; */
+  /* transform: translateY(-1rem); */
+  position: absolute;
+  left: 0;
+  top: 11px;
+}
+
+.login-container .or::after {
+  display: inline-block;
+  content: "";
+  border-top: 1px solid #c8c8c8;
+  width: 45%;
+  /* margin: 0 1rem; */
+  /* transform: translateY(-1rem); */
+  position: absolute; 
+  top: 11px;
+  right: 0;
+}
+
+.login-container .google-signin {
+  padding: 0px 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.login-container .google-signin button {
+  border: 1px solid   #838B95;
+}
+
+.login-container .questions-help-row {
+  padding-top: 0px;
+  margin-bottom: 30px;
+  font-size: 12px;
+}
+
+.login-form label {
+    margin-bottom: 0px;
+}
+
+.login-form .field:nth-child(2) {margin-top: 15px;}
+
+.link {color: $link;}
+
+/*# sourceMappingURL=main.css.map */
+
+.brand-logo {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.select-store-container {
+
+  border: 1px solid #a4b0be;
+  border-top: 0px;
+}
+
+.full-height-center-container {
+  height: 100vh;
+}
+
+.main-heading {
+  font-size: $main-heading-font-size;
+  font-weight: $normal-weight;
+  color:$primary-color;
+}
+
+.select-store-sub-text {
+  max-width: 550px;
+  font-size: $normal-font;
+  color:$primary-color;
+  line-height: $normal-line-height;
+  @include top-bottom-20;
+}
+
+
+.stores-box-container {
+  @include top-bottom-40;
+}
+
+.select-store-box {
+  border: $border-box;
+  text-align: center;
+  padding: 0px;
+  height: 140px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+  @include select-store-box-link;
+  @include theme-border;
+  position: relative;
+}
+
+.select-store-box .form-check {
+  position: absolute;
+  top: 3px;
+  right: 0px;
+
+}
+
+
+.search-store {
+  margin-bottom: 30px;
+}
+.select-store-btn {
+  @include top-bottom-20;
+}
+
+.questions-help-row {
+  @include top-bottom-20;
+}
+
+
+.theme-input {
+  @include theme-input;
+}
+
+.back-arrrow-btn {
+
+  color: #c3c2c2;
+  position: absolute;
+  left: 0;
+  top: 7px;
+  font-size: 26px;
+}
+
+.relative {position: relative;}
+.toggle-store-list-style {
+  color: #c3c2c2;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  font-size: 26px;
+}
