@@ -311,9 +311,11 @@ $navbar-dark-hover-color: rgba($white, 1) !default;
 
 @mixin theme-input {
 
-  background: #F8F8F8;
-  font-size: 14px;
-  border: 1px solid #C2C5C8;
+  background: #f8f8f8;
+  box-shadow: none;
+  border: 1px solid #d6d6d6;
+  padding: 7px 10px;
+  border-radius: 6px;
   @include theme-border;
 
 }
@@ -338,6 +340,7 @@ $border-box: 1px solid #CED6E0;
 $primary-color: #515151;
 
 
+
 // Font Sizes
 
 $main-heading-font-size: 36px;
@@ -347,6 +350,17 @@ $normal-font:16px;
 // Font Weights
 $normal-weight:normal;
 $normal-line-height:20px;
+
+
+
+//Mixins
+
+@mixin title-background-heading {
+  background: #F9F9F9;
+  color: #515151;
+  padding: 5px 10px;
+}
+
 
 
 

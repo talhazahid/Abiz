@@ -4,7 +4,6 @@
   src: url("fonts/icomoon.eot?#iefix-rdmvgc") format("embedded-opentype"), url("fonts/icomoon.woff?-rdmvgc") format("woff"), url("fonts/icomoon.ttf?-rdmvgc") format("truetype"), url("fonts/icomoon.svg?-rdmvgc#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
   speak: none;
@@ -6274,3 +6273,5 @@
 
 .icon-Zootool:before {
   content: "\ee25"; }
+
+/*# sourceMappingURL=iconmind.css.map */

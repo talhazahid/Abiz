@@ -13,6 +13,7 @@ File: scss
 /*Shadow*/
 /* transitions */
 /* Dark transparent bg */
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 @import url(~perfect-scrollbar/css/perfect-scrollbar.css);
 @import url(~devextreme/dist/css/dx.common.css);
 @import url(~devextreme/dist/css/dx.light.css);
@@ -342,6 +343,33 @@ File: scss
   [data-theme='dark'] .ct-grid {
     stroke: #262d35; }
 
+/*******************************/
+/*******************************/
+/*Theme Colors*/
+/*Topbar Colors*/
+/*Sidebar Colors*/
+/*Boxed layout width*/
+/*Shadow*/
+/* transitions */
+/* Dark transparent bg */
+/* ***************************** */
+/* ***************************** */
+/* *
+ * Table Of Content
+ *
+ *  1. Color system
+ *  2. Options
+ *  3. Body
+ *  4. Typography
+ *  5. Breadcrumbs
+ *  6. Cards
+ *  7. Dropdowns
+ *  8. Buttons
+ *  9. Typography
+ *  10. Progress bars
+ *  11. Tables
+ *  12. Forms
+ *  14. Component */
 input::-webkit-input-placeholder {
   color: #AAAAAA !important; }
 
@@ -512,9 +540,11 @@ input:-ms-input-placeholder {
   margin: 20px 0px; }
 
 .theme-input {
-  background: #F8F8F8;
-  font-size: 14px;
-  border: 1px solid #C2C5C8;
+  background: #f8f8f8;
+  box-shadow: none;
+  border: 1px solid #d6d6d6;
+  padding: 7px 10px;
+  border-radius: 6px;
   border-radius: 6px; }
 
 .back-arrrow-btn {
@@ -533,5 +563,19 @@ input:-ms-input-placeholder {
   right: 0;
   top: 10px;
   font-size: 26px; }
+
+.title-background-heading {
+  background: #F9F9F9;
+  color: #515151;
+  padding: 5px 10px; }
+
+.notes-field {
+  width: 100%;
+  border: 1px solid #CED6E0; }
+
+.notes-heading {
+  background: #ACACAC;
+  padding: 10px;
+  color: #fff; }
 
 /*# sourceMappingURL=main.css.map */

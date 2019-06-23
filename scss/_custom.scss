@@ -1,4 +1,4 @@
-
+@import 'variable';
 input::-webkit-input-placeholder {
   color: #AAAAAA !important;
   }
@@ -207,4 +207,21 @@ input::-webkit-input-placeholder {
   right: 0;
   top: 10px;
   font-size: 26px;
+}
+
+.title-background-heading { 
+@include title-background-heading;
+
+}
+
+
+
+.notes-field {
+  width: 100%;
+  border: 1px solid #CED6E0;
+}
+.notes-heading {
+  background:#ACACAC;
+  padding: 10px;
+  color: #fff;
 }
