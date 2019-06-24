@@ -7,6 +7,25 @@
     <link rel="stylesheet" href="scss/bootstrap.css" />
     <link rel="stylesheet" href="scss/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700&display=swap" rel="stylesheet">
+
+
+      <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.1.0.min.js"></script>
+  
+  <!-- Reference either Knockout or AngularJS, if you do -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.0/knockout-min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+  
+  <!-- DevExtreme themes -->
+  <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/18.1.12/css/dx.common.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/18.1.12/css/dx.light.css" />
+  
+  <!-- DevExtreme library -->
+  <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/18.1.12/js/dx.all.js"></script>
+  <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/18.1.12/js/dx.mobile.js"></script> -->
+  <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/18.1.12/js/dx.web.js"></script> -->
+  <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/18.1.12/js/dx.viz.js"></script> -->
+  <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/18.1.12/js/dx.viz-web.js"></script> -->
+
     <title>AplosBiz</title>
   </head>
 
@@ -34,7 +53,9 @@
                       <div class="field">
                           <label class="label">Email or username</label>
                           <div class="control">
-                            <input class="input col-lg-12" type="email" placeholder="">
+                            <!-- <input class="input col-lg-12" type="email" placeholder=""> -->
+
+                            <div  class="input col-lg-12 devinput cursor"></div>
                           </div>
                         </div>
                         
@@ -45,7 +66,8 @@
                           <label class="label"></label>
     
                           <div class="control">
-                            <input class="input col-lg-12" type="password" placeholder="">
+                            <!-- <input class="input col-lg-12" type="password" placeholder=""> -->
+                            <div  class="input col-lg-12 devinput cursor"></div>
                           </div>
                         </div>
     
@@ -62,7 +84,11 @@
     
     
                       <div class="google-signin">
-                          <button class="btn btn-outline-secondary  col-lg-12">Sign In with Google</button>
+                        
+                          <div id="buttonContainer" class="btn btn-outline-secondary  col-lg-12"> </div>  
+
+
+
                       </div>
     
     
@@ -70,7 +96,7 @@
                           Questions ? <a href="#" class="link">Help</a>
                       </div>
                  
-                 
+                      
                      
     
                 </div>
@@ -88,7 +114,20 @@
         </div>
 
 
-        
+        <script>
+     $(".devinput").dxTextBox({
+        value: ""
+    });
+
+
+    $("#buttonContainer").dxButton({
+        text: "Sign In with Google",
+        onClick: function (e) { 
+            DevExpress.ui.notify("The OK button was clicked");
+        }
+    });
+    
+</script>
   
   </body>
 </html>

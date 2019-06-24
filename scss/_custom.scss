@@ -45,14 +45,10 @@ input::-webkit-input-placeholder {
   font-size: 15px;
 }
 
-.login-container .login-form input {
-  margin-top: 3px;
-}
 
 .login-container .login-form input {
   background: #f8f8f8;
   box-shadow: none;
-  border: 1px solid #d6d6d6;
   padding: 7px 10px;
   @include theme-border;
 }
@@ -109,7 +105,7 @@ input::-webkit-input-placeholder {
 }
 
 .login-form label {
-    margin-bottom: 0px;
+    margin-bottom: 5px;
 }
 
 .login-form .field:nth-child(2) {margin-top: 15px;}
@@ -175,6 +171,8 @@ input::-webkit-input-placeholder {
 }
 
 
+.cursor {cursor: pointer;}
+
 .search-store {
   margin-bottom: 30px;
 }
@@ -224,4 +222,11 @@ input::-webkit-input-placeholder {
   background:#ACACAC;
   padding: 10px;
   color: #fff;
+}
+
+
+
+.dx-button.dx-state-hover {
+  background-color: #6c757d !important;
+  border-color: #6c757d !important;
 }
