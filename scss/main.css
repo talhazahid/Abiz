@@ -13,7 +13,6 @@ File: scss
 /*Shadow*/
 /* transitions */
 /* Dark transparent bg */
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 @import url(~perfect-scrollbar/css/perfect-scrollbar.css);
 @import url(~devextreme/dist/css/dx.common.css);
 @import url(~devextreme/dist/css/dx.light.css);
@@ -343,33 +342,6 @@ File: scss
   [data-theme='dark'] .ct-grid {
     stroke: #262d35; }
 
-/*******************************/
-/*******************************/
-/*Theme Colors*/
-/*Topbar Colors*/
-/*Sidebar Colors*/
-/*Boxed layout width*/
-/*Shadow*/
-/* transitions */
-/* Dark transparent bg */
-/* ***************************** */
-/* ***************************** */
-/* *
- * Table Of Content
- *
- *  1. Color system
- *  2. Options
- *  3. Body
- *  4. Typography
- *  5. Breadcrumbs
- *  6. Cards
- *  7. Dropdowns
- *  8. Buttons
- *  9. Typography
- *  10. Progress bars
- *  11. Tables
- *  12. Forms
- *  14. Component */
 input::-webkit-input-placeholder {
   color: #AAAAAA !important; }
 
@@ -409,8 +381,12 @@ input:-ms-input-placeholder {
   font-size: 15px; }
 
 .login-container .login-form input {
+  margin-top: 3px; }
+
+.login-container .login-form input {
   background: #f8f8f8;
   box-shadow: none;
+  border: 1px solid #d6d6d6;
   padding: 7px 10px;
   border-radius: 6px; }
 
@@ -459,7 +435,7 @@ input:-ms-input-placeholder {
   font-size: 12px; }
 
 .login-form label {
-  margin-bottom: 5px; }
+  margin-bottom: 0px; }
 
 .login-form .field:nth-child(2) {
   margin-top: 15px; }
@@ -526,9 +502,6 @@ input:-ms-input-placeholder {
   top: 3px;
   right: 0px; }
 
-.cursor {
-  cursor: pointer; }
-
 .search-store {
   margin-bottom: 30px; }
 
@@ -539,11 +512,11 @@ input:-ms-input-placeholder {
   margin: 20px 0px; }
 
 .theme-input {
+  font-size: 14px;
   background: #f8f8f8;
   box-shadow: none;
   border: 1px solid #d6d6d6;
   padding: 7px 10px;
-  border-radius: 6px;
   border-radius: 6px; }
 
 .back-arrrow-btn {
@@ -565,20 +538,23 @@ input:-ms-input-placeholder {
 
 .title-background-heading {
   background: #F9F9F9;
-  color: #515151;
-  padding: 5px 10px; }
+  padding: 7px 15px;
+  color: #515151; }
 
-.notes-field {
-  width: 100%;
-  border: 1px solid #CED6E0; }
+.title-padding-indent {
+  padding-left: 30px; }
 
 .notes-heading {
   background: #ACACAC;
-  padding: 10px;
+  padding: 7px 10px;
   color: #fff; }
 
-.dx-button.dx-state-hover {
-  background-color: #6c757d !important;
-  border-color: #6c757d !important; }
+.notes-field {
+  width: 100%;
+  border: 1px solid #CED6E0;
+  resize: none; }
+
+.register-multiply {
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

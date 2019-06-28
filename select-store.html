@@ -6,26 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="scss/bootstrap.css" />
     <link rel="stylesheet" href="scss/main.css" />
+    <link rel="stylesheet" href="scss/owl.carousel.css" />
+    <link rel="stylesheet" href="scss/owl.theme.default.css" />
+
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9ca3d3ed81.js"></script>
-
-    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.1.0.min.js"></script>
-  
-    <!-- Reference either Knockout or AngularJS, if you do -->
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.0/knockout-min.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
-    
-    <!-- DevExtreme themes -->
-    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/18.1.12/css/dx.common.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn3.devexpress.com/jslib/18.1.12/css/dx.light.css" />
-    
-    <!-- DevExtreme library -->
-    <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/18.1.12/js/dx.all.js"></script>
-    <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/18.1.12/js/dx.mobile.js"></script> -->
-    <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/18.1.12/js/dx.web.js"></script> -->
-    <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/18.1.12/js/dx.viz.js"></script> -->
-    <!-- <script type="text/javascript" src="https://cdn3.devexpress.com/jslib/18.1.12/js/dx.viz-web.js"></script> -->
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
 
 
     <title>AplosBiz - Select Store</title>
@@ -70,45 +57,46 @@
                     <div class="col-lg-12 ">
                         <form class="col-lg-4  mx-auto search-store">
                             <div class="form-group">  
-                              <!-- <input type="text" class="form-control theme-input" id="text"  placeholder="Search Store"> -->
-
-                              <div  class="input col-lg-12 devinput cursor"></div>
+                              <input type="text" class="form-control theme-input" id="text"  placeholder="Search Store">
                             </div>
                           </form>
                     </div>
                  
                   
-
-                    
-                    <div class="col-lg-2  align-self-center">
-                      <a href="#" class="col-lg-12  select-store-box">
-                                                 
-                        CSP1006 West Store
-                      </a>
-                    </div>
-
-                    <div class="col-lg-2">
-                        <a href="#"  class="col-lg-12 select-store-box  ">
+                    <div class="owl-carousel owl-theme col-10 mx-auto ">
+                       
+                    <div class="item col-lg-12  align-self-center">
+                        <a href="#" class="col-lg-12  select-store-box">
+                                                   
+                          CSP1006 West Store
+                        </a>
+                      </div>
+  
+                      <div class="item col-lg-12  align-self-center">
+                          <a href="#"  class="col-lg-12 select-store-box  ">
+                               
+                        CSP1007 North Store
+                          </a>
+                      </div>
+  
+                      <div class="item col-lg-12  align-self-center">
+                          <a href="#"  class="col-lg-12  select-store-box  ">
                              
-                      CSP1007 North Store
-                        </a>
+                             CSP512 East Store
+                          </a>
+                      </div>
+  
+                      <div class="item col-lg-12  align-self-center">
+                          <a href="#"  class="col-lg-12  select-store-box  ">
+                              <!-- <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">                            
+                                </div>    -->
+                        CSP006 South Store
+                          </a>
+                      </div>
                     </div>
 
-                    <div class="col-lg-2">
-                        <a href="#"  class="col-lg-12  select-store-box  ">
-                           
-                           CSP512 East Store
-                        </a>
-                    </div>
-
-                    <div class="col-lg-2">
-                        <a href="#"  class="col-lg-12  select-store-box  ">
-                            <!-- <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">                            
-                              </div>    -->
-                      CSP006 South Store
-                        </a>
-                    </div>
+                   
 
                   </div>
 
@@ -148,12 +136,66 @@
         
         </div>
 
+<style>
 
-        <script>
-          $(".devinput").dxTextBox({
-            placeholder: "Search store"
-    });
-        </script>
-  
+.owl-theme .owl-nav {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    display: block !important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+.owl-prev span, .owl-next span {font-size: 70px;}
+.owl-prev span {
+  position: absolute;
+    left: -20px;
+    top: 0px;
+    color: #c3c2c2;
+}
+
+.owl-next span {
+  position: absolute;
+right: 0px;
+top: 0px;
+color: #c3c2c2;
+}
+
+.select-store-box {
+    padding: 0px 10px;
+
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+    background: #869791;
+    color: #c3c2c2;
+    text-decoration: none;
+}
+
+
+</style>
+        
+  <script>
+  $('.owl-carousel').owlCarousel({
+    // stagePadding: 50,
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+  </script>
   </body>
 </html>

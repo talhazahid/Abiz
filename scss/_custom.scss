@@ -1,4 +1,4 @@
-@import 'variable';
+
 input::-webkit-input-placeholder {
   color: #AAAAAA !important;
   }
@@ -45,10 +45,14 @@ input::-webkit-input-placeholder {
   font-size: 15px;
 }
 
+.login-container .login-form input {
+  margin-top: 3px;
+}
 
 .login-container .login-form input {
   background: #f8f8f8;
   box-shadow: none;
+  border: 1px solid #d6d6d6;
   padding: 7px 10px;
   @include theme-border;
 }
@@ -105,7 +109,7 @@ input::-webkit-input-placeholder {
 }
 
 .login-form label {
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .login-form .field:nth-child(2) {margin-top: 15px;}
@@ -171,8 +175,6 @@ input::-webkit-input-placeholder {
 }
 
 
-.cursor {cursor: pointer;}
-
 .search-store {
   margin-bottom: 30px;
 }
@@ -207,26 +209,26 @@ input::-webkit-input-placeholder {
   font-size: 26px;
 }
 
-.title-background-heading { 
-@include title-background-heading;
 
+.title-background-heading {
+  @include title-heading;
 }
 
+.title-padding-indent {
+  padding-left: 30px;
+}
 
-
+.notes-heading {
+  background: #ACACAC;
+  padding: 7px 10px;
+  color: #fff;
+}
 .notes-field {
   width: 100%;
   border: 1px solid #CED6E0;
-}
-.notes-heading {
-  background:#ACACAC;
-  padding: 10px;
-  color: #fff;
+  resize: none;
 }
 
-
-
-.dx-button.dx-state-hover {
-  background-color: #6c757d !important;
-  border-color: #6c757d !important;
+.register-multiply {
+  text-align: center;
 }
