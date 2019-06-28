@@ -30,7 +30,7 @@ input::-webkit-input-placeholder {
   background: #747d8c;
   color: #fff;
   padding: 5px;
-  font-size: 13px;
+  font-size: 15px;
   padding-left: 15px;
 }
 
@@ -227,6 +227,7 @@ input::-webkit-input-placeholder {
   width: 100%;
   border: 1px solid #CED6E0;
   resize: none;
+  cursor: text;
 }
 
 .register-multiply {

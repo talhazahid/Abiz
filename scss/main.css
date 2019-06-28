@@ -367,7 +367,7 @@ input:-ms-input-placeholder {
   background: #747d8c;
   color: #fff;
   padding: 5px;
-  font-size: 13px;
+  font-size: 15px;
   padding-left: 15px; }
 
 .login-container .login-section-logo {
@@ -552,7 +552,8 @@ input:-ms-input-placeholder {
 .notes-field {
   width: 100%;
   border: 1px solid #CED6E0;
-  resize: none; }
+  resize: none;
+  cursor: text; }
 
 .register-multiply {
   text-align: center; }
