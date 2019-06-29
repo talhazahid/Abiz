@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'theme-border'.
-        on line 43 of E:\Talha\Aplosbiz\html\AplosBiz\scss\custom.scss, in `theme-border'
-        from line 43 of E:\Talha\Aplosbiz\html\AplosBiz\scss\custom.scss
+        on line 43 of E:\Talha\Aplosbiz\html\github\scss\custom.scss, in `theme-border'
+        from line 43 of E:\Talha\Aplosbiz\html\github\scss\custom.scss
 
 38:   .login-container .login-form input {
 39:     background: #f8f8f8;
@@ -16,8 +16,8 @@ Error: Undefined mixin 'theme-border'.
 48:   }
 
 Backtrace:
-E:\Talha\Aplosbiz\html\AplosBiz\scss\custom.scss:43:in `theme-border'
-E:\Talha\Aplosbiz\html\AplosBiz\scss\custom.scss:43
+E:\Talha\Aplosbiz\html\github\scss\custom.scss:43:in `theme-border'
+E:\Talha\Aplosbiz\html\github\scss\custom.scss:43
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -66,4 +66,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'theme-border'.\A         on line 43 of E:\Talha\Aplosbiz\html\AplosBiz\scss\custom.scss, in `theme-border'\A         from line 43 of E:\Talha\Aplosbiz\html\AplosBiz\scss\custom.scss\A \A 38:   .login-container .login-form input {\A 39:     background: #f8f8f8;\A 40:     box-shadow: none;\A 41:     border: 1px solid #d6d6d6;\A 42:     padding: 7px 10px;\A 43:     @include theme-border;\A 44:   }\A 45:   \A 46:   .login-container .login-form button {\A 47:     margin: 30px 0px 25px;\A 48:   }"; }
+  content: "Error: Undefined mixin 'theme-border'.\A         on line 43 of E:\Talha\Aplosbiz\html\github\scss\custom.scss, in `theme-border'\A         from line 43 of E:\Talha\Aplosbiz\html\github\scss\custom.scss\A \A 38:   .login-container .login-form input {\A 39:     background: #f8f8f8;\A 40:     box-shadow: none;\A 41:     border: 1px solid #d6d6d6;\A 42:     padding: 7px 10px;\A 43:     @include theme-border;\A 44:   }\A 45:   \A 46:   .login-container .login-form button {\A 47:     margin: 30px 0px 25px;\A 48:   }"; }

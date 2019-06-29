@@ -228,6 +228,7 @@ input:-ms-input-placeholder {
   border: 1px solid #ced6e0;
   resize: none;
   cursor: text;
+  height: 110px;
 }
 
 .register-multiply {
@@ -350,4 +351,22 @@ color: #c3c2c2;
 
 .btn-theme-style {
   @include btn-theme-style;
+}
+
+
+
+.btn {
+  cursor: pointer;
+}
+
+
+.modal .modal-dialog {
+  max-width: 800px;
+
+}
+
+
+.modal-body {
+  max-height: calc(100vh - 110px);
+  overflow-y: auto;
 }

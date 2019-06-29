@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$skin1".
-        on line 8 of E:\Talha\Aplosbiz\html\AplosBiz\scss\theme-colors\theme-colors.scss
+        on line 8 of E:\Talha\Aplosbiz\html\github\scss\theme-colors\theme-colors.scss
 
 3:   &[data-layout='vertical'],
 4:   &[data-layout='horizontal'] {
@@ -15,7 +15,7 @@ Error: Undefined variable: "$skin1".
 13:       &[data-logobg='skin3'] {
 
 Backtrace:
-E:\Talha\Aplosbiz\html\AplosBiz\scss\theme-colors\theme-colors.scss:8
+E:\Talha\Aplosbiz\html\github\scss\theme-colors\theme-colors.scss:8
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -95,4 +95,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$skin1\".\A         on line 8 of E:\Talha\Aplosbiz\html\AplosBiz\scss\theme-colors\theme-colors.scss\A \A 3:   &[data-layout='vertical'],\A 4:   &[data-layout='horizontal'] {\A 5:     /*This is for the logo bg*/\A 6:     .topbar .top-navbar .navbar-header {\A 7:       &[data-logobg='skin1'] {\A 8:         background: $skin1;\A 9:       }\A 10:       &[data-logobg='skin2'] {\A 11:         background: $skin2;\A 12:       }\A 13:       &[data-logobg='skin3'] {"; }
+  content: "Error: Undefined variable: \"$skin1\".\A         on line 8 of E:\Talha\Aplosbiz\html\github\scss\theme-colors\theme-colors.scss\A \A 3:   &[data-layout='vertical'],\A 4:   &[data-layout='horizontal'] {\A 5:     /*This is for the logo bg*/\A 6:     .topbar .top-navbar .navbar-header {\A 7:       &[data-logobg='skin1'] {\A 8:         background: $skin1;\A 9:       }\A 10:       &[data-logobg='skin2'] {\A 11:         background: $skin2;\A 12:       }\A 13:       &[data-logobg='skin3'] {"; }

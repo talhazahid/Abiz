@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$gray-100".
-        on line 9 of E:\Talha\Aplosbiz\html\AplosBiz\scss\widgets\feeds.scss
+        on line 9 of E:\Talha\Aplosbiz\html\github\scss\widgets\feeds.scss
 
 4:         .feed-item {
 5:             padding: 12px 0;
@@ -15,7 +15,7 @@ Error: Undefined variable: "$gray-100".
 14:                 margin-right: 10px;
 
 Backtrace:
-E:\Talha\Aplosbiz\html\AplosBiz\scss\widgets\feeds.scss:9
+E:\Talha\Aplosbiz\html\github\scss\widgets\feeds.scss:9
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -95,4 +95,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$gray-100\".\A         on line 9 of E:\Talha\Aplosbiz\html\AplosBiz\scss\widgets\feeds.scss\A \A 4:         .feed-item {\A 5:             padding: 12px 0;\A 6:             display: flex;\A 7:             align-items: center;\A 8:             &:hover {\A 9:                 background: $gray-100;\A 10:             }\A 11:             >.feed-icon {\A 12:                 width: 40px;\A 13:                 height: 40px;\A 14:                 margin-right: 10px;"; }
+  content: "Error: Undefined variable: \"$gray-100\".\A         on line 9 of E:\Talha\Aplosbiz\html\github\scss\widgets\feeds.scss\A \A 4:         .feed-item {\A 5:             padding: 12px 0;\A 6:             display: flex;\A 7:             align-items: center;\A 8:             &:hover {\A 9:                 background: $gray-100;\A 10:             }\A 11:             >.feed-icon {\A 12:                 width: 40px;\A 13:                 height: 40px;\A 14:                 margin-right: 10px;"; }

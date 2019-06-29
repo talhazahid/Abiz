@@ -7998,7 +7998,8 @@ input:-ms-input-placeholder {
   width: 100%;
   border: 1px solid #ced6e0;
   resize: none;
-  cursor: text; }
+  cursor: text;
+  height: 110px; }
 
 .register-multiply {
   text-align: center; }
@@ -8097,6 +8098,16 @@ thead {
   padding: 7px 20px;
   margin: 5px 10px;
   cursor: pointer; }
+
+.btn {
+  cursor: pointer; }
+
+.modal .modal-dialog {
+  max-width: 800px; }
+
+.modal-body {
+  max-height: calc(100vh - 110px);
+  overflow-y: auto; }
 
 /*
 Template Name: Admin Template

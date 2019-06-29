@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$wind-beaufort-0".
-        on line 1 of E:\Talha\Aplosbiz\html\AplosBiz\scss\icons\weather-icons\sass\icon-classes\classes-beaufort.scss
+        on line 1 of E:\Talha\Aplosbiz\html\github\scss\icons\weather-icons\sass\icon-classes\classes-beaufort.scss
 
 1: .wi-wind-beaufort-0:before {content: $wind-beaufort-0;}
 2: .wi-wind-beaufort-1:before {content: $wind-beaufort-1;}
@@ -10,7 +10,7 @@ Error: Undefined variable: "$wind-beaufort-0".
 6: .wi-wind-beaufort-5:before {content: $wind-beaufort-5;}
 
 Backtrace:
-E:\Talha\Aplosbiz\html\AplosBiz\scss\icons\weather-icons\sass\icon-classes\classes-beaufort.scss:1
+E:\Talha\Aplosbiz\html\github\scss\icons\weather-icons\sass\icon-classes\classes-beaufort.scss:1
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -57,4 +57,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$wind-beaufort-0\".\A         on line 1 of E:\Talha\Aplosbiz\html\AplosBiz\scss\icons\weather-icons\sass\icon-classes\classes-beaufort.scss\A \A 1: .wi-wind-beaufort-0:before {content: $wind-beaufort-0;}\A 2: .wi-wind-beaufort-1:before {content: $wind-beaufort-1;}\A 3: .wi-wind-beaufort-2:before {content: $wind-beaufort-2;}\A 4: .wi-wind-beaufort-3:before {content: $wind-beaufort-3;}\A 5: .wi-wind-beaufort-4:before {content: $wind-beaufort-4;}\A 6: .wi-wind-beaufort-5:before {content: $wind-beaufort-5;}"; }
+  content: "Error: Undefined variable: \"$wind-beaufort-0\".\A         on line 1 of E:\Talha\Aplosbiz\html\github\scss\icons\weather-icons\sass\icon-classes\classes-beaufort.scss\A \A 1: .wi-wind-beaufort-0:before {content: $wind-beaufort-0;}\A 2: .wi-wind-beaufort-1:before {content: $wind-beaufort-1;}\A 3: .wi-wind-beaufort-2:before {content: $wind-beaufort-2;}\A 4: .wi-wind-beaufort-3:before {content: $wind-beaufort-3;}\A 5: .wi-wind-beaufort-4:before {content: $wind-beaufort-4;}\A 6: .wi-wind-beaufort-5:before {content: $wind-beaufort-5;}"; }
