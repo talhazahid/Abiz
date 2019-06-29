@@ -8062,6 +8062,37 @@ thead {
   border-right: 0px;
   padding-left: 0px; }
 
+.owl-theme .owl-nav {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent;
+  display: block !important;
+  position: absolute;
+  top: 0;
+  width: 100%; }
+
+.owl-prev span, .owl-next span {
+  font-size: 70px; }
+
+.owl-prev span {
+  position: absolute;
+  left: -20px;
+  top: 0px;
+  color: #c3c2c2; }
+
+.owl-next span {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  color: #c3c2c2; }
+
+.select-store-box {
+  padding: 0px 10px; }
+
+.owl-theme .owl-nav [class*='owl-']:hover {
+  background: #869791;
+  color: #c3c2c2;
+  text-decoration: none; }
+
 .btn-theme-style {
   padding: 7px 20px;
   margin: 5px 10px;
