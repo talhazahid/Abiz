@@ -11,7 +11,7 @@ File: scss
 @import 'theme-colors/dark-theme';
 
 // // Import Bootstrap source files (Required file)
-// @import 'bootstrap/bootstrap';
+@import 'bootstrap/bootstrap';
 
 // //This is for the components (Required file)
 // @import 'components';
@@ -30,6 +30,7 @@ File: scss
 
 // //In This scss you can write your scss
 @import '_custom';
+@import 'main-responsive';
 
 // //This is for the icons (Required file)
 // @import 'icons/font-awesome/css/fontawesome-all.css';

@@ -1,24 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
 
+html body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
 input::-webkit-input-placeholder {
-  color: #AAAAAA !important;
-  }
-  input::-moz-placeholder {
-    color: #AAAAAA !important;
-  }
-  input:-moz-placeholder { /* Older versions of Firefox */
-    color: #AAAAAA !important;
-  }
-  input:-ms-input-placeholder {
-    color: #AAAAAA !important;
-  }
-
-
+  color: #aaaaaa !important;
+}
+input::-moz-placeholder {
+  color: #aaaaaa !important;
+}
+input:-moz-placeholder {
+  /* Older versions of Firefox */
+  color: #aaaaaa !important;
+}
+input:-ms-input-placeholder {
+  color: #aaaaaa !important;
+}
 
 .login-container {
   height: 100vh;
 }
-
-
 
 .login-container .login-box {
   width: 450px;
@@ -34,13 +36,12 @@ input::-webkit-input-placeholder {
   padding-left: 15px;
 }
 
-.login-container  .login-section-logo {
+.login-container .login-section-logo {
   text-align: center;
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.login-container 
-.login-form {
+.login-container .login-form {
   padding: 0px 20px;
   font-size: 15px;
 }
@@ -87,7 +88,7 @@ input::-webkit-input-placeholder {
   width: 45%;
   /* margin: 0 1rem; */
   /* transform: translateY(-1rem); */
-  position: absolute; 
+  position: absolute;
   top: 11px;
   right: 0;
 }
@@ -99,7 +100,7 @@ input::-webkit-input-placeholder {
 }
 
 .login-container .google-signin button {
-  border: 1px solid   #838B95;
+  border: 1px solid #838b95;
 }
 
 .login-container .questions-help-row {
@@ -109,12 +110,16 @@ input::-webkit-input-placeholder {
 }
 
 .login-form label {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
-.login-form .field:nth-child(2) {margin-top: 15px;}
+.login-form .field:nth-child(2) {
+  margin-top: 15px;
+}
 
-.link {color: $link;}
+.link {
+  color: $link;
+}
 
 /*# sourceMappingURL=main.css.map */
 
@@ -125,7 +130,6 @@ input::-webkit-input-placeholder {
 }
 
 .select-store-container {
-
   border: 1px solid #a4b0be;
   border-top: 0px;
 }
@@ -137,17 +141,16 @@ input::-webkit-input-placeholder {
 .main-heading {
   font-size: $main-heading-font-size;
   font-weight: $normal-weight;
-  color:$primary-color;
+  color: $primary-color;
 }
 
 .select-store-sub-text {
   max-width: 550px;
   font-size: $normal-font;
-  color:$primary-color;
+  color: $primary-color;
   line-height: $normal-line-height;
   @include top-bottom-20;
 }
-
 
 .stores-box-container {
   @include top-bottom-40;
@@ -171,9 +174,7 @@ input::-webkit-input-placeholder {
   position: absolute;
   top: 3px;
   right: 0px;
-
 }
-
 
 .search-store {
   margin-bottom: 30px;
@@ -186,13 +187,11 @@ input::-webkit-input-placeholder {
   @include top-bottom-20;
 }
 
-
 .theme-input {
   @include theme-input;
 }
 
 .back-arrrow-btn {
-
   color: #c3c2c2;
   position: absolute;
   left: 0;
@@ -200,7 +199,9 @@ input::-webkit-input-placeholder {
   font-size: 26px;
 }
 
-.relative {position: relative;}
+.relative {
+  position: relative;
+}
 .toggle-store-list-style {
   color: #c3c2c2;
   position: absolute;
@@ -208,7 +209,6 @@ input::-webkit-input-placeholder {
   top: 10px;
   font-size: 26px;
 }
-
 
 .title-background-heading {
   @include title-heading;
@@ -219,17 +219,93 @@ input::-webkit-input-placeholder {
 }
 
 .notes-heading {
-  background: #ACACAC;
+  background: #acacac;
   padding: 7px 10px;
   color: #fff;
 }
 .notes-field {
   width: 100%;
-  border: 1px solid #CED6E0;
+  border: 1px solid #ced6e0;
   resize: none;
   cursor: text;
 }
 
 .register-multiply {
   text-align: center;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+thead {
+  background: #f9f9f9;
+}
+
+.table thead th {
+  border-top: 0px;
+  border-bottom: 0px;
+}
+.inner-table-text {
+  color: #a7a7a7;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.table-th-center {
+  text-align: center;
+}
+
+.table thead th {
+  color: #515151;
+  font-weight: 500;
+  padding: 8px 0px;
+}
+
+.table tr td {
+  border: 1px solid #dee2e6;
+  padding: 10px 10px 7px;
+  line-height: 16px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.semi-bold {
+  font-weight: 500;
+}
+
+.light-text {
+  font-weight: 300;
+}
+
+.clear-variance {
+  color: #29e882;
+}
+.pending-variance {
+  color: #f50f0f;
+}
+.regular-text {
+  font-weight: 400;
+}
+
+.relative {
+  position: relative;
+}
+.money-modal {
+  position: absolute;
+  right: 10px;
+}
+
+
+.notes-text {
+  border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding-left: 0px;
+}
+
+.btn-theme-style {
+  @include btn-theme-style;
 }

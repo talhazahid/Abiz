@@ -1,4 +1,4 @@
-// Responsive
+
 /*
 Template Name: Admin Template
 Author: Wrappixel
@@ -23,9 +23,7 @@ File: scss
  Small Desktop & above all (1024px) 
  ============================================================== */
  @media(min-width: 800px) {
-    .page-wrapper {
-        margin-left: $sidebar-width-full;
-    }
+    
 }
 
 /*-- ============================================================== 
@@ -33,30 +31,32 @@ File: scss
  ============================================================== */
 
 @include media-breakpoint-up(md) {
-    .bc-content{
-        justify-content: flex-end;
-    }
+    
 }
 
 /*-- ============================================================== 
  Phone and below ipad(767px) 
  ============================================================== */
 @include media-breakpoint-down(md) {
-    .do-block{
-        display: block!important;
-    }
-
  
 
+    .money-modal {
+        position: relative;
+        right: 0;
+    }
+
+    .main-heading {
+        font-size: 22px;
+          margin: 0 auto;
+    }
+
+    .select-store-sub-text {
+        max-width: 550px;
+        font-size: 14px;
+  
+        line-height: 20px;
+        margin: 20px;
+        /* line-height: 14px; */
+    }
+    
 }
-
-
-
-
-
-
-
-
-
-
-

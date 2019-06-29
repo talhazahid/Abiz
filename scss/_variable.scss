@@ -328,7 +328,11 @@ $navbar-dark-hover-color: rgba($white, 1) !default;
   color: #515151;
 }
 
-
+@mixin btn-theme-style {
+  padding: 7px 20px;
+  margin: 5px 10px;
+  cursor: pointer;
+}
 
 
 
@@ -357,6 +361,8 @@ $normal-font:16px;
 // Font Weights
 $normal-weight:normal;
 $normal-line-height:20px;
+
+
 
 
 
