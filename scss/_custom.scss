@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap");
 
+
 html body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
@@ -32,8 +33,9 @@ input:-ms-input-placeholder {
   background: #747d8c;
   color: #fff;
   padding: 5px;
-  font-size: 15px;
+  font-size: 14px;
   padding-left: 15px;
+  text-align: center;
 }
 
 .login-container .login-section-logo {
@@ -139,11 +141,16 @@ input:-ms-input-placeholder {
 }
 
 .main-heading {
-  font-size: $main-heading-font-size;
+
   font-weight: $normal-weight;
   color: $primary-color;
 }
 
+
+.select-store-container .main-heading {
+  margin: 0px;
+  font-size: 28px;
+}
 .select-store-sub-text {
   max-width: 550px;
   font-size: $normal-font;
@@ -160,7 +167,7 @@ input:-ms-input-placeholder {
   border: $border-box;
   text-align: center;
   padding: 0px;
-  height: 140px;
+  height: 100px;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -370,3 +377,77 @@ color: #c3c2c2;
   max-height: calc(100vh - 110px);
   overflow-y: auto;
 }
+
+
+header {padding: 20px 10px;}
+.menu-icon {display: inline-block;margin-right: 46px;margin-left: 10px;}
+.header-logo a img {height: 54px;}
+.header-logo {display: inline-block}
+.header-btn {
+  background: #37BBF6;
+  color: $white-txt;
+}
+
+.dropdown {display: inline-block;cursor: pointer;}
+.user-profile:after{display: none;}
+
+.switch-store-btn {
+  padding: 0px;
+}
+
+.bell-btn {
+  padding: 0px;
+}
+
+.header-right {
+  text-align: right;
+}
+
+footer {
+background: #ACACAC;
+padding: 20px;
+
+}
+
+.footer-logo {display: inline-block;margin-right: 20px;}
+.footer-text {display: inline-block;width: 400px;    color: #fff;}
+
+footer ul {list-style: none;}
+footer ul li  {display: inline-block;}
+footer ul li a {display: inline-block;color: #fff;}
+
+footer ul li a {
+  display: inline-block;
+  color: #fff;
+  margin: 0px 10px;
+  font-size: 13px;
+}
+
+footer ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+ul, ul li {
+  margin:0;
+  padding: 0;
+  text-indent: 0;
+  list-style-type: 0;
+}
+
+aside {
+  background: #F8F8F8;
+  height:calc(100vh - 89px);
+ 
+}
+
+
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+
+

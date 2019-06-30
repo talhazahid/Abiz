@@ -7813,8 +7813,9 @@ input:-ms-input-placeholder {
   background: #747d8c;
   color: #fff;
   padding: 5px;
-  font-size: 15px;
-  padding-left: 15px; }
+  font-size: 14px;
+  padding-left: 15px;
+  text-align: center; }
 
 .login-container .login-section-logo {
   text-align: center;
@@ -7902,9 +7903,12 @@ input:-ms-input-placeholder {
   height: 100vh; }
 
 .main-heading {
-  font-size: 36px;
   font-weight: normal;
   color: #515151; }
+
+.select-store-container .main-heading {
+  margin: 0px;
+  font-size: 28px; }
 
 .select-store-sub-text {
   max-width: 550px;
@@ -7920,7 +7924,7 @@ input:-ms-input-placeholder {
   border: 1px solid #CED6E0;
   text-align: center;
   padding: 0px;
-  height: 140px;
+  height: 100px;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -8109,6 +8113,87 @@ thead {
   max-height: calc(100vh - 110px);
   overflow-y: auto; }
 
+header {
+  padding: 20px 10px; }
+
+.menu-icon {
+  display: inline-block;
+  margin-right: 46px;
+  margin-left: 10px; }
+
+.header-logo a img {
+  height: 54px; }
+
+.header-logo {
+  display: inline-block; }
+
+.header-btn {
+  background: #37BBF6;
+  color: #fff; }
+
+.dropdown {
+  display: inline-block;
+  cursor: pointer; }
+
+.user-profile:after {
+  display: none; }
+
+.switch-store-btn {
+  padding: 0px; }
+
+.bell-btn {
+  padding: 0px; }
+
+.header-right {
+  text-align: right; }
+
+footer {
+  background: #ACACAC;
+  padding: 20px; }
+
+.footer-logo {
+  display: inline-block;
+  margin-right: 20px; }
+
+.footer-text {
+  display: inline-block;
+  width: 400px;
+  color: #fff; }
+
+footer ul {
+  list-style: none; }
+
+footer ul li {
+  display: inline-block; }
+
+footer ul li a {
+  display: inline-block;
+  color: #fff; }
+
+footer ul li a {
+  display: inline-block;
+  color: #fff;
+  margin: 0px 10px;
+  font-size: 13px; }
+
+footer ul li a:hover {
+  color: #fff;
+  text-decoration: none; }
+
+ul, ul li {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  list-style-type: 0; }
+
+aside {
+  background: #F8F8F8;
+  height: calc(100vh - 89px); }
+
+.row {
+  margin-right: 0px;
+  margin-left: 0px; }
+
 /*
 Template Name: Admin Template
 Author: Wrappixel
@@ -8127,6 +8212,14 @@ File: scss
 /*-- ============================================================== 
  Ipad & above all(768px) 
  ============================================================== */
+@media (min-width: 768px) {
+  .menu-icon {
+    display: inline-block;
+    margin-right: 30px;
+    margin-left: 10px; }
+
+  .header-logo a img {
+    height: 40px; } }
 /*-- ============================================================== 
  Phone and below ipad(767px) 
  ============================================================== */
@@ -8144,6 +8237,38 @@ File: scss
     font-size: 14px;
     line-height: 20px;
     margin: 20px;
-    /* line-height: 14px; */ } }
+    /* line-height: 14px; */ }
+
+  .footer-logo img {
+    width: 150px; }
+
+  .footer-text {
+    display: inline-block;
+    width: 256px;
+    color: #fff;
+    font-size: 12px; }
+
+  footer ul li a {
+    display: inline-block;
+    color: #fff;
+    margin: 0px 10px;
+    font-size: 13px; } }
+/*-- ============================================================== 
+ Phone  max (767px) 
+ ============================================================== */
+@media (max-width: 767.98px) {
+  .menu-icon {
+    display: inline-block;
+    margin-right: 46px;
+    margin-left: 10px;
+    position: absolute;
+    top: 15px;
+    left: 0; }
+
+  .header-right {
+    display: none; }
+
+  .left-header {
+    text-align: center; } }
 
 /*# sourceMappingURL=main.css.map */

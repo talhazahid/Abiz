@@ -20,6 +20,7 @@ $skin3: #17a991;
 $skin4: #6659f7;
 $skin5: #333d54;
 $skin6: #fff;
+$white-txt:  #fff;
 
 /*Topbar Colors*/
 
@@ -331,7 +332,7 @@ $navbar-dark-hover-color: rgba($white, 1) !default;
 @mixin btn-theme-style {
   padding: 7px 20px;
   margin: 5px 10px;
-  cursor: pointer;
+  cursor: pointer; 
 }
 
 

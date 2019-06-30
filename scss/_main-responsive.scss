@@ -31,7 +31,20 @@ File: scss
  ============================================================== */
 
 @include media-breakpoint-up(md) {
+
+    .menu-icon {
+        display: inline-block;
+        margin-right: 30px;
+        margin-left: 10px;
+    }
+
+
+    .header-logo a img {
+        height: 40px;
+    }
     
+
+   
 }
 
 /*-- ============================================================== 
@@ -59,4 +72,42 @@ File: scss
         /* line-height: 14px; */
     }
     
+  .footer-logo img {width: 150px;}
+  .footer-text {
+    display: inline-block;
+    width: 256px;
+    color: #fff;
+    font-size: 12px;
+}
+
+footer ul li a {
+    display: inline-block;
+    color: #fff;
+    margin: 0px 10px;
+    font-size: 13px;
+}
+
+
+}
+
+/*-- ============================================================== 
+ Phone  max (767px) 
+ ============================================================== */
+
+
+@include media-breakpoint-down(sm) { 
+
+
+    .menu-icon {
+        display: inline-block;
+        margin-right: 46px;
+        margin-left: 10px;
+        position: absolute;
+        top: 15px;
+        left: 0;
+    }
+    .header-right {display: none;}
+    .left-header {text-align: center;}
+
+
 }
