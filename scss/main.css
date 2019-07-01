@@ -7991,12 +7991,17 @@ input:-ms-input-placeholder {
   color: #515151; }
 
 .title-padding-indent {
-  padding-left: 30px; }
+  padding-left: 25px; }
 
 .notes-heading {
   background: #acacac;
-  padding: 7px 10px;
+  padding: 6px 10px 6px 30px;
   color: #fff; }
+
+.notes-heading img {
+  width: 16px;
+  position: absolute;
+  left: 18px; }
 
 .notes-field {
   width: 100%;
@@ -8194,6 +8199,23 @@ aside {
   margin-right: 0px;
   margin-left: 0px; }
 
+.user-profile {
+  margin: 0px;
+  padding: 0px; }
+
+.bell-btn {
+  margin: 0px 20px 0px;
+  padding: 0px; }
+
+.bell-btn:after {
+  display: none; }
+
+.bell-btn img {
+  width: 25px; }
+
+.user-profile img {
+  width: 52px; }
+
 /*
 Template Name: Admin Template
 Author: Wrappixel
@@ -8223,7 +8245,10 @@ File: scss
 /*-- ============================================================== 
  Phone and below ipad(767px) 
  ============================================================== */
-@media (max-width: 991.98px) {
+/*-- ============================================================== 
+ Phone  max (767px) 
+ ============================================================== */
+@media only screen and (max-width: 767px) {
   .money-modal {
     position: relative;
     right: 0; }
@@ -8252,11 +8277,8 @@ File: scss
     display: inline-block;
     color: #fff;
     margin: 0px 10px;
-    font-size: 13px; } }
-/*-- ============================================================== 
- Phone  max (767px) 
- ============================================================== */
-@media (max-width: 767.98px) {
+    font-size: 13px; }
+
   .menu-icon {
     display: inline-block;
     margin-right: 46px;
