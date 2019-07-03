@@ -7812,10 +7812,12 @@ input:-ms-input-placeholder {
 .title-bar {
   background: #747d8c;
   color: #fff;
-  padding: 5px;
+  padding: 10px 0px 7px;
   font-size: 14px;
   padding-left: 15px;
-  text-align: center; }
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 14px; }
 
 .login-container .login-section-logo {
   text-align: center;
@@ -7915,10 +7917,10 @@ input:-ms-input-placeholder {
   font-size: 16px;
   color: #515151;
   line-height: 20px;
-  margin: 20px 0px; }
+  margin: 60px auto 20px !important; }
 
 .stores-box-container {
-  margin: 40px 0px; }
+  margin: 20px 0px; }
 
 .select-store-box {
   border: 1px solid #CED6E0;
@@ -8220,10 +8222,14 @@ aside {
   width: 135px;
   margin-left: 20px; }
 
+.white-bg {
+  background: #fff; }
+
 .fluid-header {
   -webkit-box-shadow: -2px 6px 19px -9px rgba(0, 0, 0, 0.41);
   -moz-box-shadow: -2px 6px 19px -9px rgba(0, 0, 0, 0.41);
-  box-shadow: -2px 6px 19px -9px rgba(0, 0, 0, 0.41); }
+  box-shadow: -2px 6px 19px -9px rgba(0, 0, 0, 0.41);
+  background: white; }
 
 .footer-fluid {
   background: #455A64;
@@ -8232,6 +8238,11 @@ aside {
 
 .footer-logo {
   width: 135px; }
+
+.select-bg {
+  background-image: url(../images/select-store-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 /*
 Template Name: Admin Template
