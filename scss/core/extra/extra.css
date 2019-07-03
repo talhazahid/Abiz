@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$gray-900".
-        on line 14 of E:\Talha\Aplosbiz\html\github\scss\core\extra\extra.scss
+        on line 14 of G:\My Projects\AplosBiz\github\Abiz\scss\core\extra\extra.scss
 
 9: html body {
 10:   .jqstooltip,
@@ -15,7 +15,7 @@ Error: Undefined variable: "$gray-900".
 19: 
 
 Backtrace:
-E:\Talha\Aplosbiz\html\github\scss\core\extra\extra.scss:14
+G:\My Projects\AplosBiz\github\Abiz\scss\core\extra\extra.scss:14
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -73,4 +73,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$gray-900\".\A         on line 14 of E:\Talha\Aplosbiz\html\github\scss\core\extra\extra.scss\A \A 9: html body {\A 10:   .jqstooltip,\A 11:   .flotTip {\A 12:     width: auto !important;\A 13:     height: auto !important;\A 14:     background: $gray-900;\A 15:     color: $white;\A 16:     padding: 5px 10px;\A 17:   }\A 18: }\A 19: "; }
+  content: "Error: Undefined variable: \"$gray-900\".\A         on line 14 of G:\My Projects\AplosBiz\github\Abiz\scss\core\extra\extra.scss\A \A 9: html body {\A 10:   .jqstooltip,\A 11:   .flotTip {\A 12:     width: auto !important;\A 13:     height: auto !important;\A 14:     background: $gray-900;\A 15:     color: $white;\A 16:     padding: 5px 10px;\A 17:   }\A 18: }\A 19: "; }

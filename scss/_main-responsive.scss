@@ -30,22 +30,22 @@ File: scss
  Ipad & above all(768px) 
  ============================================================== */
 
-@include media-breakpoint-up(md) {
+// @include media-breakpoint-up(md) {
 
-    .menu-icon {
-        display: inline-block;
-        margin-right: 30px;
-        margin-left: 10px;
-    }
+//     .menu-icon {
+//         display: inline-block;
+//         margin-right: 30px;
+//         margin-left: 10px;
+//     }
 
 
-    .header-logo a img {
-        height: 40px;
-    }
+//     .header-logo a img {
+//         height: 40px;
+//     }
     
 
    
-}
+// }
 
 /*-- ============================================================== 
  Phone and below ipad(767px) 
@@ -53,11 +53,29 @@ File: scss
 
 // @include media-breakpoint-down(md) {
  
-@media only screen and (max-width: 768px) and (min-width: 1023px)  {
+@media only screen and (min-width: 768px) and (max-width: 1023px)  {
    
 
+    .footer-logo {
+        width: 100%;
+      }
 
 }
+
+
+@media only screen and (min-width: 768px)   {
+   
+
+    .big-device-align-right {
+       text-align: right
+      }
+
+     
+
+}
+
+
+
 
 /*-- ============================================================== 
  Phone  max (767px) 
@@ -66,6 +84,12 @@ File: scss
  
  @media only screen and (max-width: 767px)  {
 
+.footer-logo {
+    width: 130px;
+}
+    .mobile-center {
+        text-align: center;
+    }
     .money-modal {
         position: relative;
         right: 0;

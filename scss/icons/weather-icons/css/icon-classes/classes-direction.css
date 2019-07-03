@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$direction-up".
-        on line 1 of E:\Talha\Aplosbiz\html\github\scss\icons\weather-icons\sass\icon-classes\classes-direction.scss
+        on line 1 of G:\My Projects\AplosBiz\github\Abiz\scss\icons\weather-icons\sass\icon-classes\classes-direction.scss
 
 1: .wi-direction-up:before {content: $direction-up;}
 2: .wi-direction-up-right:before {content: $direction-up-right;}
@@ -10,7 +10,7 @@ Error: Undefined variable: "$direction-up".
 6: .wi-direction-down-left:before {content: $direction-down-left;}
 
 Backtrace:
-E:\Talha\Aplosbiz\html\github\scss\icons\weather-icons\sass\icon-classes\classes-direction.scss:1
+G:\My Projects\AplosBiz\github\Abiz\scss\icons\weather-icons\sass\icon-classes\classes-direction.scss:1
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -57,4 +57,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$direction-up\".\A         on line 1 of E:\Talha\Aplosbiz\html\github\scss\icons\weather-icons\sass\icon-classes\classes-direction.scss\A \A 1: .wi-direction-up:before {content: $direction-up;}\A 2: .wi-direction-up-right:before {content: $direction-up-right;}\A 3: .wi-direction-right:before {content: $direction-right;}\A 4: .wi-direction-down-right:before {content: $direction-down-right;}\A 5: .wi-direction-down:before {content: $direction-down;}\A 6: .wi-direction-down-left:before {content: $direction-down-left;}"; }
+  content: "Error: Undefined variable: \"$direction-up\".\A         on line 1 of G:\My Projects\AplosBiz\github\Abiz\scss\icons\weather-icons\sass\icon-classes\classes-direction.scss\A \A 1: .wi-direction-up:before {content: $direction-up;}\A 2: .wi-direction-up-right:before {content: $direction-up-right;}\A 3: .wi-direction-right:before {content: $direction-right;}\A 4: .wi-direction-down-right:before {content: $direction-down-right;}\A 5: .wi-direction-down:before {content: $direction-down;}\A 6: .wi-direction-down-left:before {content: $direction-down-left;}"; }

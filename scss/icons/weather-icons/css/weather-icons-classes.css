@@ -1,7 +1,7 @@
 /*
 Error: Undefined variable: "$day-sunny".
-        on line 1 of E:/Talha/Aplosbiz/html/github/scss/icons/weather-icons/sass/icon-classes/classes-day.scss
-        from line 1 of E:\Talha\Aplosbiz\html\github\scss\icons\weather-icons\sass\weather-icons-classes.scss
+        on line 1 of G:/My Projects/AplosBiz/github/Abiz/scss/icons/weather-icons/sass/icon-classes/classes-day.scss
+        from line 1 of G:\My Projects\AplosBiz\github\Abiz\scss\icons\weather-icons\sass\weather-icons-classes.scss
 
 1: @import "icon-classes/classes-day.scss";
 2: @import "icon-classes/classes-night.scss";
@@ -11,8 +11,8 @@ Error: Undefined variable: "$day-sunny".
 6: @import "icon-classes/classes-moon-aliases.scss";
 
 Backtrace:
-E:/Talha/Aplosbiz/html/github/scss/icons/weather-icons/sass/icon-classes/classes-day.scss:1
-E:\Talha\Aplosbiz\html\github\scss\icons\weather-icons\sass\weather-icons-classes.scss:1
+G:/My Projects/AplosBiz/github/Abiz/scss/icons/weather-icons/sass/icon-classes/classes-day.scss:1
+G:\My Projects\AplosBiz\github\Abiz\scss\icons\weather-icons\sass\weather-icons-classes.scss:1
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -72,4 +72,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$day-sunny\".\A         on line 1 of E:/Talha/Aplosbiz/html/github/scss/icons/weather-icons/sass/icon-classes/classes-day.scss\A         from line 1 of E:\Talha\Aplosbiz\html\github\scss\icons\weather-icons\sass\weather-icons-classes.scss\A \A 1: @import \"icon-classes/classes-day.scss\";\A 2: @import \"icon-classes/classes-night.scss\";\A 3: @import \"icon-classes/classes-neutral.scss\";\A 4: @import \"icon-classes/classes-misc.scss\";\A 5: @import \"icon-classes/classes-moon.scss\";\A 6: @import \"icon-classes/classes-moon-aliases.scss\";"; }
+  content: "Error: Undefined variable: \"$day-sunny\".\A         on line 1 of G:/My Projects/AplosBiz/github/Abiz/scss/icons/weather-icons/sass/icon-classes/classes-day.scss\A         from line 1 of G:\My Projects\AplosBiz\github\Abiz\scss\icons\weather-icons\sass\weather-icons-classes.scss\A \A 1: @import \"icon-classes/classes-day.scss\";\A 2: @import \"icon-classes/classes-night.scss\";\A 3: @import \"icon-classes/classes-neutral.scss\";\A 4: @import \"icon-classes/classes-misc.scss\";\A 5: @import \"icon-classes/classes-moon.scss\";\A 6: @import \"icon-classes/classes-moon-aliases.scss\";"; }

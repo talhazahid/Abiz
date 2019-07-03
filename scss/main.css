@@ -8216,6 +8216,23 @@ aside {
 .user-profile img {
   width: 52px; }
 
+.logo-fluid img {
+  width: 135px;
+  margin-left: 20px; }
+
+.fluid-header {
+  -webkit-box-shadow: -2px 6px 19px -9px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: -2px 6px 19px -9px rgba(0, 0, 0, 0.41);
+  box-shadow: -2px 6px 19px -9px rgba(0, 0, 0, 0.41); }
+
+.footer-fluid {
+  background: #455A64;
+  padding: 20px;
+  color: #fff; }
+
+.footer-logo {
+  width: 135px; }
+
 /*
 Template Name: Admin Template
 Author: Wrappixel
@@ -8234,21 +8251,25 @@ File: scss
 /*-- ============================================================== 
  Ipad & above all(768px) 
  ============================================================== */
-@media (min-width: 768px) {
-  .menu-icon {
-    display: inline-block;
-    margin-right: 30px;
-    margin-left: 10px; }
-
-  .header-logo a img {
-    height: 40px; } }
 /*-- ============================================================== 
  Phone and below ipad(767px) 
  ============================================================== */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer-logo {
+    width: 100%; } }
+@media only screen and (min-width: 768px) {
+  .big-device-align-right {
+    text-align: right; } }
 /*-- ============================================================== 
  Phone  max (767px) 
  ============================================================== */
 @media only screen and (max-width: 767px) {
+  .footer-logo {
+    width: 130px; }
+
+  .mobile-center {
+    text-align: center; }
+
   .money-modal {
     position: relative;
     right: 0; }
