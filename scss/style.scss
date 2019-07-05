@@ -1,14 +1,8 @@
-/*
-Template Name: Admin Template
-Author: Niravjoshi / Wrappixel
-File: scss
-*/
-
 //(Required file)
 @import 'variable';
 
 //Theme colors
-@import 'theme-colors/dark-theme';
+// @import 'theme-colors/dark-theme';
 
 // // Import Bootstrap source files (Required file)
 @import 'bootstrap/bootstrap';
@@ -30,6 +24,7 @@ File: scss
 
 // //In This scss you can write your scss
 @import '_custom';
+@import 'sliding-menu.scss';
 @import 'main-responsive';
 
 // //This is for the icons (Required file)
@@ -43,6 +38,6 @@ File: scss
 // @import 'icons/iconmind/iconmind.css';
 
 // this is for the perfect scrollbar
-@import '~perfect-scrollbar/css/perfect-scrollbar.css';
-@import '~devextreme/dist/css/dx.common.css';
-@import  '~devextreme/dist/css/dx.light.css';
+// @import '~perfect-scrollbar/css/perfect-scrollbar.css';
+// @import '~devextreme/dist/css/dx.common.css';
+// @import  '~devextreme/dist/css/dx.light.css';
