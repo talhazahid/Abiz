@@ -7583,7 +7583,8 @@ input:-ms-input-placeholder {
 
 .select-store-container {
   border: 1px solid #a4b0be;
-  border-top: 0px; }
+  border-top: 0px;
+  margin: 50px auto 40px; }
 
 .full-height-center-container {
   height: 100vh; }
@@ -8024,6 +8025,9 @@ aside {
 
 .stats-up {
   color: #66BB6A; }
+
+.cursor {
+  cursor: pointer; }
 
 /*
 * Uses Font Awesome and Bootstrap 3
