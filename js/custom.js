@@ -16,6 +16,10 @@ $(function() {
         toggleNav();
     });
 
+
+    $(".toggle-nav").click(function() {
+        $('.site-menu').toggleClass('site-menu-width');
+      });
   
 });
 

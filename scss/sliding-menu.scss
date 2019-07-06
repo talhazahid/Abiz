@@ -46,25 +46,38 @@
     position: absolute;
     top: 0;
     left: 60px;
-    padding: 0px;
+    padding: 0px;     
+    -webkit-transition: all 0.3s ease-in-out;  
+    -moz-transition: all 0.3s ease-in-out;  
+    -o-transition: all 0.3s ease-in-out;  
+    -ms-transition: all 0.3s ease-in-out;  
+    transition: all 0.3s ease-in-out;  
+    background: white;
 
-    -webkit-transition: all 0.15s  ease-in-out;                  
-    -moz-transition: all 0.15s  ease-in-out;                 
-    -o-transition: all 0.15s  ease-in-out;   
-    -ms-transition: all 0.15s  ease-in-out;          
-    transition: all 0.15s ease-in-out;
+
   }
   
   .show-nav .site-menu {
-    width: 160px;
+   
     height: 100%;
     position: absolute;
-    top: 0;
-    left: 60px;
-    background: white;
+    top: 0px;
+    left: 53px;   
     padding: 0px;
+
+ 
+  }
+  .show-nav .site-menu li a  {
+   
+ 
+    padding-left: 20px;
+ 
   }
   
+  .show-nav .site-menu-width {
+    width: 135px;
+    background: white;
+  }
   
   
   
@@ -82,20 +95,25 @@
   }
 
   .menu-content {
-      position: fixed;
-      width: 160px;
+
+    width: 100%;
       visibility: hidden;
+      
+  
   }
   .show-nav .menu-content {
-      position: fixed;
-      width: 160px;
+ 
+    width: 100%;
       visibility: visible;
+      animation: 1s fadeIn;
+      animation-fill-mode: forwards;
   }
 
   .menu-icon-bar {
       list-style: none;
       padding: 0px;
       margin-top: 25px;
+
   }
   .menu-icon-bar li a {
    display: block;
@@ -105,23 +123,52 @@
 
   .menu-sidebar {
     background: #fff;
-    height: 100vh;
+    /* height: 100vh; */
     padding: 0px;
-    max-width: 60px;
+    max-width: 70px;
     /* text-align: center; */
-    padding-left: 24px;
+
   }
 
   .menu-sidebar ul {
       list-style: none;
       margin-top: 25px;
+   
   }
 
   .menu-sidebar ul li a {
-    display: block;
-   padding: 17px 0px;
+    display: inline-block;
+    padding: 12px 0px;
    text-decoration: none;
    color: #263238;
    position: relative;
-   top: 2px;
+ 
+   padding-left: 30px;
+  }
+
+
+.site-menu ul li a::after{
+  display:block;
+  content: '';
+  border-bottom: solid 1px #26A69A;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+
+.site-menu ul li a:hover::after{
+  transform: scaleX(1);
+}
+
+
+
+ 
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      visibility: visible;
+      opacity: 1;
+    }
   }

@@ -96,8 +96,9 @@
       <!-- Header Fluid -->
       <div class="container-fluid site-wrapper">
         <div class="row dashboard-bg p-0 m-0">
-          <div class="col-lg-2 menu-sidebar">
+          <div class="col-lg-2 d-flex   menu-sidebar">
             <ul class="menu-icon-bar">
+
               <li>
                 <a href="#"><img src="images/home.svg" /> </a>
               </li>
@@ -113,18 +114,21 @@
               <li>
                 <a href="#"><img src="images/contact.svg" /> </a>
               </li>
+
+              <div class="site-menu">
+                  <div class="menu-content">
+                    <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">Products</a></li>
+                      <li><a href="#">Categories</a></li>
+                      <li><a href="#">Registers</a></li>
+                      <li><a href="#"> Contact Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+
             </ul>
-            <div class="site-menu">
-              <div class="menu-content">
-                <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Products</a></li>
-                  <li><a href="#">Categories</a></li>
-                  <li><a href="#">Registers</a></li>
-                  <li><a href="#"> Contact Us</a></li>
-                </ul>
-              </div>
-            </div>
+          
           </div>
           <div class="col-lg-11 col-md-11 site-canvas">
             <div class="row">
@@ -149,12 +153,12 @@
                 <div class="row">
                   <div class="col-12">
                       <div class=" dashboard-content">
-                          <div class="row">
+                          <div class="row font-vsmall ">
                             <div class="col-lg-6">
                               Monday July 2019
                             </div>
                             <div class="col-lg-6 desktop-align-right">
-                              <img src="images/time.svg"> Last Login 2 Hours ago
+                              <img src="images/time.svg" class="login-icon"> Last Login 2 Hours ago
                             </div>
                           </div>
                           <div class="row mt-4">
@@ -162,8 +166,6 @@
                               <button class="btn  dashboard-btn-big header-btn">
                                 Close Register
                               </button>
-    
-    
                               <div class="dropdown">
                                   <button class="btn last-report-btn btn-theme-style dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Last 30 Days
@@ -174,19 +176,11 @@
                                     <a class="dropdown-item" href="#">Something else here</a>
                                   </div>
                                 </div>
-    
-    
                             </div>
                           </div>
-    
-    
-    
-    
                           <div class="row mt-4">
-    
-                            <div class="col-lg-4 col-md-4 three-col-widget">
-                            
-    
+                            <div class="col-lg-4 col-md-4">
+                                  <div class="three-col-widget">
                              <div class="three-col-widget-heading">
                                 $21.2k
                              </div>
@@ -198,14 +192,10 @@
                                <img src="images/green-up.svg">
                              </div>  80%
                              </div>
-    
-    
                             </div>
-    
-    
-    
-    
-                            <div class="col-lg-4 col-md-4 three-col-widget">
+                            </div>
+                            <div class="col-lg-4 col-md-4">
+                                <div class="three-col-widget">
                                 <div class="three-col-widget-heading">
                                     145
                                  </div>
@@ -217,8 +207,10 @@
                                    <img src="images/red-down.svg">
                                  </div>  21%
                                  </div>
+                                 </div>
                                </div>
-                               <div class="col-lg-4 col-md-4 three-col-widget">
+                               <div class="col-lg-4 col-md-4">
+                                  <div class="three-col-widget">
                                   <div class="three-col-widget-heading">
                                      35
                                    </div>
@@ -230,20 +222,103 @@
                                      <img src="images/green-up.svg">
                                    </div>  50%
                                    </div>
+                                   </div>
                                  </div>
                           </div>
-    
-    
-                          <div class="row mt-5">
-    
-                            <div class="col-lg-8">
-                              Tables Goes here
+
+                          <div class="row mt-4">
+                            <div class="col-12">
+                              <div class="widget-main-titles">
+                                Recent Transactions
+                              </div>
                             </div>
-    
-    
+                          </div>
+
+
+                          <div class="row">
+                            <div class="col-lg-8 trans-table-container">
+
+                              <div class="trans-table widget-box ">
+                                  <table class="table table-hover table-borderless transactions-table ">
+                                      <thead>
+                                        <tr class="table-month-heading">
+                                          <td colspan="3" class="recent-transactions-heading-month">
+                                              July 2019
+                                          </td>
+                                          
+                                          
+                                        </tr>
+                                      </thead>
+                                      <tbody>
+                                        <tr>
+                                         
+                                          <td class="trans-first">10.11.201 13:44</td>
+                                          <td class="trans-second">Bill Payment # 205456675</td>
+                                          <td class="trans-third"><span class="recent-green">+$318.50</span></td>
+                                       
+                                        </tr>
+                                       
+                                        <tr>
+                                         
+                                          <td class="trans-first">10.11.201 13:44</td>
+                                          <td class="trans-second">Bill Payment # 2056564575</td>
+                                          <td class="trans-third"><span class="recent-red">-118.50</span></td>
+                                       
+                                        </tr>
+                                       
+                                        <tr>
+                                         
+                                          <td class="trans-first">10.11.201 13:44</td>
+                                          <td class="trans-second">Bill Payment # 643054575</td>
+                                          <td class="trans-third"><span class="recent-red">-18.50</span></td>
+                                       
+                                        </tr>
+                                        <tr>
+                                         
+                                          <td class="trans-first">10.11.201 13:44</td>
+                                          <td class="trans-second">Bill Payment # 205456675</td>
+                                          <td class="trans-third"><span class="recent-green">+$318.50</span></td>
+                                       
+                                        </tr>
+                                       
+                                        <tr>
+                                         
+                                          <td class="trans-first">10.11.201 13:44</td>
+                                          <td class="trans-second">Bill Payment # 2056564575</td>
+                                          <td class="trans-third"><span class="recent-red">-118.50</span></td>
+                                       
+                                        </tr>
+                                       
+                                        <tr>
+                                         
+                                          <td class="trans-first">10.11.201 13:44</td>
+                                          <td class="trans-second">Bill Payment # 643054575</td>
+                                          <td class="trans-third"><span class="recent-red">-18.50</span></td>
+                                       
+                                        </tr>
+                                        <tr>
+                                         
+                                          <td class="trans-first">10.11.201 13:44</td>
+                                          <td class="trans-second">Bill Payment # 2056564575</td>
+                                          <td class="trans-third"><span class="recent-red">-118.50</span></td>
+                                       
+                                        </tr>
+                                       
+                                       
+                                       
+                                      
+                                      </tbody>
+                                    </table>
+
+                              </div>
+                              
+
+
+
+                            </div>
                             <div class="col-lg-4">
                               <div class="row">
-                                  <div class="col-lg-12 three-col-widget">
+                                  <div class="col-lg-12 widget-box-30">
                                       <div class="three-col-widget-heading">
                                         245
                                        </div>
@@ -256,8 +331,7 @@
                                        </div>  21%
                                        </div> -->
                                      </div>
-    
-                                     <div class="col-lg-12 three-col-widget mt-4">
+                                     <div class="col-lg-12 widget-box-30 mt-4">
                                         <div class="three-col-widget-heading">
                                             8
                                          </div>
@@ -270,16 +344,10 @@
                                          </div>  21%
                                          </div> -->
                                        </div>
-    
                               </div>
-                                
                             </div>
-    
-    
                           </div>
-    
-    
-                          dddf
+                       
                         </div>
                   </div>
                 </div>
