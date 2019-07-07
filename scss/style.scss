@@ -1,5 +1,5 @@
 //(Required file)
-@import 'variable';
+
 
 //Theme colors
 // @import 'theme-colors/dark-theme';
@@ -23,6 +23,7 @@
 // @import 'responsive';
 
 // //In This scss you can write your scss
+@import 'variable';
 @import '_custom';
 @import 'sliding-menu.scss';
 @import 'main-responsive';

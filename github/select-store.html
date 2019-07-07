@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="scss/bootstrap.css" />
+    <link rel="stylesheet" href="scss/main.css" />
+    <link rel="stylesheet" href="scss/owl.carousel.css" />
+    <link rel="stylesheet" href="scss/owl.theme.default.css" />
+
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9ca3d3ed81.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+
+
+    <title>AplosBiz - Select Store</title>
+  </head>
+
+  <body>
+
+
+
+      <div class="container">
+        
+          <div class="row align-items-center full-height-center-container">
+            <div class="col-11 mx-auto">
+          
+                <div>
+                <div class="select-store-container  mx-auto">
+                  <div class="title-bar">
+                    AplosBiz Dashboard
+                  </div>
+    
+                  <div class="brand-logo">
+                    <img src="images/logo.svg" />
+                  </div>
+
+                  <div class="col-lg-6  mx-auto ">
+                      <h2 class="main-heading text-center relative">
+                         
+                          <!-- <a href="#"> <i class="fas fa-list toggle-store-list-style"></i></a> -->
+                        Select Default Store
+                      </h2>
+                  </div>
+                
+    
+                  <div class="col-12 mx-auto select-store-sub-text  text-center">
+                    Select a location so that when your software loads up, the data for it will appear after logging in
+                  </div>
+
+
+                  <div class="row mx-auto stores-box-container text-center justify-content-center">
+
+
+                    <div class="col-lg-12 ">
+                        <form class="col-lg-5 col-md-6 col-10 mx-auto search-store">
+                            <div class="form-group">  
+                              <input type="text" class="form-control theme-input" id="text"  placeholder="Search Store">
+                            </div>
+                          </form>
+                    </div>
+                 
+                  
+                    <div class="owl-carousel owl-theme col-10 mx-auto ">
+                       
+                    <div class="item col-lg-12  align-self-center">
+                        <a href="#" class="col-lg-12  select-store-box">
+                                                   
+                          CSP1006 West Store
+                        </a>
+                      </div>
+  
+                      <div class="item col-lg-12  align-self-center">
+                          <a href="#"  class="col-lg-12 select-store-box  ">
+                               
+                        CSP1007 North Store
+                          </a>
+                      </div>
+  
+                      <div class="item col-lg-12  align-self-center">
+                          <a href="#"  class="col-lg-12  select-store-box  ">
+                             
+                             CSP512 East Store
+                          </a>
+                      </div>
+  
+                      <div class="item col-lg-12  align-self-center">
+                          <a href="#"  class="col-lg-12  select-store-box  ">
+                              <!-- <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">                            
+                                </div>    -->
+                        CSP006 South Store
+                          </a>
+                      </div>
+                    </div>
+
+                   
+
+                  </div>
+
+                  <!-- <div class="row  mx-auto  text-center justify-content-center">
+                      <div class="col-lg-12">                         
+                              <button class="btn btn-secondary  col-lg-4 select-store-btn">NEXT</button>
+                     
+                      </div>
+                  
+                    
+                  </div> -->
+               
+                  
+               
+    
+                    
+    
+    
+                      <div class="questions-help-row  text-center">
+                          Questions ? <a href="#" class="link">Help</a>
+                      </div>
+                 
+                 
+                     
+    
+                </div>
+              </div>
+    
+            </div>
+          
+            
+
+
+
+
+          </div>
+        
+        </div>
+
+
+        
+  <script>
+  $('.owl-carousel').owlCarousel({
+    // stagePadding: 50,
+    loop:true,
+    margin:10,
+    nav:true,
+    dots:false,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+  </script>
+  </body>
+</html>
