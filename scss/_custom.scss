@@ -29,7 +29,7 @@ input:-ms-input-placeholder {
   border-top: 0px;
 }
 
-.btn {border-radius: 0px;}
+
 .title-bar {
   background: #747d8c;
   color: #fff;
@@ -64,8 +64,8 @@ input:-ms-input-placeholder {
   background: #f8f8f8;
   box-shadow: none;
   border: 1px solid #d6d6d6;
-  padding: 7px 10px;
-  @include theme-border;
+  padding: 4px 10px;
+
 }
 
 .login-container .login-form button {
@@ -180,7 +180,7 @@ input:-ms-input-placeholder {
   display: flex;
   font-size: 14px;
   @include select-store-box-link;
-  @include theme-border;
+
   position: relative;
   text-transform: uppercase;
 }
@@ -242,7 +242,7 @@ input:-ms-input-placeholder {
 .notes-heading img {
   width: 16px;
   position: absolute;
-  left: 18px;
+  left: 24px;
 }
 .notes-field {
   width: 100%;
@@ -254,6 +254,7 @@ input:-ms-input-placeholder {
 
 .register-multiply {
   text-align: center;
+  color: #3e5569;
 }
 
 .inline-block {
@@ -369,18 +370,24 @@ thead {
 
 .btn-theme-style {
   @include btn-theme-style;
+
 }
 
 .btn {
-  cursor: pointer;
+ 
+  @include uni-btn;
+}
+
+.theme-btn {
+  @include theme-btn;
 }
 
 .modal .modal-dialog {
-  max-width: 800px;
+  max-width: 700px;
 }
 
 .modal-body {
-  max-height: calc(100vh - 110px);
+  max-height: calc(100vh - 150px);
   overflow-y: auto;
 }
 
@@ -418,7 +425,7 @@ header {
 
 .switch-store-btn {
   border: 1px solid #78909c;
-  padding: 2px 10px;
+  padding: 3px 10px;
   font-size: 13px;
   color: #797979;
 }
@@ -746,3 +753,28 @@ text-align: right;
 }
 
 
+
+
+.btn-outline-secondary {
+  color: #6c757d;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid #cccccc;
+  padding: 3px 23px !important;
+}
+
+.login-box .btn  {
+  padding: 7px 23px;
+}
+
+.google-signin .btn {
+  padding: 7px 23px !important;
+}
+
+.modal-body {
+  margin-top: 20px;
+}
+
+.modal-container {
+  border: 1px solid #dcdcdc;
+}
