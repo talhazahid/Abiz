@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="scss/bootstrap.css" />
-    <link rel="stylesheet" href="scss/main.css" />
+     <link rel="stylesheet" href="scss/main.css" />
     <script src="https://kit.fontawesome.com/9ca3d3ed81.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -93,12 +92,7 @@
                         <th scope="col">Payment Name</th>
                         <th scope="col" class=" relative ">
                           Manual Count
-                          <a
-                            href="#"
-                            class="money-modal"
-                            data-toggle="modal"
-                            data-target="#exampleModal"
-                          >
+                          <a href="#" class="money-modal" data-toggle="modal"    data-target="#exampleModal">
                             <img src="images/money-bag.svg" />
                           </a>
                         </th>
@@ -162,10 +156,7 @@
                         <div class="title-bar">
                           Create Register
                         </div>
-          
                         <div class="row mx-auto stores-box-container  justify-content-center">
-          
-          
               <form class="form-group" #f="ngForm" (ngsubmit)="onSubmit(f.value)">
                             <div class="col-lg-12">
                                 <div class="row">
@@ -175,10 +166,7 @@
                                         </div>
                                   </div>
                                 </div>
-                               
                                 </div>
-          
-          
                                 <div class="col-lg-12">
                                     <div class="row   align-items-center  mb-2 mt-2">
                                         <div class="col-lg-7 col-7 col-md-7 align-middle title-padding-indent">Open Cash Count</div>
@@ -186,32 +174,16 @@
                                           <input [(ngmodel)]="cashCout" [ngmodeloptions]="{standalone: true}" class="input col-lg-12 theme-input" type="number" placeholder="$0.00">
                                         </div>
                                     </div>
-                                   
                                     </div>
-          
-          
-          
-                          
-          
-          
-                          
-          
                             <!-- <div class="row">
                                 <div class="col-lg-10 col-md-12 mb-2 mt-2 ">
                                     <div class="  title-background-heading ">
                                       Cash Count
                                   </div>
-                
-                
                                 </div>
                             </div> -->
-          
-                         
-                         
                             <div class="col-lg-12">
-          
                                 <div class="row  align-items-center   mb-2 mt-3">
-          
                                     <div class="col-lg-5 col-sm-5 col-5">
                                       <input [(ngmodel)]="val1" [ngmodeloptions]="{standalone: true}" class="input col-lg-12 theme-input" type="number" placeholder="0">
                                     </div>
@@ -219,15 +191,10 @@
                                     <div class="col-lg-5 col-sm-5 col-5">
                                       <input [(ngmodel)]="0.01*val1 " [ngmodeloptions]="{standalone: true}" class="input col-lg-12 theme-input" type="number" placeholder="$0.00">
                                     </div>
-                
-                               
                                 </div>
-          
                             </div>
                             <div class="col-lg-12">
-          
                                 <div class="row  align-items-center   mb-2 mt-3">
-          
                                     <div class="col-lg-5 col-sm-5 col-5">
                                       <input [(ngmodel)]="val2" [ngmodeloptions]="{standalone: true}" class="input col-lg-12 theme-input" type="number" placeholder="0">
                                     </div>
@@ -235,15 +202,10 @@
                                     <div class="col-lg-5 col-sm-5 col-5">
                                       <input [(ngmodel)]="0.05*val2 " [ngmodeloptions]="{standalone: true}" class="input col-lg-12 theme-input" type="number" placeholder="$0.00">
                                     </div>
-                
-                               
                                 </div>
-          
                             </div>
                             <div class="col-lg-12">
-          
                                 <div class="row  align-items-center   mb-2 mt-3">
-          
                                     <div class="col-lg-5 col-sm-5 col-5">
                                       <input [(ngmodel)]="val3" [ngmodeloptions]="{standalone: true}" class="input col-lg-12 theme-input" type="number" placeholder="0">
                                     </div>
@@ -251,15 +213,10 @@
                                     <div class="col-lg-5 col-sm-5 col-5">
                                       <input [(ngmodel)]="0.10*val3 " [ngmodeloptions]="{standalone: true}" class="input col-lg-12 theme-input" type="number" placeholder="$0.00">
                                     </div>
-                
-                               
                                 </div>
-          
                             </div>
                             <div class="col-lg-12">
-          
                                 <div class="row  align-items-center   mb-2 mt-3">
-          
                                     <div class="col-lg-5 col-sm-5 col-5">
                                       <input [(ngmodel)]="val4" [ngmodeloptions]="{standalone: true}" class="input col-lg-12 theme-input" type="number" placeholder="0">
                                     </div>
@@ -267,15 +224,10 @@
                                     <div class="col-lg-5 col-sm-5 col-5">
                                       <input [(ngmodel)]="0.25*val4 " [ngmodeloptions]="{standalone: true}" class="input col-lg-12 theme-input" type="number" placeholder="$0.00">
                                     </div>
-                
-                               
                                 </div>
-          
                             </div>
                             <div class="col-lg-12">
-          
                                 <div class="row  align-items-center   mb-2 mt-3">
-          
                                     <div class="col-lg-5 col-sm-5 col-5">
                                       <input [(ngmodel)]="val5" [ngmodeloptions]="{standalone: true}" class="input col-lg-12 theme-input" type="number" placeholder="0">
                                     </div>
@@ -283,15 +235,10 @@
                                     <div class="col-lg-5 col-sm-5 col-5">
                                       <input [(ngmodel)]="1*val5 " [ngmodeloptions]="{standalone: true}" class="input col-lg-12 theme-input" type="number" placeholder="$0.00">
                                     </div>
-                
-                               
                                 </div>
-          
                             </div>
                             <div class="col-lg-12">
-          
                                   <div class="row  align-items-center   mb-2 mt-3">
-            
                                       <div class="col-lg-5 col-sm-5 col-5">
                                         <input [(ngmodel)]="val6" [ngmodeloptions]="{standalone: true}" class="input col-lg-12 theme-input" type="number" placeholder="0">
                                       </div>
@@ -299,12 +246,8 @@
                                       <div class="col-lg-5 col-sm-5 col-5">
                                         <input [(ngmodel)]="2*val6 " [ngmodeloptions]="{standalone: true}" class="input col-lg-12 theme-input" type="number" placeholder="$0.00">
                                       </div>
-                  
-                                 
                                   </div>
-            
                               </div>
-          
                                 <div class="col-lg-12 col-md-9 col-9 mt-5">
                                     <div class="notes-heading">
                                     <img src="assets/images/notes.svg">
@@ -312,15 +255,10 @@
                                     </div>
                                     <textarea [(ngmodel)]="notes" [ngmodeloptions]="{standalone: true}" class="notes-field" id="textarea" rows="3" style="height: 110px;"></textarea>
                                 </div>
-          
                                <div class="col-lg-12 text-center">
-          
                                   <button class="btn btn-secondary  col-lg-4 mt-3">Register</button>
                                </div>
-                                   
                      </form>         
-                               
-          
                         </div>
                       </div>
                     </div>
@@ -337,17 +275,6 @@
         </div>
       </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-  
     <script>
       $("#myModal").on("shown.bs.modal", function() {
         $("#myInput").trigger("focus");

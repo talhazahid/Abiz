@@ -382,14 +382,6 @@ thead {
   @include theme-btn;
 }
 
-.modal .modal-dialog {
-  max-width: 700px;
-}
-
-.modal-body {
-  max-height: calc(100vh - 150px);
-  overflow-y: auto;
-}
 
 header {
   padding: 5px 10px;
@@ -497,11 +489,13 @@ aside {
 .user-profile {
   margin: 0px;
   padding: 0px;
+  background: none;
 }
 
 .bell-btn {
   margin: 0px 20px 0px;
   padding: 0px;
+  background: none;
 }
 
 .bell-btn:after {
@@ -771,6 +765,28 @@ text-align: right;
   padding: 7px 23px !important;
 }
 
+
+.no-spacing {
+  padding: 0px;
+  margin: 0px;
+}
+
+.modal-content .no-spacing {
+  padding: 0px;
+  margin: 0px;
+}
+
+.modal .modal-dialog {
+  max-width: 700px;
+}
+
+.modal-body {
+  max-height: calc(100vh - 150px);
+  overflow-y: auto;
+}
+
+
+
 .modal-body {
   margin-top: 20px;
 }
@@ -778,3 +794,39 @@ text-align: right;
 .modal-container {
   border: 1px solid #dcdcdc;
 }
+
+
+.empty-title-bar {
+  height: 10px;
+  background: #78909C;
+}
+
+
+.modal-footer-no-border {
+
+  align-items: center;
+  justify-content: center;
+  border-top: 0px solid #e9ecef;
+  text-align: center;
+}
+
+.close-batch-btn {
+  text-align: right;
+  margin-top: 20px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+.batch-register-row {
+  border-bottom: 1px solid #D6D6D6;
+  padding: 20px 0px;
+}
+
+
+.modal-footer > :not(:last-child) {
+  margin-right: 1rem;
+}
+
+  .modal-batch-name {font-size: 18px;font-weight: 500;color: #515151}
+  .modal-person-name{font-size: 16px;color: #515151}
+  .modal-batch-register-buttons {}
