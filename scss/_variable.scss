@@ -1,19 +1,13 @@
 /*******************************/
-
 // Custom Variables
-
 /*******************************/
-
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
-
 /*Theme Colors*/
-
 $themecolor: #4798e8;
 $themecolor-dark: #028ee1;
 $themecolor-alt: #26c6da;
 $theme-light: #fff;
 $theme-dark: #212529;
-
 $skin1: #3587d8;
 $skin2: #d83939;
 $skin3: #17a991;
@@ -21,37 +15,27 @@ $skin4: #6659f7;
 $skin5: #333d54;
 $skin6: #fff;
 $white-txt:  #fff;
-
 /*Topbar Colors*/
-
 $topbar: $theme-light;
 $topbar-height: 64px;
 $topbar-navlink-padding: 0px 15px;
 $topbar-navlink-font-size: 0.875rem;
 $topbar-navlink-height: 64px;
 $topbar-navbrand-padding: 0 15px 0 15px;
-
 /*Sidebar Colors*/
-
 $sidebar: $theme-light;
 $sidebar-alt: #e8eff0;
 $sidebar-text: #fff;
 $sidebar-icons: #fff;
 $sidebar-text-dark: #212529;
 $sidebar-icons-dark: #4f5467;
-
 $sidebar-width-full: 250px;
 $sidebar-width-iconbar: 180px;
 $sidebar-width-mini: 70px;
-
 /*Boxed layout width*/
-
 $boxed-width: 1200px;
-
 /*Shadow*/
-
 $shadow: 1px 0px 20px rgba(0, 0, 0, 0.08);
-
 /* transitions */
 $transitions: 0.2s ease-in;
 /* Dark transparent bg */
@@ -89,9 +73,7 @@ $card-alt: #e4e9ef;
  *  12. Forms
  *  14. Component */
 //Color system
-
 $white: #fff !default;
-
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
@@ -263,35 +245,21 @@ $grid-breakpoints: (
 // Navbar
 $navbar-dark-color: rgba($white, 0.8) !default;
 $navbar-dark-hover-color: rgba($white, 1) !default;
-
-
-
 // Talha SCSS
-
-
-
-
-
 // Mixins
-
 // @mixin theme-border {
 //   border-radius:6px;
 // }
-
-
 @mixin top-bottom-20 {
   margin: 20px 0px;
 }
-
 @mixin top-bottom-40 {
   margin: 40px 0px;
 }
-
 @mixin select-store-box-link {
   text-decoration: none;
   color: inherit;
   transition: box-shadow 0.3s;
-
   &:hover {
     color: #fff;
     background: #26A69A;
@@ -305,11 +273,7 @@ $navbar-dark-hover-color: rgba($white, 1) !default;
     background: #26A69A;
     text-decoration: none;
   }
-
 }
-
-
-
 @mixin theme-input {
   font-size: 14px;
   background: #f8f8f8;
@@ -317,40 +281,36 @@ $navbar-dark-hover-color: rgba($white, 1) !default;
   padding: 4px 10px;
   border-radius: 0px;
   border: 1px solid #dcdcdc;
-
-
 }
-
 @mixin title-heading {
-
   background: #F9F9F9;
   padding: 7px 15px;
   color: #515151;
 }
-
+@mixin modal-headings {
+  padding: 7px 15px 7px 0px;
+  color: #515151;
+  font-size: 16px;
+  border-bottom: 1px solid #BBBBBB;
+  margin-bottom: 15px;
+  background: none;
+  text-transform: uppercase;
+}
 @mixin btn-theme-style {
   padding: 7px 20px;
   margin: 5px 10px;
   cursor: pointer; 
 }
-
-
 @mixin dashboard-btn-small {
   background: #26A69A;
   padding: 4px 23px;
   color: #fff;
   font-size: 13px;
   border-radius: 0px;
-
   &:hover {
     color: #fff;
   }
-
-
 }
-
-
-
 @mixin dashboard-btn-big {
   background: #26A69A;
   padding: 4px 23px;
@@ -360,11 +320,7 @@ $navbar-dark-hover-color: rgba($white, 1) !default;
   &:hover {
     color: #fff;
   }
-
-
 }
-
-
 @mixin  three-col-widget {
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.16);
   -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.16);
@@ -372,16 +328,11 @@ $navbar-dark-hover-color: rgba($white, 1) !default;
   text-align: center;
   padding: 60px 0px;
 }
-
-
-
 @mixin widget-box {
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.16);
   -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.16);
   box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.16);
 }
-
-
 @mixin widget-box-30 {
   -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.16);
   -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.16);
@@ -389,51 +340,93 @@ $navbar-dark-hover-color: rgba($white, 1) !default;
   padding: 30px 0px;
   text-align: center;
 }
-
 //  Talha Variables
-
 @mixin uni-btn {
-  padding: 4px 23px;
+  padding: 6px 23px;
   font-size: 13px;
   border-radius: 0px;
   border: 0px;
   cursor: pointer;
 }
-
 @mixin theme-btn {
   background: #26A69A;
-
   &:hover {
     background: #26afa2;
   }
 }
-
 // Links Colors
 $link:#03A9F4;
-
-
 // Border
 $border-box: 1px solid #CED6E0;
-
 // Primary Secondary Colors
-
 $primary-color: #515151;
-
-
 // Font Sizes
-
 $main-heading-font-size: 36px;
 $normal-font:16px;
-
-
 // Font Weights
 $normal-weight:normal;
 $normal-line-height:20px;
+// Menu Mixin 
+@mixin  sidemenu {
+  flex-grow: 1;
+  color: #fff;
+   ul {
+     list-style: none;
+   }
+   img {
+     margin-right: 10px;
+   }
+   li a {
+     text-decoration: none;
+     color: white;
+     padding: 15px 20px;
+     border-bottom: 1px solid #A2A2A2;
+     display: flex;
+     align-items: center;
+     -webkit-transition: 0.3s ease-in-out;
+     -moz-transition:  0.3s ease-in-out;
+     -ms-transition:  0.3s ease-in-out;
+     -o-transition:  0.3s ease-in-out;
+     transition:  0.3s ease-in-out;
+
+     &:hover {
+      background: #515151;
+    }
 
 
+   }
+
+ 
+
+}
 
 
+@mixin  sidemenu-bottom {
+  color: #fff;
+   ul {
+     list-style: none;
+   }
+   img {
+     margin-right: 10px;
+   }
+   li a {
+     text-decoration: none;
+     color: white;
+     padding: 15px 20px;
+     border-bottom: 1px solid #A2A2A2;
+     border-top: 1px solid #A2A2A2;
+     display: flex;
+     align-items: center;
+     -webkit-transition: 0.3s ease-in-out;
+     -moz-transition:  0.3s ease-in-out;
+     -ms-transition:  0.3s ease-in-out;
+     -o-transition:  0.3s ease-in-out;
+     transition:  0.3s ease-in-out;
 
+     &:hover {
+      background: #515151;
+    }
+  }
 
-
+}
 

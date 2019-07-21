@@ -25,17 +25,21 @@
       <header>
         <div class="row align-items-center">
           <div class="col-12 left-header col-md-4 col-lg-5">
-            <div class="burger-menu">
+            <!-- <div class="burger-menu">
               <a href="#" class="toggle-nav">
                 <img src="images/burger-menu.svg" />
               </a>
-            </div>
+            </div> -->
             <div class="logo-fluid">
               <img src="images/logo.svg" />
             </div>
           </div>
           <div class="col-md-8 col-lg-7 header-right">
-            <button   data-toggle="modal"    data-target="#exampleModal" class="btn  dashboard-btn-big header-btn">
+            <button
+              data-toggle="modal"
+              data-target="#exampleModal"
+              class="btn  dashboard-btn-big header-btn"
+            >
               Register
             </button>
             <div class="dropdown">
@@ -93,225 +97,277 @@
         </div>
       </header>
       <!-- Header Fluid -->
-      <div class="container-fluid site-wrapper">
-        <div class="row dashboard-bg p-0 m-0">
-          <div class="col-lg-2 col-md-2 d-flex   menu-sidebar">
-            <ul class="menu-icon-bar">
-              <li>
-                <a href="#"><img src="images/home.svg" /> </a>
-              </li>
-              <li>
-                <a href="#"><img src="images/products.svg" /> </a>
-              </li>
-              <li>
-                <a href="#"><img src="images/categories.svg" /> </a>
-              </li>
-              <li>
-                <a href="#"><img src="images/register.svg" /> </a>
-              </li>
-              <li>
-                <a href="#"><img src="images/contact.svg" /> </a>
-              </li>
-              <div class="site-menu">
-                  <div class="menu-content">
-                    <ul>
-                      <li><a href="#">Home</a></li>
-                      <li><a href="#">Products</a></li>
-                      <li><a href="#">Categories</a></li>
-                      <li><a href="#">Registers</a></li>
-                      <li><a href="#"> Contact Us</a></li>
-                    </ul>
-                  </div>
-                </div>
-            </ul>
+      <div class="container-fluid p-0">
+        <div class="row ">
+          <div class="col-lg-2 col-md-2 p-0 sidemenu-bg">
+            <div class="sidemenu">
+              <ul>
+                <li><a href="#"> <img src="images/home-ico.svg"> Home</a></li>
+                <li><a href="#"> <img src="images/sales-ico.svg"> Sales</a></li>
+                <li><a href="#"> <img src="images/history-ico.svg"> History</a></li>
+                <li><a href="#"> <img src="images/inventory-ico.svg"> Inventory</a></li>
+                <li><a href="#"> <img src="images/customers-ico.svg"> Customers</a></li>
+                <li><a href="#"> <img src="images/repair-ico.svg"> Repairs</a></li>
+                <li><a href="#"> <img src="images/admin-tools-ico.svg"> Admin Tools</a></li>
+              </ul>
+            </div>
+
+
+            <div class="sidemenu-bottom-section">
+              <ul>
+                <li><a href="#"> <img src="images/help-ico.svg">Help</a></li>
+             </ul>
+
+             <p>Powered by Aplosbiz ver 1.1v</p>
+
+            </div>
+
+
+
           </div>
-          <div class="col-lg-11 col-md-10 site-canvas">
+          <div class="col-lg-10 col-md-10 mb-4">
+          
+           
             <div class="row">
-              <div class="col-lg-11 col-md-12 col-12 mx-auto">
-                <div class="row">
-                  <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                      <li class="breadcrumb-item"><a href="#">Home</a></li>
-                      <li class="breadcrumb-item active" aria-current="page">
-                        Dashboard
-                      </li>
-                    </ol>
-                  </nav>
-                </div>
-                <div class="row">
-                  <div class="col-12">
-                    <h3 class="welcome-txt">
-                      Welcome John Doe
-                    </h3>
+              <div class="col-12">
+
+                  <div class="row">
+                      <div class="col-lg-12">
+  
+  
+                          <nav aria-label="breadcrumb">
+                              <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">
+                                  Dashboard
+                                </li>
+                              </ol>
+                            </nav>
+              
+                            <h3 class="welcome-txt">
+                                Welcome John Doe
+                              </h3>
+                              </div>
                   </div>
-                </div>
-                <div class="row">
-                  <div class="col-12">
-                      <div class=" dashboard-content">
-                          <div class="row font-vsmall ">
-                            <div class="col-lg-6">
-                              Monday July 2019
-                            </div>
-                            <div class="col-lg-6 desktop-align-right">
-                              <img src="images/time.svg" class="login-icon"> Last Login 2 Hours ago
-                            </div>
+                      
+
+              
+                  <div class="row font-vsmall ">
+                    <div class="col-lg-6">
+
+
+                      
+
+
+                      Monday July 2019
+                    </div>
+                    <div class="col-lg-6 desktop-align-right">
+                      <img src="images/time.svg" class="login-icon" /> Last
+                      Login 2 Hours ago
+                    </div>
+                  </div>
+                  <div class="row mt-4">
+                    <div class="col-lg-12 desktop-align-right">
+                      <button class="btn  dashboard-btn-big header-btn">
+                        Close Register
+                      </button>
+                      <div class="dropdown">
+                        <button
+                          class="btn last-report-btn btn-theme-style dropdown-toggle"
+                          type="button"
+                          id="dropdownMenuButton"
+                          data-toggle="dropdown"
+                          aria-haspopup="true"
+                          aria-expanded="false"
+                        >
+                          Last 30 Days
+                        </button>
+                        <div
+                          class="dropdown-menu"
+                          aria-labelledby="dropdownMenuButton"
+                        >
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#"
+                            >Something else here</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mt-4">
+                    <div class="col-lg-4 col-md-4">
+                      <div class="three-col-widget">
+                        <div class="three-col-widget-heading">
+                          $21.2k
+                        </div>
+                        <div class="three-col-widget-small-text">
+                          Total Sale
+                        </div>
+                        <div class="three-col-widget-units stats-up">
+                          <div class="widget-stats">
+                            <img src="images/green-up.svg" />
                           </div>
-                          <div class="row mt-4">
-                            <div class="col-lg-12 desktop-align-right">
-                              <button class="btn  dashboard-btn-big header-btn">
-                                Close Register
-                              </button>
-                              <div class="dropdown">
-                                  <button class="btn last-report-btn btn-theme-style dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Last 30 Days
-                                  </button>
-                                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                  </div>
-                                </div>
-                            </div>
+                          80%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                      <div class="three-col-widget">
+                        <div class="three-col-widget-heading">
+                          145
+                        </div>
+                        <div class="three-col-widget-small-text">
+                          Items sold
+                        </div>
+                        <div class="three-col-widget-units stats-up">
+                          <div class="widget-stats">
+                            <img src="images/red-down.svg" />
                           </div>
-                          <div class="row mt-4">
-                            <div class="col-lg-4 col-md-4">
-                                  <div class="three-col-widget">
-                             <div class="three-col-widget-heading">
-                                $21.2k
-                             </div>
-                             <div class="three-col-widget-small-text">
-                               Total Sale
-                             </div>
-                             <div class="three-col-widget-units stats-up">
-                             <div class="widget-stats">
-                               <img src="images/green-up.svg">
-                             </div>  80%
-                             </div>
-                            </div>
-                            </div>
-                            <div class="col-lg-4 col-md-4">
-                                <div class="three-col-widget">
-                                <div class="three-col-widget-heading">
-                                    145
-                                 </div>
-                                 <div class="three-col-widget-small-text">
-                                   Items sold
-                                 </div>
-                                 <div class="three-col-widget-units stats-up">
-                                 <div class="widget-stats">
-                                   <img src="images/red-down.svg">
-                                 </div>  21%
-                                 </div>
-                                 </div>
-                               </div>
-                               <div class="col-lg-4 col-md-4">
-                                  <div class="three-col-widget">
-                                  <div class="three-col-widget-heading">
-                                     35
-                                   </div>
-                                   <div class="three-col-widget-small-text">
-                                     register open
-                                   </div>
-                                   <div class="three-col-widget-units stats-up">
-                                   <div class="widget-stats">
-                                     <img src="images/green-up.svg">
-                                   </div>  50%
-                                   </div>
-                                   </div>
-                                 </div>
+                          21%
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                      <div class="three-col-widget">
+                        <div class="three-col-widget-heading">
+                          35
+                        </div>
+                        <div class="three-col-widget-small-text">
+                          register open
+                        </div>
+                        <div class="three-col-widget-units stats-up">
+                          <div class="widget-stats">
+                            <img src="images/green-up.svg" />
                           </div>
-                          <div class="row mt-4">
-                            <div class="col-12">
-                              <div class="widget-main-titles">
-                                Recent Transactions
-                              </div>
-                            </div>
+                          50%
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row mt-4">
+                    <div class="col-12">
+                      <div class="widget-main-titles">
+                        Recent Transactions
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-8 trans-table-container">
+                      <div class="trans-table widget-box ">
+                        <table
+                          class="table table-hover table-borderless transactions-table "
+                        >
+                          <thead>
+                            <tr class="table-month-heading">
+                              <td
+                                colspan="3"
+                                class="recent-transactions-heading-month"
+                              >
+                                July 2019
+                              </td>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td class="trans-first">10.11.201 13:44</td>
+                              <td class="trans-second">
+                                Bill Payment # 205456675
+                              </td>
+                              <td class="trans-third">
+                                <span class="recent-green">+$318.50</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="trans-first">10.11.201 13:44</td>
+                              <td class="trans-second">
+                                Bill Payment # 2056564575
+                              </td>
+                              <td class="trans-third">
+                                <span class="recent-red">-118.50</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="trans-first">10.11.201 13:44</td>
+                              <td class="trans-second">
+                                Bill Payment # 643054575
+                              </td>
+                              <td class="trans-third">
+                                <span class="recent-red">-18.50</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="trans-first">10.11.201 13:44</td>
+                              <td class="trans-second">
+                                Bill Payment # 205456675
+                              </td>
+                              <td class="trans-third">
+                                <span class="recent-green">+$318.50</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="trans-first">10.11.201 13:44</td>
+                              <td class="trans-second">
+                                Bill Payment # 2056564575
+                              </td>
+                              <td class="trans-third">
+                                <span class="recent-red">-118.50</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="trans-first">10.11.201 13:44</td>
+                              <td class="trans-second">
+                                Bill Payment # 643054575
+                              </td>
+                              <td class="trans-third">
+                                <span class="recent-red">-18.50</span>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="trans-first">10.11.201 13:44</td>
+                              <td class="trans-second">
+                                Bill Payment # 2056564575
+                              </td>
+                              <td class="trans-third">
+                                <span class="recent-red">-118.50</span>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="row">
+                        <div class="col-lg-12 widget-box-30">
+                          <div class="three-col-widget-heading">
+                            245
                           </div>
-                          <div class="row">
-                            <div class="col-lg-8 trans-table-container">
-                              <div class="trans-table widget-box ">
-                                  <table class="table table-hover table-borderless transactions-table ">
-                                      <thead>
-                                        <tr class="table-month-heading">
-                                          <td colspan="3" class="recent-transactions-heading-month">
-                                              July 2019
-                                          </td>
-                                        </tr>
-                                      </thead>
-                                      <tbody>
-                                        <tr>
-                                          <td class="trans-first">10.11.201 13:44</td>
-                                          <td class="trans-second">Bill Payment # 205456675</td>
-                                          <td class="trans-third"><span class="recent-green">+$318.50</span></td>
-                                        </tr>
-                                        <tr>
-                                          <td class="trans-first">10.11.201 13:44</td>
-                                          <td class="trans-second">Bill Payment # 2056564575</td>
-                                          <td class="trans-third"><span class="recent-red">-118.50</span></td>
-                                        </tr>
-                                        <tr>
-                                          <td class="trans-first">10.11.201 13:44</td>
-                                          <td class="trans-second">Bill Payment # 643054575</td>
-                                          <td class="trans-third"><span class="recent-red">-18.50</span></td>
-                                        </tr>
-                                        <tr>
-                                          <td class="trans-first">10.11.201 13:44</td>
-                                          <td class="trans-second">Bill Payment # 205456675</td>
-                                          <td class="trans-third"><span class="recent-green">+$318.50</span></td>
-                                        </tr>
-                                        <tr>
-                                          <td class="trans-first">10.11.201 13:44</td>
-                                          <td class="trans-second">Bill Payment # 2056564575</td>
-                                          <td class="trans-third"><span class="recent-red">-118.50</span></td>
-                                        </tr>
-                                        <tr>
-                                          <td class="trans-first">10.11.201 13:44</td>
-                                          <td class="trans-second">Bill Payment # 643054575</td>
-                                          <td class="trans-third"><span class="recent-red">-18.50</span></td>
-                                        </tr>
-                                        <tr>
-                                          <td class="trans-first">10.11.201 13:44</td>
-                                          <td class="trans-second">Bill Payment # 2056564575</td>
-                                          <td class="trans-third"><span class="recent-red">-118.50</span></td>
-                                        </tr>
-                                      </tbody>
-                                    </table>
-                              </div>
-                            </div>
-                            <div class="col-lg-4">
-                              <div class="row">
-                                  <div class="col-lg-12 widget-box-30">
-                                      <div class="three-col-widget-heading">
-                                        245
-                                       </div>
-                                       <div class="three-col-widget-small-text">
-                                         orders closed
-                                       </div>
-                                       <!-- <div class="three-col-widget-units stats-up">
+                          <div class="three-col-widget-small-text">
+                            orders closed
+                          </div>
+                          <!-- <div class="three-col-widget-units stats-up">
+                                     <div class="widget-stats">
+                                       <img src="images/red-down.svg">
+                                     </div>  21%
+                                     </div> -->
+                        </div>
+                        <div class="col-lg-12 widget-box-30 mt-4">
+                          <div class="three-col-widget-heading">
+                            8
+                          </div>
+                          <div class="three-col-widget-small-text">
+                            pending issues
+                          </div>
+                          <!-- <div class="three-col-widget-units stats-up">
                                        <div class="widget-stats">
                                          <img src="images/red-down.svg">
                                        </div>  21%
                                        </div> -->
-                                     </div>
-                                     <div class="col-lg-12 widget-box-30 mt-4">
-                                        <div class="three-col-widget-heading">
-                                            8
-                                         </div>
-                                         <div class="three-col-widget-small-text">
-                                           pending issues
-                                         </div>
-                                         <!-- <div class="three-col-widget-units stats-up">
-                                         <div class="widget-stats">
-                                           <img src="images/red-down.svg">
-                                         </div>  21%
-                                         </div> -->
-                                       </div>
-                              </div>
-                            </div>
-                          </div>
                         </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
+              
               </div>
             </div>
           </div>
@@ -346,97 +402,136 @@
             </div>
           </div>
         </div>
-         <!-- Modal -->
-    <div
-    class="modal fade"
-    id="exampleModal"
-    tabindex="-1"
-    role="dialog"
-    aria-labelledby="exampleModalLabel"
-    aria-hidden="true"
-  >
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-body no-spacing">
-            <div class="empty-title-bar">
-              </div>
-              <div class="row">
+        <!-- Modal -->
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-body no-spacing">
+                <div class="empty-title-bar"></div>
+                <div class="row">
                   <div class="col-lg-11 mx-auto">
                     <div class="close-batch-btn">
-                        <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">
-                            CLOSE BATCH
-                          </button>
+                      <button
+                        type="button"
+                        class="btn btn-outline-secondary"
+                        data-dismiss="modal"
+                      >
+                        CLOSE BATCH
+                      </button>
                     </div>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-lg-11 mx-auto">
-                  
-                      <div class="row   align-items-center       batch-register-row">
-                          <div class="col-lg-3 col-md-3 col-3">
-                              <div class="modal-batch-name">
-                                Register 1
-                              </div>
-                             </div>
-                             <div class="col-lg-3 col-md-3 col-3">
-                              <div class="modal-person-name">
-                                <span> J. </span>
-                                <span> Wick</span>
-                              </div>
-                             </div>
-                             <div class="col-lg-6 col-md-6 col-6">
-                              <div class="modal-batch-register-buttons d-flex justify-content-between">
-                                 <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">
-                                    Open
-                                  </button>
-                                 <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">
-                                    Close
-                                  </button>
-                                 <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">
-                                    Details
-                                  </button>
-                              </div>
-                             </div>
-                            </div>
-                      <div class="row   align-items-center       batch-register-row">
-                          <div class="col-lg-3 col-md-3 col-3">
-                              <div class="modal-batch-name">
-                                Register 2
-                              </div>
-                             </div>
-                             <div class="col-lg-3 col-md-3 col-3">
-                              <div class="modal-person-name">
-                                <span> A. </span>
-                                <span> Thomas</span>
-                              </div>
-                             </div>
-                             <div class="col-lg-6 col-md-6 col-6">
-                              <div class="modal-batch-register-buttons d-flex justify-content-between">
-                                 <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">
-                                    Open
-                                  </button>
-                                 <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">
-                                    Close
-                                  </button>
-                                 <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">
-                                    Details
-                                  </button>
-                              </div>
-                             </div>
-                            </div>
-               
+                    <div
+                      class="row   align-items-center       batch-register-row"
+                    >
+                      <div class="col-lg-3 col-md-3 col-3">
+                        <div class="modal-batch-name">
+                          Register 1
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-3">
+                        <div class="modal-person-name">
+                          <span> J. </span>
+                          <span> Wick</span>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-6">
+                        <div
+                          class="modal-batch-register-buttons d-flex justify-content-between"
+                        >
+                          <button
+                            type="button"
+                            class="btn btn-outline-secondary"
+                            data-dismiss="modal"
+                          >
+                            Open
+                          </button>
+                          <button
+                            type="button"
+                            class="btn btn-outline-secondary"
+                            data-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                          <button
+                            type="button"
+                            class="btn btn-outline-secondary"
+                            data-dismiss="modal"
+                          >
+                            Details
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="row   align-items-center       batch-register-row"
+                    >
+                      <div class="col-lg-3 col-md-3 col-3">
+                        <div class="modal-batch-name">
+                          Register 2
+                        </div>
+                      </div>
+                      <div class="col-lg-3 col-md-3 col-3">
+                        <div class="modal-person-name">
+                          <span> A. </span>
+                          <span> Thomas</span>
+                        </div>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-6">
+                        <div
+                          class="modal-batch-register-buttons d-flex justify-content-between"
+                        >
+                          <button
+                            type="button"
+                            class="btn btn-outline-secondary"
+                            data-dismiss="modal"
+                          >
+                            Open
+                          </button>
+                          <button
+                            type="button"
+                            class="btn btn-outline-secondary"
+                            data-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                          <button
+                            type="button"
+                            class="btn btn-outline-secondary"
+                            data-dismiss="modal"
+                          >
+                            Details
+                          </button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
+              </div>
+              <div class="modal-footer modal-footer-no-border">
+                <button
+                  type="button"
+                  class="btn btn-outline-secondary"
+                  data-dismiss="modal"
+                >
+                  CANCEL
+                </button>
+                <button type="button" class="btn theme-btn  btn-secondary">
+                  CREATE REGISTER
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="modal-footer modal-footer-no-border">
-          <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">
-            CANCEL
-          </button>
-          <button type="button" class="btn theme-btn  btn-secondary">CREATE REGISTER</button>
-        </div>
-      </div>
-    </div>
-  </div>
       </footer>
       <!-- Footer Fluid -->
     </div>
