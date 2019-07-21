@@ -773,6 +773,10 @@ aside {
   fill: #455a64;
 }
 
+.footer-copyright {
+  font-size: 13px;
+}
+
 .right-content-wrapper {
 }
 .right-content-items-row {
@@ -837,8 +841,10 @@ width: 120px;
 }
 
 .show-advanced-row {
-  background: #bababa;
-  padding: 10px 40px;
+  background: #f7f7f7;
+  padding: 15px 40px;
+  border-top: 1px solid #CED6E0;
+  border-bottom: 1px solid #CED6E0;
 }
 .advanced-search-checkbox {
   display: inline-block;
@@ -861,7 +867,26 @@ width: 120px;
 
 .advanced-search-column-row {
   display: flex;
+  margin-top: 10px;
 }
 .advanced-search-column {
-  flex: 1;
+ margin-right: 10px;
+
+  select {
+    font-size: 14px;
+    background: #fff;
+    box-shadow: none;
+    padding: 6px 10px 5px;
+    border-radius: 0px;
+    border: 1px solid #dcdcdc;
+  }
+
+  input {
+    font-size: 14px;
+    background: #fff;
+    box-shadow: none;
+    border-radius: 0px;
+    border: 1px solid #dcdcdc;
+  }
+
 }
