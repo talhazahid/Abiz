@@ -7608,6 +7608,10 @@ aside {
 
 .breadcrumb-row div {
   display: inline-block; }
+  .breadcrumb-row div .bread-arrow {
+    margin: 0px 6px;
+    position: relative;
+    top: -1px; }
 
 .breadcrumb-row svg {
   position: relative;
@@ -7682,8 +7686,8 @@ aside {
 .show-advanced-row {
   background: #f7f7f7;
   padding: 15px 40px;
-  border-top: 1px solid #CED6E0;
-  border-bottom: 1px solid #CED6E0; }
+  border-top: 1px solid #ced6e0;
+  border-bottom: 1px solid #ced6e0; }
 
 .advanced-search-checkbox {
   display: inline-block;
@@ -7716,6 +7720,97 @@ aside {
     box-shadow: none;
     border-radius: 0px;
     border: 1px solid #dcdcdc; }
+
+.breadcrumb-arrow path {
+  fill: #929292; }
+
+.right-side-left-column {
+  padding: 20px;
+  flex-basis: 45%; }
+
+.right-side-right-column {
+  padding: 20px;
+  flex-basis: 45%; }
+
+.type-discount-row {
+  display: flex;
+  background: #f9f9f9;
+  flex-direction: column;
+  border: 1px solid #DDDDDD; }
+
+.inner-type-discount-row {
+  padding: 10px;
+  border-bottom: 1px solid #DDDDDD;
+  display: flex;
+  align-items: center; }
+  .inner-type-discount-row div {
+    display: inline-block;
+    margin-right: 10px;
+    width: 100px; }
+  .inner-type-discount-row select {
+    font-size: 14px;
+    background: #fff;
+    box-shadow: none;
+    padding: 4px;
+    border-radius: 0px;
+    border: 1px solid #dcdcdc;
+    width: 130px; }
+
+.crud-heading-row {
+  background: #F9F9F9;
+  color: #515151;
+  font-size: 17px;
+  border-bottom: 2px solid #78909C;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between; }
+
+.crud-form-fields {
+  display: flex;
+  flex-direction: column; }
+  .crud-form-fields input {
+    width: 100%;
+    margin-top: 10px; }
+
+.crud-checks-row div {
+  display: inline-block;
+  margin-right: 10px; }
+  .crud-checks-row div input {
+    width: auto !important;
+    margin-right: 8px;
+    position: relative;
+    top: 2px; }
+
+.crud-heading-row div {
+  flex-basis: 50%; }
+.crud-heading-row div:last-child {
+  text-align: right; }
+  .crud-heading-row div:last-child img {
+    position: relative;
+    top: -1px; }
+  .crud-heading-row div:last-child a {
+    text-decoration: none;
+    color: #515151; }
+
+.crud-full-row {
+  padding: 20px; }
+
+.crud-notes-row {
+  display: flex;
+  width: 100%;
+  flex-direction: column; }
+  .crud-notes-row textarea {
+    width: 100%;
+    border: 1px solid #CED6E0;
+    resize: none; }
+
+.crud-notes-heading {
+  margin-top: 20px;
+  background: #F9F9F9;
+  color: #515151;
+  font-size: 17px;
+  padding: 10px; }
 
 /*
 * Uses Font Awesome and Bootstrap 3
