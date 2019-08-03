@@ -246,6 +246,12 @@ $grid-breakpoints: (
 $navbar-dark-color: rgba($white, 0.8) !default;
 $navbar-dark-hover-color: rgba($white, 1) !default;
 // Talha SCSS
+
+
+
+
+$animation-fill-color-theme: #00C4B1;
+$animation-fill-color-theme-black: #6c757d;
 // Mixins
 // @mixin theme-border {
 //   border-radius:6px;
@@ -258,8 +264,9 @@ $navbar-dark-hover-color: rgba($white, 1) !default;
 }
 @mixin select-store-box-link {
   text-decoration: none;
-  color: inherit;
-  transition: box-shadow 0.3s;
+  color: white;
+  transition: all 0.3s cubic-bezier(0.2, 0, 0, 1) 0s;
+  z-index: 10;
   &:hover {
     color: #fff;
     background: #26A69A;
@@ -429,4 +436,9 @@ $normal-line-height:20px;
   }
 
 }
+
+
+
+
+
 
