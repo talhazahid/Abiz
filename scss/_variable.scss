@@ -246,12 +246,10 @@ $grid-breakpoints: (
 $navbar-dark-color: rgba($white, 0.8) !default;
 $navbar-dark-hover-color: rgba($white, 1) !default;
 // Talha SCSS
-
-
-
-
 $animation-fill-color-theme: #00C4B1;
 $animation-fill-color-theme-black: #6c757d;
+$animation-fill-color-red: #e72e2e;
+$animation-fill-color-gray:#878787;
 // Mixins
 // @mixin theme-border {
 //   border-radius:6px;
@@ -268,8 +266,9 @@ $animation-fill-color-theme-black: #6c757d;
   transition: all 0.3s cubic-bezier(0.2, 0, 0, 1) 0s;
   z-index: 10;
   &:hover {
-    color: #fff;
-    background: #26A69A;
+    color: #333;
+    font-weight: 400;
+    background: #fff;
     text-decoration: none;
     -webkit-box-shadow: -1px 0px 18px 1px rgba(0,0,0,0.33);
     -moz-box-shadow: -1px 0px 18px 1px rgba(0,0,0,0.33);
@@ -283,7 +282,7 @@ $animation-fill-color-theme-black: #6c757d;
 }
 @mixin theme-input {
   font-size: 14px;
-  background: #f8f8f8;
+  background: #fff;
   box-shadow: none;
   padding: 4px 10px;
   border-radius: 0px;
@@ -395,19 +394,11 @@ $normal-line-height:20px;
      -ms-transition:  0.3s ease-in-out;
      -o-transition:  0.3s ease-in-out;
      transition:  0.3s ease-in-out;
-
      &:hover {
       background: #515151;
     }
-
-
    }
-
- 
-
 }
-
-
 @mixin  sidemenu-bottom {
   color: #fff;
    ul {
@@ -429,16 +420,41 @@ $normal-line-height:20px;
      -ms-transition:  0.3s ease-in-out;
      -o-transition:  0.3s ease-in-out;
      transition:  0.3s ease-in-out;
-
      &:hover {
       background: #515151;
     }
   }
-
+}
+@mixin red-btn {
+    background: #D44949;
+    color: white;
+    font-size: 14px;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.45);
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.45);
+    border: 0px;    
 }
 
-
-
-
-
-
+@mixin button-animation {
+  z-index: 1;
+  position: relative;
+&::after {
+  z-index: -1;
+  content: " ";
+  width: 0px;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  transform-origin: center bottom;
+  transition: all 0.15s cubic-bezier(0.2, 0, 0, 1) 0s;
+}
+&:hover::after {
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+}
+}

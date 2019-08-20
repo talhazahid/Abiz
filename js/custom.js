@@ -57,7 +57,7 @@ function toggleNav() {
     
 
     $(document).ready(function() {
-        $('img.dark-svg').each(function() {
+        $('img.dark-svg, img.white-svg').each(function() {
             var $img = jQuery(this);
             var imgURL = $img.attr('src');
             var attributes = $img.prop("attributes");

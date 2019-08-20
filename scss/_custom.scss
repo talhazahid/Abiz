@@ -4,19 +4,36 @@ html body {
   font-weight: 400;
   font-size: 14px;
 }
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #D5D5D5;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #D5D5D5;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #D5D5D5;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #D5D5D5;
+}
+
+
 input::-webkit-input-placeholder {
-  color: #aaaaaa !important;
+  color: #c4c4c4 !important;
 }
 input::-moz-placeholder {
-  color: #aaaaaa !important;
+  color: #c4c4c4 !important;
 }
 input:-moz-placeholder {
   /* Older versions of Firefox */
-  color: #aaaaaa !important;
+  color: #c4c4c4 !important;
 }
 input:-ms-input-placeholder {
-  color: #aaaaaa !important;
+  color: #c4c4c4 !important;
 }
+
+
 h1,
 h2,
 h3,
@@ -254,7 +271,13 @@ h6,
   border: 1px solid #ced6e0;
   resize: none;
   cursor: text;
-  height: 70px;
+  height: 100%;
+  padding: 10px;
+  border-top: 3px solid #959595;
+  color: #a7a7a7;
+}
+.notes-text {
+  color: #777;
 }
 .register-multiply {
   text-align: center;
@@ -718,12 +741,14 @@ aside {
 .close-batch-btn {
   text-align: right;
   margin-top: 20px;
-  margin-right: 28px;
-  margin-bottom: 15px;
+  margin-right: 40px;
+  margin-bottom: 25px;
 }
 .batch-register-row {
-  border-bottom: 1px solid #d6d6d6;
   padding: 10px 0px;
+  background: #F6F6F6;
+  border-radius: 10px;
+  margin-bottom: 15px;
 }
 .modal-footer > :not(:last-child) {
   margin-right: 1rem;
@@ -799,6 +824,9 @@ aside {
 }
 .dark-svg path {
   fill: #455a64;
+}
+.white-svg path {
+  fill: #fff;
 }
 .footer-copyright {
   font-size: 13px;
@@ -996,6 +1024,7 @@ aside {
     width: 100%;
     border: 1px solid #ced6e0;
     resize: none;
+    color: #a7a7a7;
   }
 }
 .crud-notes-heading {
@@ -1014,12 +1043,23 @@ aside {
   align-items: center;
 }
 .select-store-bg {
-  background-image: url(../images/select-store-bg.png);
-  width: 100%;
-  height: 100vh;
-  background-size: cover;
-  display: flex;
-  align-items: center;
+  // background-image: url(../images/select-store-bg.png);
+  // width: 100%;
+  // height: 100vh;
+  // background-size: cover;
+  // display: flex;
+  // align-items: center;
+
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
+
 }
 .login-box h2 {
   color: #fff;
@@ -1166,14 +1206,30 @@ aside {
 .modal-batch-register-buttons {
   flex-direction: row-reverse;
   button {
-    background: none;
+    background: #AEAEAE;
     padding: 6px 16px;
+    color: #fff;
+    margin: 0px 8px;
+    font-size: 13px;
+    line-height: 13px;
+    @include button-animation;
+    svg {
+      vertical-align: top;
+      width: 12px;
+      height: 12px;
+    }
+  }
+  button::after {
+    background: $animation-fill-color-gray;
+  }
+  button:hover::after {
+   background: $animation-fill-color-gray;
   }
   button:focus {
     box-shadow: none;
   }
   button:first-child {
-    padding-right: 0px;
+    margin-right: 0px;
   }
   img {
     vertical-align: text-bottom;
@@ -1186,4 +1242,77 @@ aside {
 .model-content-auto-width {
   background: none;
   border: none;
+}
+.transparent-bg {
+    background: none;
+    box-shadow: none;
+}
+.close-batch {
+  @include red-btn;
+}
+.close-batch::after {
+  z-index: -1;
+  content: " ";
+  width: 0px;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  transform-origin: center bottom;
+  background: $animation-fill-color-red;
+  transition: all 0.15s cubic-bezier(0.2, 0, 0, 1) 0s;
+}
+.close-batch:hover::after {
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  background: $animation-fill-color-red;
+}
+.small-input-box {
+  width: 110px;
+}
+.create-register-left-col {
+  display: flex;
+  align-items: center;
+  margin-bottom: 17px;
+  div:nth-child(2) {
+    color: #777777;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  div:last-child {
+    color: #26A69A;
+    font-size: 20px;
+    text-align: right;
+    flex-grow: 1;
+    padding-right: 10px;
+  }
+  &:last-child {
+    margin-bottom: 0px;
+  }
+}
+.full-box {
+  width: 100%;
+}
+.create-register-right-col {
+  display: flex;
+  flex-direction: column;
+}
+.notes-text-heading-row {
+}
+
+
+.create-register-heading {
+  margin-bottom: 8px;
+  color: #777;
+  font-size: 13px;
+}
+
+.footer-pos {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
 }
