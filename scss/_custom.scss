@@ -1236,16 +1236,35 @@ aside {
     margin-right: 3px;
   }
 }
+
+
 .modal-auto-width {
   max-width: inherit !important;
 }
+
+
 .model-content-auto-width {
   background: none;
   border: none;
 }
+
+// Angular Modal Fix
+
+.modal-dialog {
+  max-width: inherit !important;
+}
+
+.modal-content {
+  background: none !important;
+  border: none !important;
+}
+
+
+
 .transparent-bg {
     background: none;
     box-shadow: none;
+    position: fixed;
 }
 .close-batch {
   @include red-btn;
@@ -1302,6 +1321,10 @@ aside {
   flex-direction: column;
 }
 .notes-text-heading-row {
+
+  img {
+    margin-right: 5px;
+  }
 }
 
 
@@ -1312,7 +1335,12 @@ aside {
 }
 
 .footer-pos {
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   width: 100%;
+}
+
+
+.modal-batch-register-buttons .btn {
+  color:#fff;
 }

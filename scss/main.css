@@ -8074,9 +8074,17 @@ aside {
   background: none;
   border: none; }
 
+.modal-dialog {
+  max-width: inherit !important; }
+
+.modal-content {
+  background: none !important;
+  border: none !important; }
+
 .transparent-bg {
   background: none;
-  box-shadow: none; }
+  box-shadow: none;
+  position: fixed; }
 
 .close-batch {
   background: #D44949;
@@ -8135,15 +8143,21 @@ aside {
   display: flex;
   flex-direction: column; }
 
+.notes-text-heading-row img {
+  margin-right: 5px; }
+
 .create-register-heading {
   margin-bottom: 8px;
   color: #777;
   font-size: 13px; }
 
 .footer-pos {
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   width: 100%; }
+
+.modal-batch-register-buttons .btn {
+  color: #fff; }
 
 /*
 * Uses Font Awesome and Bootstrap 3
@@ -8293,6 +8307,10 @@ File: scss
  Phone  max (767px) 
  ============================================================== */
 @media only screen and (max-width: 767px) {
+  .questions-help-row {
+    margin: 0px 0px !important;
+    color: #fff; }
+
   .menu-sidebar {
     display: none; }
 
