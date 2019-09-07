@@ -8159,6 +8159,48 @@ aside {
 .modal-batch-register-buttons .btn {
   color: #fff; }
 
+.fileds-row-col-three {
+  display: flex;
+  justify-content: space-between; }
+  .fileds-row-col-three div {
+    width: 95%; }
+  .fileds-row-col-three div span:nth-child(1) {
+    color: #777777;
+    font-size: 15px; }
+  .fileds-row-col-three div span:nth-child(2) {
+    color: #FF1919;
+    font-size: 15px; }
+  .fileds-row-col-three div span:nth-child(3) {
+    color: #B8B8B8;
+    font-size: 15px;
+    font-weight: 300; }
+  .fileds-row-col-three input {
+    width: 95%; }
+
+.flex-box-col {
+  display: flex;
+  flex-direction: column; }
+
+.tab-content {
+  background: #FBFBFB; }
+
+.custom-tab-form .nav-link {
+  padding: 10px 30px;
+  display: flex; }
+
+.custom-tab-form {
+  border-bottom: 3px solid #78909C; }
+  .custom-tab-form svg {
+    margin-right: 5px; }
+
+.custom-tab-form .active {
+  padding: 10px 30px;
+  border: 0px !important;
+  color: white !important;
+  background: #26A69A !important; }
+  .custom-tab-form .active .hover-white path {
+    fill: white !important; }
+
 /*
 * Uses Font Awesome and Bootstrap 3
 * Both aren't required for this demo
@@ -8298,6 +8340,17 @@ File: scss
  Phone and below ipad(767px) 
  ============================================================== */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .right-column-search-filter-row {
+    flex-direction: column; }
+
+  .left-column-search button {
+    margin-top: 20px; }
+
+  .right-column-search {
+    flex: 1;
+    text-align: left;
+    margin-top: 20px; }
+
   .footer-logo {
     width: 100%; } }
 @media only screen and (min-width: 768px) {

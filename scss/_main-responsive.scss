@@ -54,7 +54,21 @@ File: scss
 // @include media-breakpoint-down(md) {
  
 @media only screen and (min-width: 768px) and (max-width: 1023px)  {
-   
+    
+    .right-column-search-filter-row {
+             flex-direction: column;
+    }
+
+    .left-column-search button {
+        margin-top: 20px;
+    }
+    .right-column-search {
+        flex: 1;
+        text-align: left;
+        margin-top: 20px;
+    }
+
+
 
     .footer-logo {
         width: 100%;

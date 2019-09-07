@@ -4,7 +4,6 @@ html body {
   font-weight: 400;
   font-size: 14px;
 }
-
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
   color: #D5D5D5;
 }
@@ -17,8 +16,6 @@ html body {
 :-moz-placeholder { /* Firefox 18- */
   color: #D5D5D5;
 }
-
-
 input::-webkit-input-placeholder {
   color: #c4c4c4 !important;
 }
@@ -32,8 +29,6 @@ input:-moz-placeholder {
 input:-ms-input-placeholder {
   color: #c4c4c4 !important;
 }
-
-
 h1,
 h2,
 h3,
@@ -373,7 +368,6 @@ thead {
   line-height: 70px;
   font-size: 60px;
 }
-
 .select-store-box {
   padding: 0px 10px;
 }
@@ -745,7 +739,6 @@ aside {
   margin-right: 40px;
   margin-bottom: 25px;
 }
-
 .batch-register-row {
   padding: 10px 0px;
   background: #F6F6F6;
@@ -764,8 +757,6 @@ aside {
   font-size: 13px;
   color: #8a8a8a;
 }
-.modal-batch-register-buttons {
-
 .frame-border {
   border: 1px solid #e8e8e8;
 }
@@ -833,7 +824,6 @@ aside {
 .footer-copyright {
   font-size: 13px;
 }
-
 .right-content-items-heading {
   font-size: 22px;
   margin-bottom: 10px;
@@ -1048,7 +1038,6 @@ aside {
   // background-size: cover;
   // display: flex;
   // align-items: center;
-
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -1057,8 +1046,6 @@ aside {
     position: absolute;
     top: 0;
     bottom: 0;
-
-
 }
 .login-box h2 {
   color: #fff;
@@ -1235,31 +1222,21 @@ aside {
     margin-right: 3px;
   }
 }
-
-
 .modal-auto-width {
   max-width: inherit !important;
 }
-
-
 .model-content-auto-width {
   background: none;
   border: none;
 }
-
 // Angular Modal Fix
-
 .modal-dialog {
   max-width: inherit !important;
 }
-
 .modal-content {
   background: none !important;
   border: none !important;
 }
-
-
-
 .transparent-bg {
     background: none;
     box-shadow: none;
@@ -1320,26 +1297,74 @@ aside {
   flex-direction: column;
 }
 .notes-text-heading-row {
-
   img {
     margin-right: 5px;
   }
 }
-
-
 .create-register-heading {
   margin-bottom: 8px;
   color: #777;
   font-size: 13px;
 }
-
 .footer-pos {
   position: fixed;
   bottom: 0px;
   width: 100%;
 }
-
-
 .modal-batch-register-buttons .btn {
   color:#fff;
+}
+.fileds-row-col-three {
+  display: flex;
+  justify-content: space-between;
+  div {width: 95%}
+  div span:nth-child(1) {
+    color:#777777;
+    font-size: 15px;
+  }
+  div span:nth-child(2) {
+    color:#FF1919;
+    font-size: 15px;
+  }
+  div span:nth-child(3) {
+    color:#B8B8B8;
+    font-size: 15px;
+    font-weight: 300;
+  }
+  input {width: 95%;}
+}
+.flex-box-col {
+  display: flex;
+  flex-direction: column;
+}
+.tab-content {
+  background: #FBFBFB;
+}
+
+.custom-tab-form .nav-link {
+  padding: 10px 30px;
+  display: flex;
+}
+.custom-tab-form {
+    border-bottom: 3px solid #78909C;
+    .nav-item {
+      
+  }
+
+  svg {
+    margin-right: 5px;
+  }
+
+}
+.custom-tab-form .active {
+  padding: 10px 30px;
+  border: 0px !important;
+  color: white !important;
+  background: #26A69A !important;
+  .hover-white path {
+    fill: white !important;
+  }
+
+}
+.right-col-full-width-tabs {
 }
