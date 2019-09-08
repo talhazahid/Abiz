@@ -7808,7 +7808,7 @@ aside {
     width: 130px; }
 
 .crud-heading-row {
-  background: #f9f9f9;
+  background: #f1f1f1;
   color: #515151;
   font-size: 17px;
   border-bottom: 2px solid #78909c;
@@ -7822,6 +7822,14 @@ aside {
   flex-direction: column; }
   .crud-form-fields input {
     width: 100%;
+    margin-top: 10px; }
+  .crud-form-fields select {
+    font-size: 14px;
+    background: #fff;
+    box-shadow: none;
+    padding: 4px;
+    border-radius: 0px;
+    border: 1px solid #dcdcdc;
     margin-top: 10px; }
 
 .crud-checks-row div {
@@ -8186,20 +8194,42 @@ aside {
 
 .custom-tab-form .nav-link {
   padding: 10px 30px;
-  display: flex; }
+  display: flex;
+  border-radius: 0px;
+  color: #666666; }
 
 .custom-tab-form {
   border-bottom: 3px solid #78909C; }
+  .custom-tab-form .nav-link {
+    border: 1px solid #D6D6D6; }
+  .custom-tab-form .nav-item {
+    margin-bottom: 0px; }
+    .custom-tab-form .nav-item .nav-item a:hover {
+      border: 0px !important;
+      text-decoration: none; }
   .custom-tab-form svg {
     margin-right: 5px; }
 
 .custom-tab-form .active {
   padding: 10px 30px;
-  border: 0px !important;
+  border: 1px solid #26A69A !important;
   color: white !important;
   background: #26A69A !important; }
   .custom-tab-form .active .hover-white path {
     fill: white !important; }
+
+.full-width {
+  width: 100%; }
+
+.flex-box-full-width {
+  display: flex;
+  width: 100%; }
+
+.inner-type-discount-row .flex-box-full-width {
+  display: flex;
+  width: 100%; }
+  .inner-type-discount-row .flex-box-full-width select {
+    width: 100%; }
 
 /*
 * Uses Font Awesome and Bootstrap 3

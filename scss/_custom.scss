@@ -959,7 +959,7 @@ aside {
   }
 }
 .crud-heading-row {
-  background: #f9f9f9;
+  background: #f1f1f1;
   color: #515151;
   font-size: 17px;
   border-bottom: 2px solid #78909c;
@@ -974,7 +974,20 @@ aside {
   input {
     width: 100%;
     margin-top: 10px;
+
   }
+
+  select {
+    font-size: 14px;
+    background: #fff;
+    box-shadow: none;
+    padding: 4px;
+    border-radius: 0px;
+    border: 1px solid #dcdcdc;
+    margin-top: 10px;
+  }
+
+
 }
 .crud-checks-row div {
   display: inline-block;
@@ -1344,11 +1357,31 @@ aside {
 .custom-tab-form .nav-link {
   padding: 10px 30px;
   display: flex;
+  border-radius: 0px;
+  color: #666666;
 }
 .custom-tab-form {
+
+  .nav-link {
+    border: 1px solid #D6D6D6;
+
+  }
     border-bottom: 3px solid #78909C;
     .nav-item {
+      margin-bottom: 0px;
+  
+
+
+      .nav-item a {
+   
       
+
+        &:hover {
+          border: 0px !important;
+          text-decoration: none;
+      
+        }
+      }
   }
 
   svg {
@@ -1358,7 +1391,7 @@ aside {
 }
 .custom-tab-form .active {
   padding: 10px 30px;
-  border: 0px !important;
+  border: 1px solid #26A69A !important;
   color: white !important;
   background: #26A69A !important;
   .hover-white path {
@@ -1366,5 +1399,29 @@ aside {
   }
 
 }
+
+
+.full-width {
+  width: 100%;
+}
 .right-col-full-width-tabs {
 }
+
+
+.flex-box-full-width {
+  display: flex;
+  width: 100%;
+}
+
+.inner-type-discount-row .flex-box-full-width {
+  display: flex;
+  width: 100%;
+
+select {
+
+    width: 100%;
+}
+
+
+}
+
