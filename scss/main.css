@@ -7682,16 +7682,17 @@ aside {
 .right-content-items-heading {
   font-size: 22px;
   margin-bottom: 10px;
-  margin: 25px 0px 10px; }
+  margin: 30px 0px 0px; }
 
 .right-content-items-column {
-  display: flex; }
+  display: flex;
+  flex-wrap: wrap; }
 
 .right-column-menu-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 16px;
+  padding: 16px 5px;
   text-align: center;
   align-items: center;
   border: 1px solid #acadae;
@@ -7699,9 +7700,10 @@ aside {
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14);
   -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14);
-  flex-basis: 16%;
-  margin-right: 20px;
-  cursor: pointer; }
+  flex-basis: 155px;
+  margin-right: 15px;
+  cursor: pointer;
+  margin-top: 20px; }
 
 .right-column-menu-item svg {
   margin-bottom: 10px;
@@ -8231,123 +8233,9 @@ aside {
   .inner-type-discount-row .flex-box-full-width select {
     width: 100%; }
 
-/*
-* Uses Font Awesome and Bootstrap 3
-* Both aren't required for this demo
-*/
-.site-wrapper {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding: 0px; }
-
-.site-canvas {
-  position: relative;
-  -webkit-transform: translateX(0);
-  transform: translateX(0);
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
-  -webkit-transition: 300ms ease all;
-  transition: 300ms ease all;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden; }
-
-.show-nav .site-canvas {
-  -webkit-transform: translateX(125px);
-  transform: translateX(125px);
-  -webkit-transform: translate3d(125px, 0, 0);
-  transform: translate3d(125px, 0, 0); }
-
-.site-menu {
-  width: 0px;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 60px;
-  padding: 0px;
-  -webkit-transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  -ms-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-  background: white; }
-
-.show-nav .site-menu {
-  height: 100%;
-  position: absolute;
-  top: 0px;
-  left: 53px;
-  padding: 0px; }
-
-.show-nav .site-menu li a {
-  padding-left: 20px; }
-
-.show-nav .site-menu-width {
-  width: 135px;
-  background: white; }
-
-/* Just styles... Not relevant to demo */
-#big-sexy {
-  display: block;
-  width: 300px;
-  margin: 0 auto;
-  font-size: 40px;
-  font-weight: 300; }
-
-.menu-content {
-  width: 100%;
-  visibility: hidden; }
-
-.show-nav .menu-content {
-  width: 100%;
-  visibility: visible;
-  animation: 1s fadeIn;
-  animation-fill-mode: forwards; }
-
-.menu-icon-bar {
-  list-style: none;
-  padding: 0px;
-  margin-top: 25px; }
-
-.menu-icon-bar li a {
-  display: block;
-  padding: 17px 0px; }
-
-.menu-sidebar {
-  background: #fff;
-  /* height: 100vh; */
-  padding: 0px;
-  max-width: 70px;
-  /* text-align: center; */ }
-
-.menu-sidebar ul {
-  list-style: none;
-  margin-top: 25px; }
-
-.menu-sidebar ul li a {
-  display: inline-block;
-  padding: 12px 0px;
-  text-decoration: none;
-  color: #263238;
-  position: relative;
-  padding-left: 30px; }
-
-.site-menu ul li a::after {
-  display: block;
-  content: '';
-  border-bottom: solid 1px #26A69A;
-  transform: scaleX(0);
-  transition: transform 250ms ease-in-out; }
-
-.site-menu ul li a:hover::after {
-  transform: scaleX(1); }
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0; }
-  100% {
-    visibility: visible;
-    opacity: 1; } }
+@media only screen and (max-width: 767px) {
+  .sidemenu-bg {
+    display: none; } }
 /*
 Template Name: Admin Template
 Author: Wrappixel
@@ -8370,6 +8258,9 @@ File: scss
  Phone and below ipad(767px) 
  ============================================================== */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .right-column-menu-item {
+    flex-basis: 160px; }
+
   .sidemenu li a {
     text-decoration: none;
     color: white;

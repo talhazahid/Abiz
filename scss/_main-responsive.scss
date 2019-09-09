@@ -55,6 +55,14 @@ File: scss
  
 @media only screen and (min-width: 768px) and (max-width: 1023px)  {
 
+    .right-column-menu-item {
+
+        flex-basis: 160px;
+  
+    }
+
+
+
     .sidemenu li a {
         text-decoration: none;
         color: white;
