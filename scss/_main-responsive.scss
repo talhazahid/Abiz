@@ -54,6 +54,20 @@ File: scss
 // @include media-breakpoint-down(md) {
  
 @media only screen and (min-width: 768px) and (max-width: 1023px)  {
+
+    .sidemenu li a {
+        text-decoration: none;
+        color: white;
+        padding: 15px 10px;
+        font-size: 13px;
+    }
+    
+
+    .sidemenu img {
+        margin-right: 10px;
+        width: 20px;
+    }
+
     
     .right-column-search-filter-row {
              flex-direction: column;
