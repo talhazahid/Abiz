@@ -778,6 +778,8 @@ aside {
   background: #424242;
   flex-direction: column;
   display: flex;
+  flex-grow: 1;
+  min-height: calc(100vh - 138px);
 }
 .sidemenu-bottom-section {
   @include sidemenu-bottom;

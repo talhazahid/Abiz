@@ -7615,7 +7615,9 @@ aside {
 .sidemenu-bg {
   background: #424242;
   flex-direction: column;
-  display: flex; }
+  display: flex;
+  flex-grow: 1;
+  min-height: calc(100vh - 138px); }
 
 .sidemenu-bottom-section {
   color: #fff; }
