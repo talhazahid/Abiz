@@ -6766,19 +6766,19 @@ html body {
 
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
-  color: #D5D5D5; }
+  color: #d5d5d5; }
 
 ::-moz-placeholder {
   /* Firefox 19+ */
-  color: #D5D5D5; }
+  color: #d5d5d5; }
 
 :-ms-input-placeholder {
   /* IE 10+ */
-  color: #D5D5D5; }
+  color: #d5d5d5; }
 
 :-moz-placeholder {
   /* Firefox 18- */
-  color: #D5D5D5; }
+  color: #d5d5d5; }
 
 input::-webkit-input-placeholder {
   color: #c4c4c4 !important; }
@@ -7560,7 +7560,7 @@ aside {
 
 .batch-register-row {
   padding: 10px 0px;
-  background: #F6F6F6;
+  background: #f6f6f6;
   border-radius: 10px;
   margin-bottom: 15px; }
 
@@ -7705,7 +7705,10 @@ aside {
   flex-basis: 155px;
   margin-right: 15px;
   cursor: pointer;
-  margin-top: 20px; }
+  margin-top: 20px;
+  color: inherit; }
+  .right-column-menu-item:hover {
+    color: inherit; }
 
 .right-column-menu-item svg {
   margin-bottom: 10px;
@@ -8038,7 +8041,7 @@ aside {
 .modal-batch-register-buttons {
   flex-direction: row-reverse; }
   .modal-batch-register-buttons button {
-    background: #AEAEAE;
+    background: #aeaeae;
     padding: 6px 16px;
     color: #fff;
     margin: 0px 8px;
@@ -8140,7 +8143,7 @@ aside {
     font-size: 12px;
     margin-left: 10px; }
   .create-register-left-col div:last-child {
-    color: #26A69A;
+    color: #26a69a;
     font-size: 20px;
     text-align: right;
     flex-grow: 1;
@@ -8180,10 +8183,10 @@ aside {
     color: #777777;
     font-size: 15px; }
   .fileds-row-col-three div span:nth-child(2) {
-    color: #FF1919;
+    color: #ff1919;
     font-size: 15px; }
   .fileds-row-col-three div span:nth-child(3) {
-    color: #B8B8B8;
+    color: #b8b8b8;
     font-size: 15px;
     font-weight: 300; }
   .fileds-row-col-three input {
@@ -8194,7 +8197,7 @@ aside {
   flex-direction: column; }
 
 .tab-content {
-  background: #FBFBFB; }
+  background: #fbfbfb; }
 
 .custom-tab-form .nav-link {
   padding: 10px 30px;
@@ -8203,9 +8206,9 @@ aside {
   color: #666666; }
 
 .custom-tab-form {
-  border-bottom: 3px solid #78909C; }
+  border-bottom: 3px solid #78909c; }
   .custom-tab-form .nav-link {
-    border: 1px solid #D6D6D6; }
+    border: 1px solid #d6d6d6; }
   .custom-tab-form .nav-item {
     margin-bottom: 0px; }
     .custom-tab-form .nav-item .nav-item a:hover {
@@ -8216,9 +8219,9 @@ aside {
 
 .custom-tab-form .active {
   padding: 10px 30px;
-  border: 1px solid #26A69A !important;
+  border: 1px solid #26a69a !important;
   color: white !important;
-  background: #26A69A !important; }
+  background: #26a69a !important; }
   .custom-tab-form .active .hover-white path {
     fill: white !important; }
 
@@ -8234,6 +8237,89 @@ aside {
   width: 100%; }
   .inner-type-discount-row .flex-box-full-width select {
     width: 100%; }
+
+.users-list-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column; }
+
+.users-list-heading-row {
+  background: #f8f8f8;
+  padding: 10px;
+  flex: 1;
+  display: flex;
+  font-weight: 500;
+  color: #797979; }
+
+.users-list-data-row {
+  display: flex;
+  padding: 12px 10px;
+  align-items: center;
+  border-top: 1px solid #DCDCDC; }
+  .users-list-data-row button {
+    color: white; }
+    .users-list-data-row button svg {
+      position: relative;
+      top: 3px;
+      margin-right: 5px; }
+  .users-list-data-row button:first-child {
+    margin-right: 10px; }
+
+.action-btn {
+  background: #26A69A;
+  z-index: 1;
+  position: relative; }
+  .action-btn::after {
+    z-index: -1;
+    content: " ";
+    width: 0px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    transform-origin: center bottom;
+    transition: all 0.15s cubic-bezier(0.2, 0, 0, 1) 0s; }
+  .action-btn:hover::after {
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%; }
+
+.action-btn::after {
+  background: #00C4B1; }
+
+.action-btn:hover::after {
+  background: #00C4B1; }
+
+.delete-btn {
+  background: #D44949;
+  z-index: 1;
+  position: relative; }
+  .delete-btn::after {
+    z-index: -1;
+    content: " ";
+    width: 0px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    transform-origin: center bottom;
+    transition: all 0.15s cubic-bezier(0.2, 0, 0, 1) 0s; }
+  .delete-btn:hover::after {
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 100%; }
+
+.delete-btn::after {
+  background: #e72e2e; }
+
+.delete-btn:hover::after {
+  background: #e72e2e; }
 
 @media only screen and (max-width: 767px) {
   .sidemenu-bg {

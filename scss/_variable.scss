@@ -246,6 +246,8 @@ $grid-breakpoints: (
 $navbar-dark-color: rgba($white, 0.8) !default;
 $navbar-dark-hover-color: rgba($white, 1) !default;
 // Talha SCSS
+
+$themebg:#26A69A;
 $animation-fill-color-theme: #00C4B1;
 $animation-fill-color-theme-black: #6c757d;
 $animation-fill-color-red: #e72e2e;
@@ -254,6 +256,12 @@ $animation-fill-color-gray:#878787;
 // @mixin theme-border {
 //   border-radius:6px;
 // }
+
+
+
+
+
+
 @mixin top-bottom-20 {
   margin: 20px 0px;
 }
