@@ -1,0 +1,77 @@
+.dark-theme {
+header {
+    background: #455A64;
+    color: white;
+}
+.bell-btn {
+    display: none;
+}
+.switch-store-btn {
+    border: 1px solid #c3c3c3;
+    padding: 3px 10px;
+    font-size: 13px;
+    color: white;
+}
+.user-profile {
+    border: 0px;
+}
+.sidemenu-bg {
+    background: #FCFCFC;
+    svg {
+        margin-right: 10px;
+    }
+}
+.sidemenu li a {
+    color: #8D8D8D;
+}
+.breadcrumb-row {
+    border-top: 0px solid #696b6a;
+}
+.sidemenu path {
+    fill: #828282 ;
+}
+.sidemenu-bg {
+    path {
+        fill: #828282 ;
+    }
+}
+.sidemenu-bottom-section li a {
+    color: #8D8D8D;
+}
+.sidemenu-bottom-section p {
+    color: #929292;
+}
+
+.sidemenu li a:hover {
+    background: #ececec;
+}
+
+
+.sidemenu li a {
+    position: relative
+}
+
+.sidemenu li:nth-child(1) a:nth-child(1) {
+    border-left: 4px solid #1DD1A1;
+}
+.sidemenu li:nth-child(2) a {
+    border-left: 4px solid #F19066;
+}
+.sidemenu li:nth-child(3) a {
+    border-left: 4px solid #FECA57;
+}
+.sidemenu li:nth-child(4) a {
+    border-left: 4px solid #EE5966;
+}
+.sidemenu li:nth-child(5) a {
+    border-left: 4px solid #54A0FF;
+}
+.sidemenu li:nth-child(6) a {
+    border-left: 4px solid #00D2D3;
+}
+.sidemenu li:nth-child(7) a {
+    border-left: 4px solid #596275;
+}
+
+
+}

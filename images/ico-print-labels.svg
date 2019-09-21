@@ -1,7 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="34.005" height="34.002" viewBox="0 0 34.005 34.002">
-  <g id="Group_208" data-name="Group 208" transform="translate(-10 -10)">
-    <path id="Path_133" data-name="Path 133" d="M255,667.835v6.8h17V663.3H255Zm2.127-2.266h12.751v2.266H257.127Zm0,4.531h12.751v2.266H257.127Z" transform="translate(-236.5 -630.633)" fill="#455a64"/>
-    <path id="Path_134" data-name="Path 134" d="M272,16.8V10H255V21.335h17Z" transform="translate(-236.5)" fill="#455a64"/>
-    <path id="Path_135" data-name="Path 135" d="M39.751,206H37.625v6.8H16.377V206H14.25A4.732,4.732,0,0,0,10,210.535V221.87a4.731,4.731,0,0,0,4.25,4.531h2.127v-6.8H37.628v6.8h2.127a4.729,4.729,0,0,0,4.25-4.535V210.535A4.735,4.735,0,0,0,39.751,206Z" transform="translate(0 -189.2)" fill="#455a64"/>
-  </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24pt" height="24pt" viewBox="0 0 24 24" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(27.058824%,35.294118%,39.215686%);fill-opacity:1;" d="M 6 19.203125 L 6 24 L 18 24 L 18 16 L 6 16 Z M 7.5 17.601562 L 16.503906 17.601562 L 16.503906 19.203125 L 7.5 19.203125 Z M 7.5 20.800781 L 16.503906 20.800781 L 16.503906 22.398438 L 7.5 22.398438 Z M 7.5 20.800781 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(27.058824%,35.294118%,39.215686%);fill-opacity:1;" d="M 18 4.800781 L 18 0 L 6 0 L 6 8 L 18 8 Z M 18 4.800781 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(27.058824%,35.294118%,39.215686%);fill-opacity:1;" d="M 21 4.800781 L 19.5 4.800781 L 19.5 9.601562 L 4.5 9.601562 L 4.5 4.800781 L 3 4.800781 C 1.339844 4.96875 0.0625 6.335938 0 8 L 0 16.003906 C 0.0625 17.667969 1.34375 19.03125 3 19.199219 L 4.5 19.199219 L 4.5 14.402344 L 19.503906 14.402344 L 19.503906 19.199219 L 21.003906 19.199219 C 22.664062 19.03125 23.945312 17.667969 24.003906 16 L 24.003906 8 C 23.941406 6.335938 22.660156 4.96875 21 4.800781 Z M 21 4.800781 "/>
+</g>
 </svg>

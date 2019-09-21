@@ -1,8 +1,11 @@
-<svg id="list" xmlns="http://www.w3.org/2000/svg" width="48.382" height="38.489" viewBox="0 0 48.382 38.489">
-  <path id="Path_173" data-name="Path 173" d="M0,0H10.706V10.706H0ZM0,0" fill="#455a64"/>
-  <path id="Path_174" data-name="Path 174" d="M149.3,0h34.274V10.706H149.3Zm0,0" transform="translate(-135.189)" fill="#455a64"/>
-  <path id="Path_175" data-name="Path 175" d="M0,147.008H10.706v10.706H0Zm0,0" transform="translate(0 -133.116)" fill="#455a64"/>
-  <path id="Path_176" data-name="Path 176" d="M149.3,147.008h34.274v10.706H149.3Zm0,0" transform="translate(-135.189 -133.116)" fill="#455a64"/>
-  <path id="Path_177" data-name="Path 177" d="M0,294.012H10.706v10.706H0Zm0,0" transform="translate(0 -266.229)" fill="#455a64"/>
-  <path id="Path_178" data-name="Path 178" d="M149.3,294.012h34.274v10.706H149.3Zm0,0" transform="translate(-135.189 -266.229)" fill="#455a64"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24pt" height="19pt" viewBox="0 0 24 19" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(27.058824%,35.294118%,39.215686%);fill-opacity:1;" d="M 0 0 L 5.351562 0 L 5.351562 5.351562 L 0 5.351562 Z M 0 0 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(27.058824%,35.294118%,39.215686%);fill-opacity:1;" d="M 7.054688 0 L 24.191406 0 L 24.191406 5.351562 L 7.054688 5.351562 Z M 7.054688 0 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(27.058824%,35.294118%,39.215686%);fill-opacity:1;" d="M 0 6.945312 L 5.351562 6.945312 L 5.351562 12.300781 L 0 12.300781 Z M 0 6.945312 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(27.058824%,35.294118%,39.215686%);fill-opacity:1;" d="M 7.054688 6.945312 L 24.191406 6.945312 L 24.191406 12.300781 L 7.054688 12.300781 Z M 7.054688 6.945312 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(27.058824%,35.294118%,39.215686%);fill-opacity:1;" d="M 0 13.890625 L 5.351562 13.890625 L 5.351562 19.246094 L 0 19.246094 Z M 0 13.890625 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(27.058824%,35.294118%,39.215686%);fill-opacity:1;" d="M 7.054688 13.890625 L 24.191406 13.890625 L 24.191406 19.246094 L 7.054688 19.246094 Z M 7.054688 13.890625 "/>
+</g>
 </svg>

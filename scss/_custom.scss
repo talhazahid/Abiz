@@ -53,6 +53,8 @@ option {
   color: black;
 }
 
+
+
 h1,
 h2,
 h3,
@@ -385,8 +387,8 @@ thead {
 }
 .owl-next span {
   position: absolute;
-  right: 4px;
-  top: -4px;
+  right: -27px;
+  top: -2px;
   bottom: 0px;
   color: white;
   line-height: 70px;
@@ -415,7 +417,8 @@ header {
   -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.14);
   box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.14);
   position: relative;
-  z-index: 1;
+  z-index: 2;
+  background: white;
 }
 .menu-icon {
   display: inline-block;
@@ -720,6 +723,9 @@ aside {
   border: 1px solid #cccccc;
   padding: 5px 35px !important;
 }
+
+
+
 .login-box .btn {
   padding: 7px 23px;
 }
@@ -820,12 +826,18 @@ aside {
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14);
   -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14);
-  padding: 14px 40px 10px;
+  padding: 10px 20px 10px;
   color: #919191;
   font-size: 20px;
+  position: relative;
+    z-index: 1;
 }
 .breadcrumb-row div {
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  svg {
+    margin-right: 10px;
+  }
   .bread-arrow {
     margin: 0px 6px;
     position: relative;
@@ -838,7 +850,7 @@ aside {
 }
 .right-content-wrapper {
   padding: 10px 25px;
-  margin-top: 20px;
+  // margin-top: 20px;
   margin-bottom: 50px;
 }
 .dark-svg path {
@@ -1011,7 +1023,8 @@ aside {
   background-size: cover;
   display: flex;
   align-items: center;
-  position: absolute;
+  // position: absolute;
+  position: relative;
   top: 0;
   bottom: 0;
 }
@@ -1096,7 +1109,6 @@ aside {
   right: 0px;
   left: 0px;
   transform-origin: center bottom;
-  background: $animation-fill-color-theme-black;
   transition: all 0.15s cubic-bezier(0.2, 0, 0, 1) 0s;
 }
 .btn-outline-secondary:hover::after {
@@ -1105,7 +1117,48 @@ aside {
   top: 0px;
   bottom: 0px;
   width: 100%;
-  background: $animation-fill-color-theme-black;
+
+}
+
+
+.btn-outline-secondary-theme {
+
+  border: 1px solid $themebg !important;
+  color: $themebg;
+  background: white;
+
+  &:hover {
+    background: $themebg;
+    color: white;
+  }
+
+}
+
+
+.btn-outline-secondary-theme {
+  z-index: 1;
+  position: relative;
+}
+.btn-outline-secondary-theme::after {
+  z-index: -1;
+  content: " ";
+  width: 0px;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+
+
+  transition: all 0.15s cubic-bezier(0.2, 0, 0, 1) 0s;
+}
+.btn-outline-secondary-theme:hover::after {
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+
 }
 .theme-btn {
   z-index: 1;
@@ -1120,8 +1173,7 @@ aside {
   bottom: 0px;
   right: 0px;
   left: 0px;
-  transform-origin: center bottom;
-  background: $animation-fill-color-theme;
+
   transition: all 0.15s cubic-bezier(0.2, 0, 0, 1) 0s;
 }
 .theme-btn:hover::after {
@@ -1130,7 +1182,7 @@ aside {
   top: 0px;
   bottom: 0px;
   width: 100%;
-  background: $animation-fill-color-theme;
+
 }
 .dashboard-btn-big {
   z-index: 1;
@@ -1145,8 +1197,7 @@ aside {
   bottom: 0px;
   right: 0px;
   left: 0px;
-  transform-origin: center bottom;
-  background: $animation-fill-color-theme;
+
   transition: all 0.15s cubic-bezier(0.2, 0, 0, 1) 0s;
 }
 .dashboard-btn-big:hover::after {
@@ -1155,7 +1206,7 @@ aside {
   top: 0px;
   bottom: 0px;
   width: 100%;
-  background: $animation-fill-color-theme;
+
 }
 .modal-batch-register-buttons {
   flex-direction: row-reverse;
@@ -1174,10 +1225,10 @@ aside {
     }
   }
   button::after {
-    background: $animation-fill-color-gray;
+
   }
   button:hover::after {
-    background: $animation-fill-color-gray;
+
   }
   button:focus {
     box-shadow: none;
@@ -1222,8 +1273,8 @@ aside {
   bottom: 0px;
   right: 0px;
   left: 0px;
-  transform-origin: center bottom;
-  background: $animation-fill-color-red;
+
+
   transition: all 0.15s cubic-bezier(0.2, 0, 0, 1) 0s;
 }
 .close-batch:hover::after {
@@ -1232,7 +1283,7 @@ aside {
   top: 0px;
   bottom: 0px;
   width: 100%;
-  background: $animation-fill-color-red;
+
 }
 .small-input-box {
   width: 110px;
@@ -1310,13 +1361,14 @@ aside {
   flex-direction: column;
 }
 .tab-content {
-  background: #fbfbfb;
+  background: white;
 }
 .custom-tab-form .nav-link {
   padding: 10px 30px;
   display: flex;
   border-radius: 0px;
   color: #666666;
+  background: white;
 }
 .custom-tab-form {
   .nav-link {
@@ -1348,8 +1400,7 @@ aside {
 .full-width {
   width: 100%;
 }
-.right-col-full-width-tabs {
-}
+
 .flex-box-full-width {
   display: flex;
   width: 100%;
@@ -1365,9 +1416,10 @@ aside {
   display: flex;
   flex: 1;
   flex-direction: column;
+  background: white;
 }
 .users-list-heading-row {
-  background: #f8f8f8;
+  background: #fff;
   padding: 10px;
   flex: 1;
   display: flex;
@@ -1382,9 +1434,11 @@ aside {
   button {
     color: white;
     svg {
-      position: relative;
-      top: 3px;
       margin-right: 5px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: sub;
     }
   }
   button:first-child {
@@ -1394,6 +1448,10 @@ aside {
 .action-btn {
   background: $themebg;
   @include button-animation;
+
+  &:hover {
+    color: white;
+  }
 }
 .action-btn::after {
   background: $animation-fill-color-theme;
@@ -1404,6 +1462,9 @@ aside {
 .delete-btn {
   background: #d44949;
   @include button-animation;
+  &:hover {
+    color: white;
+  }
 }
 .delete-btn::after {
   background: $animation-fill-color-red;
@@ -1411,23 +1472,27 @@ aside {
 .delete-btn:hover::after {
   background: $animation-fill-color-red;
 }
-.right-side-bg {
-  background: #f5f5f5;
-}
-.main-heading-row {
-  background: #888888;
-  display: flex;
-  padding: 0px 20px;
 
+.main-heading-row {
+  display: flex;
+  padding: 10px 20px;
   align-items: center;
+  border-bottom: 2px solid #78909C;
+  padding-bottom: 10px;
+  margin-top: 0px;
+  background: white;
+  width: auto;
+
+  box-sizing: border-box;
    svg {
-    width: 24px;
+
     margin-right: 5px;
+
   }
 }
 .main-heading-text {
-  color: white;
-  font-size: 21px;
+  color: black;
+  font-size: 23px;
 }
 
 .flex-two-column {
@@ -1442,16 +1507,25 @@ justify-content: space-between;
 
 .crud-container-box {
   padding: 10px;
+  display: flex;
+  flex-direction: column;
   background: white;
+  flex: 1;
 
   .field-heading {
     margin-bottom: 2px;
   }
 
+  img {
+    max-width: 100%;
+  }
+
   label {
-    padding: 0px 12px;
+   
     width: 100%;
     margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
 
     input {
       width: 100%;
@@ -1465,7 +1539,10 @@ justify-content: space-between;
       padding: 4px 10px;
       border-radius: 0px;
       border: 1px solid #dcdcdc;
+      margin-top: 0px;
     }
+
+
   }
 
 
@@ -1584,3 +1661,133 @@ select {
 .box-padding {
   padding: 20px 5px;
 }
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.button-icon {
+  width: 17px;
+  margin-right: 6px;
+}
+
+button {
+  text-transform: uppercase;
+}
+
+
+.right-side-full-column-center {
+
+  display: flex;
+  justify-content: center;
+}
+
+.crud-multi-btns-row {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 12px;
+    margin-top: 6px;
+
+    button {
+      margin-right: 18px;
+   
+      padding: 6px 15px;
+    
+    }
+}
+
+.btn-padding-small {
+  padding: 6px 20px;
+
+}
+
+.small-input {
+  width: 140px;
+}
+.crud-container-box label .field-with-button {
+    display: flex;
+    justify-content: space-between;
+
+  input {
+    width: 290px;
+  }
+
+  .small-input {
+    width: 160px;
+  }
+}
+
+.field-with-single-btn {
+display: flex;
+
+input {
+  flex: 1;
+}
+
+button {
+  margin-left: 20px;
+}
+}
+
+
+.tax-checkbox-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.crud-container-box label .checkbox-with-text {
+  display: flex;
+
+  input {
+    width: 20px;
+  }
+}
+
+
+.barcode-delete-container {
+  padding: 15px;
+  background: #F8F8F8;
+}
+.barcodes-row {
+
+  display: flex;
+  justify-content: space-between;
+  color: #B4B4B4;
+  font-size: 13px;
+}
+
+.cancel-save-btn-row {
+  button:last-child {margin-left: 20px;}
+}
+
+
+.section-bg {
+  background: #F0F4F4;
+}
+
+
+.product-page-box {
+
+  width: 450px;
+  padding-bottom: 20px;
+
+}
+// .white-menu {
+//   background: #e5eaed;
+
+//   li a {
+//     color: #333;
+//     border-bottom: 1px solid #333;
+//   }
+
+//   svg {
+//     margin-right: 10px;
+//   }
+  
+
+//   .sidemenu-bottom-section li a {
+//     border-top: 1px solid  #333;
+//   }
+// }
+
