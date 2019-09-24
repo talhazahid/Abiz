@@ -1,4 +1,4 @@
-.dark-theme {
+.light-theme {
 header {
     background: #455A64;
     color: white;
@@ -17,9 +17,7 @@ header {
 }
 .sidemenu-bg {
     background: #FCFCFC;
-    svg {
-        margin-right: 10px;
-    }
+  
 }
 .sidemenu li a {
     color: #8D8D8D;
@@ -33,6 +31,9 @@ header {
 .sidemenu-bg {
     path {
         fill: #828282 ;
+    }
+    svg {
+        margin-right: 10px;
     }
 }
 .sidemenu-bottom-section li a {

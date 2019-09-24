@@ -122,6 +122,18 @@ File: scss
  
  @media only screen and (max-width: 767px)  {
 
+    .fileds-row-col-three {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+
+        div {
+            margin-top: 10px;
+        }
+    }
+
+
+
     .questions-help-row {
         margin: 0px 0px !important;
         color: #fff;
@@ -195,6 +207,17 @@ footer ul li a {
     .login-split-border:after {
         display: none;        
       }
+
+      
+}
+
+@media(max-width: 1024px) {
+
+
+    .two-page-box {
+        display: flex;
+        flex-direction: column;
+    }
 
       
 }
