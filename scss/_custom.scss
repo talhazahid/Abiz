@@ -50,6 +50,7 @@ select:required:invalid {
 select {
   color:#777777 !important;
   font-weight: 300;
+  padding: 5px 10px;
 }
 option[value=""][disabled] {
   display: none;
@@ -197,6 +198,7 @@ h6,
 .login-form input {
   padding: 7px 10px;
   border: 0px;
+  height: auto !important;
 }
 .login-form button {
   background: #26a69a;
@@ -213,6 +215,11 @@ h6,
 .link {
   color: $link;
 }
+
+
+
+
+
 /*# sourceMappingURL=main.css.map */
 .brand-logo {
   text-align: center;
@@ -486,6 +493,10 @@ header {
   padding: 3px 10px;
   font-size: 13px;
   color: #797979;
+
+  &:hover {
+    color: #5f5f5f;
+  }
 }
 .bell-btn {
   padding: 0px;
@@ -558,11 +569,11 @@ aside {
   width: 25px;
 }
 .user-profile img {
-  width: 52px;
+  width: 40px;
 }
 .logo-fluid img {
-  width: 135px;
-  margin-left: 20px;
+  width: 120px;
+ 
 }
 .white-bg {
   background: #fff;
@@ -807,6 +818,10 @@ aside {
   margin-top: 20px;
   margin-right: 40px;
   margin-bottom: 25px;
+
+  button:hover {
+    color:#dedede;
+  }
 }
 .batch-register-row {
   padding: 10px 0px;
@@ -818,12 +833,12 @@ aside {
   margin-right: 1rem;
 }
 .modal-batch-name {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 500;
   color: #515151;
 }
 .modal-person-name {
-  font-size: 13px;
+  font-size: 12px;
   color: #8a8a8a;
 }
 .frame-border {
@@ -1127,7 +1142,7 @@ height: 28px;
   right: 0px;
   left: 0px;
   transform-origin: center bottom;
-  background: $animation-fill-color-theme;
+  // background: $animation-fill-color-theme;
   transition: all 0.15s cubic-bezier(0.2, 0, 0, 1) 0s;
 }
 .btn-animation-fill:hover::after {
@@ -1136,7 +1151,7 @@ height: 28px;
   top: 0px;
   bottom: 0px;
   width: 100%;
-  background: $animation-fill-color-theme;
+  // background: $animation-fill-color-theme;
 }
 .btn-outline-secondary {
   z-index: 1;
@@ -1254,7 +1269,8 @@ height: 28px;
 .modal-batch-register-buttons {
   flex-direction: row-reverse;
   button {
-    background: #aeaeae;
+    // background: #aeaeae;
+    background: #8b969c;
     padding: 6px 16px;
     color: #fff;
     margin: 0px 8px;
@@ -1370,6 +1386,7 @@ height: 28px;
 }
 .modal-batch-register-buttons .btn {
   color: #fff;
+  border-bottom: 2px solid #989898;
 }
 .fileds-row-col-three {
   display: flex;
@@ -1619,7 +1636,7 @@ select {
     font-size: 14px;
     background: #fff;
     box-shadow: none;
-    padding: 4px;
+    padding: 5px 10px;
     border-radius: 0px;
     border: 1px solid #dcdcdc;
     margin-top: 10px;
@@ -1895,4 +1912,41 @@ path {
   }
 
 
+}
+
+
+.invaid-field {
+  background: #d44949;
+  color: white;
+  padding: 2px 10px;
+  margin-top: 0px;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+
+
+.dropleft .dropdown-menu {
+  top: 49px !important; 
+  left: 60px !important;
+
+}
+
+.dropleft .dropdown-toggle::before {
+  border: 0px !important
+}
+
+
+/************  Register Popup Scroll ***********/
+
+.register-scroll {
+    max-height: 425px;
+    overflow-y: scroll;
+}
+
+
+
+.right-content-items-heading-main-button-screen {
+  position: relative;
+  top: 14px;
 }
