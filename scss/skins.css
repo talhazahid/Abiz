@@ -1,0 +1,45 @@
+.light-theme header {
+  background: #455A64;
+  color: white; }
+.light-theme .bell-btn {
+  display: none; }
+.light-theme .switch-store-btn {
+  border: 1px solid #c3c3c3;
+  padding: 3px 10px;
+  font-size: 13px;
+  color: white;
+  margin: 0px 15px 0; }
+.light-theme .dashboard-btn-big {
+  margin-right: 5px; }
+.light-theme .user-profile img {
+  max-width: 42px; }
+.light-theme .user-profile {
+  border: 0px; }
+.light-theme .sidemenu-bg {
+  background: #FCFCFC; }
+.light-theme .sidemenu li a {
+  color: #8D8D8D; }
+.light-theme .breadcrumb-row {
+  border-top: 0px solid #696b6a; }
+.light-theme .sidemenu path {
+  fill: #828282; }
+.light-theme .sidemenu-bg path {
+  fill: #828282; }
+.light-theme .sidemenu-bg svg {
+  margin-right: 10px; }
+.light-theme .sidemenu-bottom-section li a {
+  color: #8D8D8D; }
+  .light-theme .sidemenu-bottom-section li a:hover {
+    color: white; }
+.light-theme .sidemenu-bottom-section p {
+  color: #929292; }
+.light-theme .sidemenu li a:hover {
+  background: #ececec; }
+.light-theme .sidemenu li a {
+  position: relative; }
+.light-theme .sidemenu .active {
+  border-left: 4px solid #1DD1A1; }
+.light-theme .sidemenu li {
+  border-left: 4px solid  #FCFCFC; }
+
+/*# sourceMappingURL=skins.css.map */

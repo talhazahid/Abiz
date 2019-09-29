@@ -6934,7 +6934,7 @@ h6,
   font-weight: 300; }
 
 .login-form input {
-  padding: 7px 10px;
+  padding: 7px 10px !important;
   border: 0px;
   height: auto !important; }
 
@@ -7221,7 +7221,8 @@ thead {
     color: white; }
 
 .theme-btn {
-  background: #26A69A; }
+  background: #26A69A;
+  color: white !important; }
   .theme-btn:hover {
     color: white !important;
     background: #26afa2; }
@@ -8079,9 +8080,10 @@ aside {
       bottom: 0px;
       width: 100%; }
     .modal-batch-register-buttons button svg {
-      vertical-align: top;
-      width: 12px;
-      height: 12px; }
+      vertical-align: unset;
+      width: 13px;
+      height: 13px;
+      margin-right: 5px; }
   .modal-batch-register-buttons button:focus {
     box-shadow: none; }
   .modal-batch-register-buttons button:first-child {
@@ -8177,8 +8179,7 @@ aside {
   width: 100%; }
 
 .modal-batch-register-buttons .btn {
-  color: #fff;
-  border-bottom: 2px solid #989898; }
+  color: #fff; }
 
 .fileds-row-col-three {
   display: flex;
@@ -8693,20 +8694,10 @@ body .ui-inputtext {
   background: #ececec; }
 .light-theme .sidemenu li a {
   position: relative; }
-.light-theme .sidemenu li:nth-child(1) a:nth-child(1) {
+.light-theme .sidemenu .active {
   border-left: 4px solid #1DD1A1; }
-.light-theme .sidemenu li:nth-child(2) a {
-  border-left: 4px solid #F19066; }
-.light-theme .sidemenu li:nth-child(3) a {
-  border-left: 4px solid #FECA57; }
-.light-theme .sidemenu li:nth-child(4) a {
-  border-left: 4px solid #EE5966; }
-.light-theme .sidemenu li:nth-child(5) a {
-  border-left: 4px solid #54A0FF; }
-.light-theme .sidemenu li:nth-child(6) a {
-  border-left: 4px solid #00D2D3; }
-.light-theme .sidemenu li:nth-child(7) a {
-  border-left: 4px solid #596275; }
+.light-theme .sidemenu li {
+  border-left: 4px solid  #FCFCFC; }
 
 /*
 Template Name: Admin Template
