@@ -196,9 +196,9 @@ h6,
   font-weight: 300;
 }
 .login-form input {
-  padding: 7px 10px;
-  border: 0px;
-  height: auto !important;
+    padding: 7px 10px !important;
+    border: 0px;
+    height: auto !important;
 }
 .login-form button {
   background: #26a69a;
@@ -455,7 +455,11 @@ thead {
 }
 .theme-btn {
   @include theme-btn;
-  color: white;
+
+
+  &:hover {
+    color: white;
+  }
 }
 header {
   padding: 5px 10px;
@@ -1278,9 +1282,10 @@ height: 28px;
     line-height: 13px;
     @include button-animation;
     svg {
-      vertical-align: top;
+      vertical-align: unset;
       width: 12px;
       height: 12px;
+      margin-right: 5px;
     }
   }
  
@@ -1386,7 +1391,7 @@ height: 28px;
 }
 .modal-batch-register-buttons .btn {
   color: #fff;
-  border-bottom: 2px solid #989898;
+
 }
 .fileds-row-col-three {
   display: flex;
@@ -1950,3 +1955,42 @@ path {
   position: relative;
   top: 14px;
 }
+
+
+textarea {
+  padding: 4px 10px;
+}
+
+.dp-input-container {
+
+  input {width: 100% !important;}
+  
+}
+
+
+
+.ui-calendar .ui-calendar-button {
+    position: absolute !important;
+    height: auto;
+    top: 11px;
+    right: 0px;
+}
+
+
+.ui-calendar {
+  width: 100% !important;
+}
+
+
+body .ui-button {
+
+  background-color: #26a69a !important;
+  border: 1px solid #26a69a !important;
+
+}
+
+body .ui-inputtext {
+
+  border: 1px solid #dcdcdc !important;
+}
+
