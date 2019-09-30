@@ -50,7 +50,7 @@ select:required:invalid {
 select {
   color:#777777 !important;
   font-weight: 300;
-  padding: 5px 10px;
+  padding: 7px 10px;
 }
 option[value=""][disabled] {
   display: none;
@@ -353,7 +353,7 @@ h6,
   display: inline-block;
 }
 thead {
-  background: #f9f9f9;
+  background: #f5f5f5;
 }
 .table thead th {
   border-top: 0px;
@@ -406,7 +406,10 @@ thead {
   border-top: 0px;
   border-left: 0px;
   border-right: 0px;
-  padding-left: 0px;
+  /* padding-left: 0px; */
+  position: relative;
+  top: -6px;
+  font-style: italic;
 }
 .owl-theme .owl-nav {
   text-align: center;
@@ -775,7 +778,7 @@ aside {
   background-color: white;
   background-image: none;
   border: 1px solid #cccccc;
-  padding: 5px 35px !important;
+  padding: 7px 35px !important;
 }
 
 
@@ -1013,7 +1016,7 @@ height: 28px;
     font-size: 14px;
     background: #fff;
     box-shadow: none;
-    padding: 6px 10px 5px;
+    padding: 7px 10px 5px;
     border-radius: 0px;
     border: 1px solid #dcdcdc;
   }
@@ -1056,7 +1059,7 @@ height: 28px;
     font-size: 14px;
     background: #fff;
     box-shadow: none;
-    padding: 4px;
+    padding: 7px 10px;
     border-radius: 0px;
     border: 1px solid #dcdcdc;
     width: 130px;
@@ -1597,7 +1600,7 @@ justify-content: space-between;
       font-size: 14px;
       background: #fff;
       box-shadow: none;
-      padding: 4px 10px;
+      padding: 7px 10px;
       border-radius: 0px;
       border: 1px solid #dcdcdc;
       margin-top: 0px;
@@ -1613,7 +1616,7 @@ select {
   font-size: 14px;
   background: #fff;
   box-shadow: none;
-  padding: 4px;
+  padding: 7px 10px;
   border-radius: 0px;
   border: 1px solid #dcdcdc;
   margin-top: 10px;
@@ -1641,7 +1644,7 @@ select {
     font-size: 14px;
     background: #fff;
     box-shadow: none;
-    padding: 5px 10px;
+    padding: 7px 10px;
     border-radius: 0px;
     border: 1px solid #dcdcdc;
     margin-top: 10px;
@@ -1754,13 +1757,13 @@ button {
     button {
       margin-right: 18px;
    
-      padding: 6px 15px;
+      padding: 7px 15px;
     
     }
 }
 
 .btn-padding-small {
-  padding: 6px 20px;
+  padding: 7px 20px;
 
 }
 
@@ -2004,3 +2007,18 @@ body .ui-inputtext {
 .register-popup-full {
   max-width: 100% !important;
 }
+
+
+.semi-table-heading {
+  font-weight: 400;
+  color: #4e4e4e;
+}
+
+table td input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 9px 10px !important;
+
+}
+
+

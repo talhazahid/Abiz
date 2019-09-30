@@ -97,11 +97,21 @@ header {
 
 
 .sidemenu  .active {
-    border-left: 4px solid #1DD1A1;
+    border-left: 3px solid #1DD1A1;
+    a {
+        padding: 15px 14px;
+    }
 }
 
 .sidemenu li {
-    border-left: 4px solid  #FCFCFC;
+    border-left: 0px solid  #FCFCFC;
+  
 }
+
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(154, 154, 154, 0.05) ;
+  }
+  
 
 }

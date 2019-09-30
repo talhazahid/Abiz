@@ -6808,7 +6808,7 @@ select:required:invalid {
 select {
   color: #777777 !important;
   font-weight: 300;
-  padding: 5px 10px; }
+  padding: 7px 10px; }
 
 option[value=""][disabled] {
   display: none; }
@@ -7039,7 +7039,7 @@ h6,
   font-size: 14px;
   background: #fff;
   box-shadow: none;
-  padding: 4px 10px;
+  padding: 6px 10px;
   border-radius: 0px;
   border: 1px solid #dcdcdc; }
 
@@ -7111,7 +7111,7 @@ h6,
   display: inline-block; }
 
 thead {
-  background: #f9f9f9; }
+  background: #f5f5f5; }
 
 .table thead th {
   border-top: 0px;
@@ -7164,7 +7164,10 @@ thead {
   border-top: 0px;
   border-left: 0px;
   border-right: 0px;
-  padding-left: 0px; }
+  /* padding-left: 0px; */
+  position: relative;
+  top: -6px;
+  font-style: italic; }
 
 .owl-theme .owl-nav {
   text-align: center;
@@ -7211,7 +7214,7 @@ thead {
   cursor: pointer; }
 
 .btn {
-  padding: 5px 28px;
+  padding: 7px 28px;
   font-size: 13px;
   border-radius: 0px;
   border: 0px;
@@ -7562,7 +7565,7 @@ aside {
   background-color: white;
   background-image: none;
   border: 1px solid #cccccc;
-  padding: 5px 35px !important; }
+  padding: 7px 35px !important; }
 
 .login-box .btn {
   padding: 7px 23px; }
@@ -7604,7 +7607,7 @@ aside {
 .close-batch-btn {
   text-align: right;
   margin-top: 20px;
-  margin-right: 40px;
+  margin-right: 18px;
   margin-bottom: 25px; }
   .close-batch-btn button:hover {
     color: #dedede; }
@@ -7825,7 +7828,7 @@ aside {
     font-size: 14px;
     background: #fff;
     box-shadow: none;
-    padding: 6px 10px 5px;
+    padding: 7px 10px 5px;
     border-radius: 0px;
     border: 1px solid #dcdcdc; }
   .advanced-search-column input {
@@ -7865,7 +7868,7 @@ aside {
     font-size: 14px;
     background: #fff;
     box-shadow: none;
-    padding: 4px;
+    padding: 7px 10px;
     border-radius: 0px;
     border: 1px solid #dcdcdc;
     width: 130px;
@@ -8081,8 +8084,8 @@ aside {
       width: 100%; }
     .modal-batch-register-buttons button svg {
       vertical-align: unset;
-      width: 13px;
-      height: 13px;
+      width: 12px;
+      height: 12px;
       margin-right: 5px; }
   .modal-batch-register-buttons button:focus {
     box-shadow: none; }
@@ -8383,7 +8386,7 @@ aside {
       font-size: 14px;
       background: #fff;
       box-shadow: none;
-      padding: 4px 10px;
+      padding: 7px 10px;
       border-radius: 0px;
       border: 1px solid #dcdcdc;
       margin-top: 0px; }
@@ -8392,7 +8395,7 @@ select {
   font-size: 14px;
   background: #fff;
   box-shadow: none;
-  padding: 4px;
+  padding: 7px 10px;
   border-radius: 0px;
   border: 1px solid #dcdcdc;
   margin-top: 10px; }
@@ -8417,7 +8420,7 @@ select {
     font-size: 14px;
     background: #fff;
     box-shadow: none;
-    padding: 5px 10px;
+    padding: 7px 10px;
     border-radius: 0px;
     border: 1px solid #dcdcdc;
     margin-top: 10px; }
@@ -8505,10 +8508,10 @@ button {
   margin-top: 6px; }
   .crud-multi-btns-row button {
     margin-right: 18px;
-    padding: 6px 15px; }
+    padding: 7px 15px; }
 
 .btn-padding-small {
-  padding: 6px 20px; }
+  padding: 7px 20px; }
 
 .small-input {
   width: 140px; }
@@ -8652,6 +8655,21 @@ body .ui-button {
 body .ui-inputtext {
   border: 1px solid #dcdcdc !important; }
 
+.modal-batch-register-buttons .svg-center {
+  vertical-align: middle; }
+
+.register-popup-full {
+  max-width: 100% !important; }
+
+.semi-table-heading {
+  font-weight: 400;
+  color: #4e4e4e; }
+
+table td input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 9px 10px !important; }
+
 @media only screen and (max-width: 767px) {
   .sidemenu-bg {
     display: none; } }
@@ -8695,9 +8713,13 @@ body .ui-inputtext {
 .light-theme .sidemenu li a {
   position: relative; }
 .light-theme .sidemenu .active {
-  border-left: 4px solid #1DD1A1; }
+  border-left: 3px solid #1DD1A1; }
+  .light-theme .sidemenu .active a {
+    padding: 15px 14px; }
 .light-theme .sidemenu li {
-  border-left: 4px solid  #FCFCFC; }
+  border-left: 0px solid  #FCFCFC; }
+.light-theme .table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(154, 154, 154, 0.05); }
 
 /*
 Template Name: Admin Template
