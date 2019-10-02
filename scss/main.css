@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap v4.1.0 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -7127,13 +7128,10 @@ thead {
 
 .table thead th {
   color: #515151;
-  font-weight: 500;
-  padding: 8px 0px; }
+  font-weight: 500; }
 
 .table tr td {
-  border: 1px solid #dee2e6;
-  padding: 10px 10px 7px;
-  line-height: 16px; }
+  border: 1px solid #dee2e6; }
 
 .bold {
   font-weight: 700; }
@@ -7744,6 +7742,15 @@ aside {
   font-size: 22px;
   margin-bottom: 10px;
   margin: 30px 0px 0px; }
+
+.right-content-items-heading:before {
+  content: '■';
+  margin-right: 0px;
+  font-size: 17px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-top: -7px;
+  color: #78909c; }
 
 .right-content-items-column {
   display: flex;
@@ -8618,8 +8625,10 @@ button {
   font-weight: 300; }
 
 .dropleft .dropdown-menu {
-  top: 49px !important;
-  left: 60px !important; }
+  top: 45px !important;
+  left: 60px !important;
+  position: absolute;
+  transform: translate3d(-162px, 0px, 0px); }
 
 .dropleft .dropdown-toggle::before {
   border: 0px !important; }
@@ -8669,6 +8678,26 @@ table td input {
   width: 100%;
   box-sizing: border-box;
   padding: 9px 10px !important; }
+
+.table-manual-cash-icon {
+  position: absolute;
+  right: 50px;
+  top: 10px;
+  bottom: 0;
+  margin: auto;
+  display: flex; }
+
+.table tr .td-with-icons {
+  display: flex;
+  align-items: center;
+  border-bottom: 0px;
+  border-right: 0px; }
+  .table tr .td-with-icons div:first-child {
+    flex: 1;
+    margin-right: 8px; }
+
+.pointer {
+  cursor: pointer; }
 
 @media only screen and (max-width: 767px) {
   .sidemenu-bg {
