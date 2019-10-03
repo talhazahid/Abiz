@@ -113,5 +113,23 @@ header {
     background-color: rgba(154, 154, 154, 0.05) ;
   }
   
+  
+
+  .dropdown-toggle .dropdown-item {
+    
+    font-weight: 300;
+}
+
+.dropdown-item:active {
+    background-color: #26A69A !important;
+    color: white !important;
+}
+
+
+.dropdown-item:hover {
+    background-color: #26A69A !important;
+    color: white !important;
+}
+
 
 }

@@ -38,8 +38,20 @@
 .light-theme .sidemenu li a {
   position: relative; }
 .light-theme .sidemenu .active {
-  border-left: 4px solid #1DD1A1; }
+  border-left: 3px solid #1DD1A1; }
+  .light-theme .sidemenu .active a {
+    padding: 15px 14px; }
 .light-theme .sidemenu li {
-  border-left: 4px solid  #FCFCFC; }
+  border-left: 0px solid  #FCFCFC; }
+.light-theme .table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(154, 154, 154, 0.05); }
+.light-theme .dropdown-toggle .dropdown-item {
+  font-weight: 300; }
+.light-theme .dropdown-item:active {
+  background-color: #26A69A !important;
+  color: white !important; }
+.light-theme .dropdown-item:hover {
+  background-color: #26A69A !important;
+  color: white !important; }
 
 /*# sourceMappingURL=skins.css.map */

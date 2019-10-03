@@ -579,7 +579,7 @@ aside {
   width: 40px;
 }
 .logo-fluid img {
-  width: 120px;
+  width: 110px;
  
 }
 .white-bg {
@@ -887,7 +887,7 @@ aside {
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14);
   -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14);
-  padding: 10px 20px 10px;
+  padding: 11px 20px 11px;
   color: #919191;
   font-size: 20px;
   position: relative;
@@ -1840,6 +1840,7 @@ button {
 
 .section-bg {
   background: #F0F4F4;
+  border-left: 1px solid #e0e0e0;
 }
 
 
@@ -2059,4 +2060,19 @@ table td input {
 
 .pointer {
   cursor: pointer;
+}
+
+.new-register {
+  background: #f6f6f6;
+  animation: new-reg 8s;
+}
+
+
+@keyframes new-reg {
+  0% {
+    background: rgba(38, 175, 162, 0.45);
+  }
+  100% {
+    background: #f6f6f6;
+  }
 }
