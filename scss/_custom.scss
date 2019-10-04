@@ -206,7 +206,13 @@ h6,
   font-size: 17px;
   margin-top: 30px;
   &:hover {
-    background: #26afa2;
+    color: white;
+    background: $hover-theme-btn;
+  }
+  &:focus {
+    color: white;
+    background: $hover-theme-btn;
+  
   }
 }
 .login-form .field:nth-child(2) {
@@ -458,11 +464,6 @@ thead {
 }
 .theme-btn {
   @include theme-btn;
-
-
-  &:hover {
-    color: white;
-  }
 }
 header {
   padding: 5px 10px;
@@ -800,9 +801,11 @@ aside {
 .modal .modal-dialog {
   max-width: 700px;
 }
+
+
 .modal-body {
-  max-height: calc(100vh - 150px);
-  overflow-y: auto;
+  // max-height: calc(100vh - 150px);
+  // overflow-y: auto;
 }
 .modal-body {
   margin-top: 20px;
@@ -827,7 +830,13 @@ aside {
   margin-bottom: 25px;
 
   button:hover {
-    color:#dedede;
+    color:#fff;
+    background: #ee5e5e;
+  }
+
+  button:focus {
+    color:#fff;
+    background: #ee5e5e;
   }
 }
 .batch-register-row {
@@ -1204,8 +1213,14 @@ height: 28px;
   background: white;
 
   &:hover {
-    background: $themebg;
-    color: white;
+    color: white !important;
+    background: $hover-theme-btn;
+
+  }
+
+  &:focus {
+    color: white !important;
+    background: $hover-theme-btn;   
   }
 
 }
@@ -1303,8 +1318,13 @@ height: 28px;
     }
   }
  
+  button:hover {
+    box-shadow: none;
+    background: #646e74;
+  }
   button:focus {
     box-shadow: none;
+    background: #646e74;
   }
   button:first-child {
     margin-right: 0px;
@@ -1471,6 +1491,9 @@ height: 28px;
   .hover-white path {
     fill: white !important;
   }
+  
+
+
 }
 .full-width {
   width: 100%;

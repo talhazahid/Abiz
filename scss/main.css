@@ -6945,7 +6945,11 @@ h6,
   font-size: 17px;
   margin-top: 30px; }
   .login-form button:hover {
-    background: #26afa2; }
+    color: white;
+    background: #26c3b3; }
+  .login-form button:focus {
+    color: white;
+    background: #26c3b3; }
 
 .login-form .field:nth-child(2) {
   margin-top: 15px; }
@@ -7225,10 +7229,12 @@ thead {
   background: #26A69A;
   color: white !important; }
   .theme-btn:hover {
+    color: white;
+    background: #26c3b3; }
+  .theme-btn:focus {
     color: white !important;
-    background: #26afa2; }
-  .theme-btn:hover {
-    color: white; }
+    background: #26c3b3;
+    box-shadow: none !important; }
 
 header {
   padding: 5px 10px;
@@ -7383,7 +7389,12 @@ aside {
   font-size: 13px;
   border-radius: 0px; }
   .dashboard-btn-small:hover {
-    color: #fff; }
+    color: white;
+    background: #26c3b3; }
+  .dashboard-btn-small:focus {
+    color: white !important;
+    background: #26c3b3;
+    box-shadow: none !important; }
 
 .dashboard-btn-big {
   background: #26A69A;
@@ -7392,7 +7403,12 @@ aside {
   font-size: 13px;
   border-radius: 0px; }
   .dashboard-btn-big:hover {
-    color: #fff; }
+    color: white;
+    background: #26c3b3; }
+  .dashboard-btn-big:focus {
+    color: white !important;
+    background: #26c3b3;
+    box-shadow: none !important; }
 
 .breadcrumb {
   list-style: none;
@@ -7583,10 +7599,6 @@ aside {
   max-width: 700px; }
 
 .modal-body {
-  max-height: calc(100vh - 150px);
-  overflow-y: auto; }
-
-.modal-body {
   margin-top: 20px; }
 
 .modal-container {
@@ -7608,7 +7620,11 @@ aside {
   margin-right: 18px;
   margin-bottom: 25px; }
   .close-batch-btn button:hover {
-    color: #dedede; }
+    color: #fff;
+    background: #ee5e5e; }
+  .close-batch-btn button:focus {
+    color: #fff;
+    background: #ee5e5e; }
 
 .batch-register-row {
   padding: 10px 0px;
@@ -7992,8 +8008,11 @@ aside {
   color: #26A69A;
   background: white; }
   .btn-outline-secondary-theme:hover {
-    background: #26A69A;
-    color: white; }
+    color: white !important;
+    background: #26c3b3; }
+  .btn-outline-secondary-theme:focus {
+    color: white !important;
+    background: #26c3b3; }
 
 .btn-outline-secondary-theme {
   z-index: 1;
@@ -8094,8 +8113,12 @@ aside {
       width: 12px;
       height: 12px;
       margin-right: 5px; }
+  .modal-batch-register-buttons button:hover {
+    box-shadow: none;
+    background: #646e74; }
   .modal-batch-register-buttons button:focus {
-    box-shadow: none; }
+    box-shadow: none;
+    background: #646e74; }
   .modal-batch-register-buttons button:first-child {
     margin-right: 0px; }
   .modal-batch-register-buttons img {

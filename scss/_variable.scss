@@ -322,7 +322,13 @@ $animation-fill-color-gray:#878787;
   font-size: 13px;
   border-radius: 0px;
   &:hover {
-    color: #fff;
+    color: white;
+    background: $hover-theme-btn;
+  }
+  &:focus {
+    color: white !important;
+    background: $hover-theme-btn;
+    box-shadow: none !important;
   }
 }
 @mixin dashboard-btn-big {
@@ -332,7 +338,13 @@ $animation-fill-color-gray:#878787;
   font-size: 13px;
   border-radius: 0px;
   &:hover {
-    color: #fff;
+    color: white;
+    background: $hover-theme-btn;
+  }
+  &:focus {
+    color: white !important;
+    background: $hover-theme-btn;
+    box-shadow: none !important;
   }
 }
 @mixin  three-col-widget {
@@ -372,10 +384,20 @@ $animation-fill-color-gray:#878787;
   background: #26A69A;
   color:white !important;
   &:hover {
-    color: white !important;
-    background: #26afa2;
+    color: white;
+    background: $hover-theme-btn;
   }
+  &:focus {
+    color: white !important;
+    background: $hover-theme-btn;
+    box-shadow: none !important;
+  }
+
+
 }
+
+
+$hover-theme-btn: #26c3b3;
 // Links Colors
 $link:#03A9F4;
 // Border
