@@ -7630,7 +7630,8 @@ aside {
   padding: 10px 0px;
   background: #f6f6f6;
   border-radius: 10px;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+  border: 2px solid #f6f6f6; }
 
 .modal-footer > :not(:last-child) {
   margin-right: 1rem; }
@@ -8152,6 +8153,9 @@ aside {
   -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.45);
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.45);
   border: 0px; }
+
+.modal-body .close-batch-btn .close-batch {
+  padding: 4px 20px; }
 
 .close-batch::after {
   z-index: -1;
@@ -8724,14 +8728,72 @@ table td input {
   cursor: pointer; }
 
 .new-register {
-  background: #f6f6f6;
-  animation: new-reg 8s; }
+  animation: new-reg 5s; }
 
 @keyframes new-reg {
   0% {
-    background: rgba(38, 175, 162, 0.45); }
+    border: 2px solid #26c3b3; }
   100% {
-    background: #f6f6f6; } }
+    border: 2px solid #f6f6f6; } }
+body .ui-radiobutton .ui-radiobutton-box {
+  border-radius: 5px !important; }
+
+.side-by-side-checkbox .ng-valid:first-child {
+  margin-right: 10px; }
+
+.jumper {
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+  position: relative;
+  margin: auto;
+  width: 50px;
+  height: 50px; }
+
+.jumper > div {
+  background-color: #26A69A;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  position: absolute;
+  opacity: 0;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: jumper 1s 0s linear infinite;
+  animation: jumper 1s 0s linear infinite; }
+
+.jumper > div:nth-child(2) {
+  -webkit-animation-delay: 0.33333s;
+  animation-delay: 0.33333s; }
+
+.jumper > div:nth-child(3) {
+  -webkit-animation-delay: 0.66666s;
+  animation-delay: 0.66666s; }
+
+@-webkit-keyframes jumper {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0); }
+  5% {
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; } }
+@keyframes jumper {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0); }
+  5% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
 @media only screen and (max-width: 767px) {
   .sidemenu-bg {
     display: none; } }
