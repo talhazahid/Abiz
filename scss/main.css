@@ -8715,14 +8715,10 @@ table td input {
   margin: auto;
   display: flex; }
 
-.table tr .td-with-icons {
-  display: flex;
-  align-items: center;
-  border-bottom: 0px;
-  border-right: 0px; }
-  .table tr .td-with-icons div:first-child {
-    flex: 1;
-    margin-right: 8px; }
+.table tr .td-with-icons div {
+  display: inline-block; }
+.table tr .td-with-icons div:first-child {
+  margin-right: 8px; }
 
 .pointer {
   cursor: pointer; }
@@ -8794,6 +8790,74 @@ body .ui-radiobutton .ui-radiobutton-box {
     opacity: 1; }
   100% {
     opacity: 0; } }
+.jumper-full-screen {
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  position: fixed;
+  margin: auto;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  z-index: 99999;
+  background: rgba(255, 255, 255, 0.5294117647); }
+
+.jumper-full-screen > div {
+  background-color: #26A69A;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  position: absolute;
+  opacity: 0;
+  width: 50px;
+  height: 50px;
+  -webkit-animation: jumper 1s 0s linear infinite;
+  animation: jumper 1s 0s linear infinite; }
+
+.jumper-full-screen > div:nth-child(2) {
+  -webkit-animation-delay: 0.33333s;
+  animation-delay: 0.33333s; }
+
+.jumper-full-screen > div:nth-child(3) {
+  -webkit-animation-delay: 0.66666s;
+  animation-delay: 0.66666s; }
+
+@-webkit-keyframes jumper {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0); }
+  5% {
+    opacity: 1; }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0; } }
+@keyframes jumper {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0); }
+  5% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+.checkbox-flex-one .ng-valid {
+  flex: 1;
+  text-align: left; }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0; }
+
 @media only screen and (max-width: 767px) {
   .sidemenu-bg {
     display: none; } }
