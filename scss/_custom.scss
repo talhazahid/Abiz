@@ -1481,7 +1481,7 @@ height: 28px;
   }
   border-bottom: 3px solid #78909c;
   .nav-item {
-    margin-bottom: 0px;
+
     .nav-item a {
       &:hover {
         border: 0px !important;
@@ -1732,6 +1732,7 @@ select {
     border: 1px solid #ced6e0;
     resize: none;
     color: #a7a7a7;
+    height: 37px;
   }
 }
 .crud-notes-heading {
@@ -2112,7 +2113,7 @@ div {
 
 
 body .ui-radiobutton .ui-radiobutton-box {
-    border-radius: 5px !important;
+    border-radius: 0px !important;
 }
 
 

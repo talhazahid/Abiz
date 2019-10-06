@@ -7672,12 +7672,7 @@ aside {
     padding: 15px 20px;
     border-bottom: 1px solid #A2A2A2;
     display: flex;
-    align-items: center;
-    -webkit-transition: 0.3s ease-in-out;
-    -moz-transition: 0.3s ease-in-out;
-    -ms-transition: 0.3s ease-in-out;
-    -o-transition: 0.3s ease-in-out;
-    transition: 0.3s ease-in-out; }
+    align-items: center; }
     .sidemenu li a:hover {
       background: #6b6b6b; }
 
@@ -8255,11 +8250,9 @@ aside {
   border-bottom: 3px solid #78909c; }
   .custom-tab-form .nav-link {
     border: 1px solid #d6d6d6; }
-  .custom-tab-form .nav-item {
-    margin-bottom: 0px; }
-    .custom-tab-form .nav-item .nav-item a:hover {
-      border: 0px !important;
-      text-decoration: none; }
+  .custom-tab-form .nav-item .nav-item a:hover {
+    border: 0px !important;
+    text-decoration: none; }
   .custom-tab-form svg {
     margin-right: 5px; }
 
@@ -8490,7 +8483,8 @@ select {
     width: 100%;
     border: 1px solid #ced6e0;
     resize: none;
-    color: #a7a7a7; }
+    color: #a7a7a7;
+    height: 37px; }
 
 .crud-notes-heading {
   margin-top: 20px;
@@ -8732,7 +8726,7 @@ table td input {
   100% {
     border: 2px solid #f6f6f6; } }
 body .ui-radiobutton .ui-radiobutton-box {
-  border-radius: 5px !important; }
+  border-radius: 0px !important; }
 
 .side-by-side-checkbox .ng-valid:first-child {
   margin-right: 10px; }
