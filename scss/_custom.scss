@@ -196,7 +196,7 @@ h6,
   font-weight: 300;
 }
 .login-form input {
-    padding: 7px 10px !important;
+    padding: 10px !important;
     border: 0px;
     height: auto !important;
 }
@@ -779,13 +779,13 @@ aside {
   background-color: white;
   background-image: none;
   border: 1px solid #cccccc;
-  padding: 7px 35px !important;
+  padding: 10px 35px !important;
 }
 
 
 
 .login-box .btn {
-  padding: 7px 23px;
+  padding: 10px 23px;
 }
 .google-signin .btn {
   padding: 7px 23px !important;
@@ -1307,7 +1307,7 @@ height: 28px;
   button {
     // background: #aeaeae;
     background: #8b969c;
-    padding: 6px 16px;
+    padding: 8px 16px;
     color: #fff;
     margin: 0px 8px;
     font-size: 13px;
@@ -1363,7 +1363,7 @@ height: 28px;
 }
 
 .modal-body .close-batch-btn .close-batch {  
-  padding: 4px 20px;
+  padding: 6px 20px;
 }
 
 
@@ -1644,7 +1644,7 @@ justify-content: space-between;
       font-size: 14px;
       background: #fff;
       box-shadow: none;
-      padding: 7px 10px;
+      padding: 11px;
       border-radius: 0px;
       border: 1px solid #dcdcdc;
       margin-top: 0px;
@@ -1660,7 +1660,7 @@ select {
   font-size: 14px;
   background: #fff;
   box-shadow: none;
-  padding: 7px 10px;
+  padding: 10px;
   border-radius: 0px;
   border: 1px solid #dcdcdc;
   margin-top: 10px;
@@ -1802,7 +1802,7 @@ button {
     button {
       margin-right: 18px;
    
-      padding: 7px 15px;
+      padding: 10px 15px;
     
     }
 }
@@ -1865,6 +1865,11 @@ button {
   justify-content: space-between;
   color: #B4B4B4;
   font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.barcodes-row:last-child {
+  margin-bottom: 0px;
 }
 
 .cancel-save-btn-row {
@@ -2065,7 +2070,7 @@ body .ui-inputtext {
 table td input {
   width: 100%;
   box-sizing: border-box;
-  padding: 9px 10px !important;
+  padding: 10px !important;
 
 }
 
@@ -2285,4 +2290,246 @@ input[type=number]::-webkit-outer-spin-button {
     -moz-appearance: none;
     appearance: none;
     margin: 0; 
+}
+
+
+.field-description {
+  color: #888888;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.variants-attr-row {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+
+  div:first-child {
+    margin-right: 20px;
+  }
+}
+
+
+.attr-dropdown {
+  width: 150px;
+}
+
+
+.flex-one {
+  flex: 1;
+}
+
+.variantes-attr-action-btn {
+  position: absolute;
+  right: -30px;
+  top: 8px;
+  bottom: 0px;
+  display: flex;
+  /* margin: auto; */
+  align-items: center;
+}
+
+
+
+.add-variantes-row {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #26A69A;
+
+  &:hover {
+    text-decoration: none;
+    color: #26A69A;
+  }
+
+  a {
+    text-decoration: none;
+    color: #26A69A;
+  }
+
+  div {
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+  }
+
+
+  .add-variant-btn {
+    background: #26A69A;
+    color: white;
+    padding: 0px 6px;
+    font-size: 20px;
+  
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+
+}
+
+
+.variant-accordion-container {
+display: flex;
+flex-direction: column;
+
+.card {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+}
+
+
+.variant-heading-row {
+  display: flex;
+}
+
+.variant-accordion-row {
+  display: flex;
+  background: #F6F6F6;
+  align-items: center;
+  padding: 7px 10px;
+
+  input {
+    width: 100%;
+    padding: 7px 10px;
+  }
+
+}
+
+
+.variant-accordion-row a {
+
+  transition: all 0.5s;
+}
+
+
+.variant-accordion-row .show a:before {
+ -webkit-transform: rotate(180deg);
+ -moz-transform: rotate(180deg);
+ transform: rotate(180deg);
+} 
+
+.variant-heading-row {
+  position: relative;
+  .variant-att-first-col {
+    width: 225px;
+  }
+}
+.variant-att-first-col {
+  width: 210px;
+}
+
+.variant-att-second-col {
+  width: 85px;
+  margin-right: 20px;
+}
+
+.variant-att-third-col {
+  width: 85px;
+
+}
+
+
+.accordion-btn {
+
+    position: relative;
+    flex: 1;
+    text-align: right;
+    
+
+  img {
+    width: 18px;
+  }
+
+}
+
+
+.variant-accordion-row .variantes-attr-action-btn {
+  top: 12px;
+  align-items: start;
+}
+
+
+.card-body {
+  padding: 0px;
+
+.nav-link {
+  justify-content: center;
+}
+  .nav-tabs .nav-item {
+
+    flex: 1;
+}
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+
+.variant-inventory-fields {
+  display: flex;
+
+  label input {
+    width: 130px;
+    font-size: 13px;
+  }
+}
+
+
+.edit-attr-heading {
+  font-size: 24px;
+  color: #535353;
+}
+
+
+.edit-attr-small-heading {
+  color: #686868;
+  font-size: 18px;
+  margin-top: 25px;
+}
+.attr-data-row {
+   padding: 20px 10px;
+  background: #F9F9F9;
+
+  label {
+    width: 100%;
+  }
+}
+
+
+.divider {
+  height: 1px;
+  width: 100%;
+  background: #C7C7C7;
+}
+
+.delete-att-row-heading {
+  font-size: 24px;
+  color: #535353;
+}
+
+
+
+
+.alert-btn {
+  @include red-btn;
+
+}
+
+
+.delete-att-row-text {
+  font-weight: 300;
+  color: #A5A5A5;
+  line-height: 18px;
+  font-size: 14px;
+}
+
+
+.remove-attr-container {
+  padding: 0px 20px;
 }
