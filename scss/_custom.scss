@@ -126,6 +126,24 @@ h6,
   margin-top: 40px;
   margin-bottom: 40px;
 }
+
+
+.login-form .control {
+
+
+  .ngx-show-hide-password  {
+    position: absolute;
+    right: 0;
+    z-index: 10;
+    height: 100%;
+  }
+
+
+}
+
+
+
+
 .login-box {
   width: 350px;
 }
@@ -1129,6 +1147,11 @@ height: 28px;
   &:hover {
     color: #fff;
   }
+
+  &:focus {
+    color: #e9e9e9;
+  }
+  
 }
 .login-split-border {
   position: relative;
@@ -1479,7 +1502,7 @@ height: 28px;
   .nav-link {
     border: 1px solid #d6d6d6;
   }
-  border-bottom: 3px solid #78909c;
+  // border-bottom: 3px solid #78909c;
   .nav-item {
 
     .nav-item a {
@@ -1878,7 +1901,8 @@ button {
 
 
 .section-bg {
-  background: #F0F4F4;
+  background: rgba(228, 241, 241, 0.6);
+  // background: #F0F4F4;
   border-left: 1px solid #e0e0e0;
 }
 
@@ -2015,6 +2039,7 @@ path {
 
 textarea {
   padding: 4px 10px;
+  border: 1px solid #dcdcdc;
 }
 
 .dp-input-container {

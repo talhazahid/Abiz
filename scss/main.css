@@ -6865,6 +6865,12 @@ h6,
   margin-top: 40px;
   margin-bottom: 40px; }
 
+.login-form .control .ngx-show-hide-password {
+  position: absolute;
+  right: 0;
+  z-index: 10;
+  height: 100%; }
+
 .login-box {
   width: 350px; }
 
@@ -7924,6 +7930,8 @@ aside {
   text-decoration: underline; }
   .forgot-pwd:hover {
     color: #fff; }
+  .forgot-pwd:focus {
+    color: #e9e9e9; }
 
 .login-split-border {
   position: relative; }
@@ -8249,15 +8257,13 @@ aside {
   background: white;
   cursor: pointer; }
 
-.custom-tab-form {
-  border-bottom: 3px solid #78909c; }
-  .custom-tab-form .nav-link {
-    border: 1px solid #d6d6d6; }
-  .custom-tab-form .nav-item .nav-item a:hover {
-    border: 0px !important;
-    text-decoration: none; }
-  .custom-tab-form svg {
-    margin-right: 5px; }
+.custom-tab-form .nav-link {
+  border: 1px solid #d6d6d6; }
+.custom-tab-form .nav-item .nav-item a:hover {
+  border: 0px !important;
+  text-decoration: none; }
+.custom-tab-form svg {
+  margin-right: 5px; }
 
 .custom-tab-form ul li .active {
   padding: 10px 30px;
@@ -8589,7 +8595,7 @@ button {
   margin-left: 20px; }
 
 .section-bg {
-  background: #F0F4F4;
+  background: rgba(228, 241, 241, 0.6);
   border-left: 1px solid #e0e0e0; }
 
 .product-page-box {
@@ -8672,7 +8678,8 @@ button {
   top: 14px; }
 
 textarea {
-  padding: 4px 10px; }
+  padding: 4px 10px;
+  border: 1px solid #dcdcdc; }
 
 .dp-input-container input {
   width: 100% !important; }
