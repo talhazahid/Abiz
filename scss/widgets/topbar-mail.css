@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$font-weight-medium".
-        on line 17 of G:\My Projects\AplosBiz\github\Abiz\scss\widgets\topbar-mail.scss
+        on line 17 of F:\Talha\Aplosbiz\html\github\scss\widgets\topbar-mail.scss
 
 12: /*User mail widgets*\/
 13: /*******************\/
@@ -15,7 +15,7 @@ Error: Undefined variable: "$font-weight-medium".
 22:                 content: "";
 
 Backtrace:
-G:\My Projects\AplosBiz\github\Abiz\scss\widgets\topbar-mail.scss:17
+F:\Talha\Aplosbiz\html\github\scss\widgets\topbar-mail.scss:17
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -73,4 +73,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$font-weight-medium\".\A         on line 17 of G:\My Projects\AplosBiz\github\Abiz\scss\widgets\topbar-mail.scss\A \A 12: /*User mail widgets*/\A 13: /*******************/\A 14: .mailbox {\A 15:     \A 16:         .drop-title {\A 17:             font-weight: $font-weight-medium;\A 18:             padding: 11px 20px 15px;\A 19:             border-radius: $border-radius $border-radius 0 0;\A 20:             position: relative;\A 21:             &:after{\A 22:                 content: \"\";"; }
+  content: "Error: Undefined variable: \"$font-weight-medium\".\A         on line 17 of F:\Talha\Aplosbiz\html\github\scss\widgets\topbar-mail.scss\A \A 12: /*User mail widgets*/\A 13: /*******************/\A 14: .mailbox {\A 15:     \A 16:         .drop-title {\A 17:             font-weight: $font-weight-medium;\A 18:             padding: 11px 20px 15px;\A 19:             border-radius: $border-radius $border-radius 0 0;\A 20:             position: relative;\A 21:             &:after{\A 22:                 content: \"\";"; }

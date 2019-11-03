@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$sidebar-width-full".
-        on line 14 of G:\My Projects\AplosBiz\github\Abiz\scss\core\sidebar\sidebar.scss
+        on line 14 of F:\Talha\Aplosbiz\html\github\scss\core\sidebar\sidebar.scss
 
 9: Main sidebar
 10: ******************\/
@@ -15,7 +15,7 @@ Error: Undefined variable: "$sidebar-width-full".
 19:   padding-top: 64px;
 
 Backtrace:
-G:\My Projects\AplosBiz\github\Abiz\scss\core\sidebar\sidebar.scss:14
+F:\Talha\Aplosbiz\html\github\scss\core\sidebar\sidebar.scss:14
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$sidebar-width-full\".\A         on line 14 of G:\My Projects\AplosBiz\github\Abiz\scss\core\sidebar\sidebar.scss\A \A 9: Main sidebar\A 10: ******************/\A 11: \A 12: .left-sidebar {\A 13:   position: absolute;\A 14:   width: $sidebar-width-full;\A 15:   height: 100%;\A 16:   top: 0px;\A 17:   border-right: 1px solid rgba(0, 0, 0, 0.1);\A 18:   z-index: 10;\A 19:   padding-top: 64px;"; }
+  content: "Error: Undefined variable: \"$sidebar-width-full\".\A         on line 14 of F:\Talha\Aplosbiz\html\github\scss\core\sidebar\sidebar.scss\A \A 9: Main sidebar\A 10: ******************/\A 11: \A 12: .left-sidebar {\A 13:   position: absolute;\A 14:   width: $sidebar-width-full;\A 15:   height: 100%;\A 16:   top: 0px;\A 17:   border-right: 1px solid rgba(0, 0, 0, 0.1);\A 18:   z-index: 10;\A 19:   padding-top: 64px;"; }

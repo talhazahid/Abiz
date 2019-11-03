@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,yCAA4C;EAG5C,YAAa;IACX,OAAO,EAAE,IAAI",
+"sources": ["sliding-menu.scss"],
+"names": [],
+"file": "sliding-menu.css"
+}

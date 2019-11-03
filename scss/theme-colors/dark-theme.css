@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$gray-900".
-        on line 10 of G:\My Projects\AplosBiz\github\Abiz\scss\theme-colors\dark-theme.scss
+        on line 10 of F:\Talha\Aplosbiz\html\github\scss\theme-colors\dark-theme.scss
 
 5: 
 6:   $card-bg2: #2b3142;
@@ -15,7 +15,7 @@ Error: Undefined variable: "$gray-900".
 15: 
 
 Backtrace:
-G:\My Projects\AplosBiz\github\Abiz\scss\theme-colors\dark-theme.scss:10
+F:\Talha\Aplosbiz\html\github\scss\theme-colors\dark-theme.scss:10
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:482:in `visit_variable'
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$gray-900\".\A         on line 10 of G:\My Projects\AplosBiz\github\Abiz\scss\theme-colors\dark-theme.scss\A \A 5: \A 6:   $card-bg2: #2b3142;\A 7: \A 8:   /* Settings for the  element */\A 9: \A 10:   $main-body-bg-dark: $gray-900 !default;\A 11:   $body-bg-dark: #2d3548;\A 12:   $body-color-dark: #b2b9bf !default;\A 13:   $border-color2: #2e3548 !default;\A 14:   $background-alt: #262d35 !default;\A 15: "; }
+  content: "Error: Undefined variable: \"$gray-900\".\A         on line 10 of F:\Talha\Aplosbiz\html\github\scss\theme-colors\dark-theme.scss\A \A 5: \A 6:   $card-bg2: #2b3142;\A 7: \A 8:   /* Settings for the  element */\A 9: \A 10:   $main-body-bg-dark: $gray-900 !default;\A 11:   $body-bg-dark: #2d3548;\A 12:   $body-color-dark: #b2b9bf !default;\A 13:   $border-color2: #2e3548 !default;\A 14:   $background-alt: #262d35 !default;\A 15: "; }

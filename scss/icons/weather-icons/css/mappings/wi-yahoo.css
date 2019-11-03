@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$wi-css-prefix".
-        on line 1 of G:\My Projects\AplosBiz\github\Abiz\scss\icons\weather-icons\sass\mappings\wi-yahoo.scss
+        on line 1 of F:\Talha\Aplosbiz\html\github\scss\icons\weather-icons\sass\mappings\wi-yahoo.scss
 
 1: .#{$wi-css-prefix}-yahoo-0:before { content: $tornado; }
 2: .#{$wi-css-prefix}-yahoo-1:before { content: $day-storm-showers; }
@@ -10,7 +10,7 @@ Error: Undefined variable: "$wi-css-prefix".
 6: .#{$wi-css-prefix}-yahoo-5:before { content: $rain-mix; }
 
 Backtrace:
-G:\My Projects\AplosBiz\github\Abiz\scss\icons\weather-icons\sass\mappings\wi-yahoo.scss:1
+F:\Talha\Aplosbiz\html\github\scss\icons\weather-icons\sass\mappings\wi-yahoo.scss:1
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/interpolation.rb:170:in `_perform'
@@ -52,4 +52,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$wi-css-prefix\".\A         on line 1 of G:\My Projects\AplosBiz\github\Abiz\scss\icons\weather-icons\sass\mappings\wi-yahoo.scss\A \A 1: .#{$wi-css-prefix}-yahoo-0:before { content: $tornado; }\A 2: .#{$wi-css-prefix}-yahoo-1:before { content: $day-storm-showers; }\A 3: .#{$wi-css-prefix}-yahoo-2:before { content: $hurricane; }\A 4: .#{$wi-css-prefix}-yahoo-3:before { content: $thunderstorm; }\A 5: .#{$wi-css-prefix}-yahoo-4:before { content: $thunderstorm; }\A 6: .#{$wi-css-prefix}-yahoo-5:before { content: $rain-mix; }"; }
+  content: "Error: Undefined variable: \"$wi-css-prefix\".\A         on line 1 of F:\Talha\Aplosbiz\html\github\scss\icons\weather-icons\sass\mappings\wi-yahoo.scss\A \A 1: .#{$wi-css-prefix}-yahoo-0:before { content: $tornado; }\A 2: .#{$wi-css-prefix}-yahoo-1:before { content: $day-storm-showers; }\A 3: .#{$wi-css-prefix}-yahoo-2:before { content: $hurricane; }\A 4: .#{$wi-css-prefix}-yahoo-3:before { content: $thunderstorm; }\A 5: .#{$wi-css-prefix}-yahoo-4:before { content: $thunderstorm; }\A 6: .#{$wi-css-prefix}-yahoo-5:before { content: $rain-mix; }"; }

@@ -6809,8 +6809,7 @@ select:required:invalid {
 select {
   color: #777777 !important;
   font-weight: 300;
-  padding: 7px 10px;
-  height: 43px; }
+  padding: 7px 10px; }
 
 option[value=""][disabled] {
   display: none; }
@@ -7763,7 +7762,7 @@ aside {
   margin: 30px 0px 0px; }
 
 .right-content-items-heading:before {
-  content: "■";
+  content: '■';
   margin-right: 0px;
   font-size: 17px;
   vertical-align: middle;
@@ -8381,7 +8380,7 @@ aside {
   display: flex;
   padding: 10px 20px;
   align-items: center;
-  border-bottom: 2px solid #78909c;
+  border-bottom: 2px solid #78909C;
   padding-bottom: 10px;
   margin-top: 0px;
   background: white;
@@ -8580,12 +8579,12 @@ button {
 
 .barcode-delete-container {
   padding: 15px;
-  background: #f8f8f8; }
+  background: #F8F8F8; }
 
 .barcodes-row {
   display: flex;
   justify-content: space-between;
-  color: #b4b4b4;
+  color: #B4B4B4;
   font-size: 13px;
   margin-bottom: 15px; }
 
@@ -8761,7 +8760,7 @@ body .ui-radiobutton .ui-radiobutton-box {
   height: 50px; }
 
 .jumper > div {
-  background-color: #26a69a;
+  background-color: #26A69A;
   width: 10px;
   height: 10px;
   border-radius: 100%;
@@ -8818,7 +8817,7 @@ body .ui-radiobutton .ui-radiobutton-box {
   background: rgba(255, 255, 255, 0.5294117647); }
 
 .jumper-full-screen > div {
-  background-color: #26a69a;
+  background-color: #26A69A;
   width: 10px;
   height: 10px;
   border-radius: 100%;
@@ -8863,8 +8862,8 @@ body .ui-radiobutton .ui-radiobutton-box {
   flex: 1;
   text-align: left; }
 
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -8914,19 +8913,19 @@ input[type="number"]::-webkit-outer-spin-button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #26a69a; }
+  color: #26A69A; }
   .add-variantes-row:hover {
     text-decoration: none;
-    color: #26a69a; }
+    color: #26A69A; }
   .add-variantes-row a {
     text-decoration: none;
-    color: #26a69a; }
+    color: #26A69A; }
   .add-variantes-row div {
     display: inline-block;
     line-height: normal;
     vertical-align: middle; }
   .add-variantes-row .add-variant-btn {
-    background: #26a69a;
+    background: #26A69A;
     color: white;
     padding: 0px 6px;
     font-size: 20px; }
@@ -8945,7 +8944,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .variant-accordion-row {
   display: flex;
-  background: #f6f6f6;
+  background: #F6F6F6;
   align-items: center;
   padding: 7px 10px; }
   .variant-accordion-row input {
@@ -9013,14 +9012,14 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .attr-data-row {
   padding: 20px 10px;
-  background: #f9f9f9; }
+  background: #F9F9F9; }
   .attr-data-row label {
     width: 100%; }
 
 .divider {
   height: 1px;
   width: 100%;
-  background: #c7c7c7; }
+  background: #C7C7C7; }
 
 .delete-att-row-heading {
   font-size: 24px;
@@ -9040,7 +9039,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .delete-att-row-text {
   font-weight: 300;
-  color: #a5a5a5;
+  color: #A5A5A5;
   line-height: 18px;
   font-size: 14px; }
 
@@ -9048,12 +9047,12 @@ input[type="number"]::-webkit-outer-spin-button {
   padding: 0px 20px; }
 
 body .ui-radiobutton .ui-radiobutton-box.ui-state-active {
-  border-color: #26a69a !important;
-  background-color: #26a69a !important;
+  border-color: #26A69A !important;
+  background-color: #26A69A !important;
   color: #ffffff !important; }
   body .ui-radiobutton .ui-radiobutton-box.ui-state-active:hover {
-    border-color: #26a69a !important;
-    background-color: #26a69a !important;
+    border-color: #26A69A !important;
+    background-color: #26A69A !important;
     color: #ffffff !important; }
 
 body .ui-chips > ul.ui-inputtext {
@@ -9077,146 +9076,6 @@ body .ui-chips > ul.ui-inputtext .ui-chips-token {
   .add-barcode-container div:first-child {
     flex: 1;
     margin-right: 20px; }
-
-.flex-grow-parent {
-  flex-grow: 1;
-  height: 100%; }
-
-.register-page-container {
-  width: 90%; }
-  .register-page-container .nav-tabs {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px; }
-  .register-page-container .nav-item {
-    border-bottom: 2px solid #78909c; }
-
-.register-current-payment button {
-  color: #6F6F6F;
-  width: 100%;
-  text-decoration: none; }
-  .register-current-payment button:hover {
-    color: #6F6F6F; }
-
-.register-payment-row {
-  display: flex;
-  align-items: center; }
-  .register-payment-row span {
-    color: #6F6F6F;
-    font-size: 12px;
-    font-weight: bold;
-    position: relative;
-    top: -9px; }
-  .register-payment-row .payment-product-heading {
-    flex: 1;
-    text-align: left;
-    margin-left: 10px;
-    margin-right: 20px; }
-    .register-payment-row .payment-product-heading div:first-child {
-      color: #6F6F6F;
-      font-size: 16px;
-      text-transform: capitalize; }
-    .register-payment-row .payment-product-heading div:last-child {
-      color: #6F6F6F;
-      font-weight: 300;
-      font-size: 12px; }
-
-.right-payment-upper-section {
-  flex-grow: 1; }
-
-.payment-product-price {
-  color: #6F6F6F;
-  font-size: 16px; }
-
-.register-page-wrapper {
-  display: flex; }
-
-.register-page-left-col {
-  flex: 1;
-  justify-content: center;
-  display: flex;
-  flex-direction: column; }
-
-.register-page-right-col {
-  width: 320px;
-  background: white;
-  height: 100%;
-  display: flex;
-  flex-direction: column; }
-
-.register-page-search-row {
-  display: flex; }
-  .register-page-search-row .search-field {
-    flex: 1; }
-
-.register-page-right-col .card {
-  border-radius: 0px;
-  border-left: 0px;
-  border-right: 0px;
-  border-bottom: 0px; }
-
-.register-page-right-col .card:last-child {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.125); }
-
-.register-page {
-  justify-content: start;
-  margin-top: 40px; }
-  .register-page .right-column-menu-item {
-    flex-basis: auto;
-    margin-right: 15px;
-    flex: 1;
-    max-width: 155px; }
-  .register-page .right-column-menu-item:last-child {
-    margin-right: 0px; }
-
-.walk-in-customer select {
-  margin-top: 0;
-  width: 235px;
-  margin-left: 20px; }
-
-.no-border {
-  border: 0px; }
-
-.no-bg {
-  background: none; }
-
-.payment-details-row {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 18px;
-  border-bottom: 1px solid #D6D6D6; }
-
-.payment-detail-heading {
-  flex: 1;
-  color: #6F6F6F; }
-
-.payment-detail-heading-link {
-  flex: 1;
-  color: #03A9F4; }
-
-.payment-amount {
-  flex: 1;
-  color: #6F6F6F;
-  text-align: right; }
-
-.paynow-row {
-  background: #23AFA2;
-  display: flex;
-  justify-content: space-between;
-  padding: 25px 18px;
-  border-bottom: 1px solid #D6D6D6; }
-
-.paynow-heading {
-  flex: 1;
-  color: white;
-  font-weight: bold;
-  text-transform: uppercase; }
-
-.paynow-amount {
-  flex: 1;
-  color: white;
-  text-align: right;
-  font-weight: bold; }
 
 @media only screen and (max-width: 767px) {
   .sidemenu-bg {
@@ -9276,58 +9135,6 @@ body .ui-chips > ul.ui-inputtext .ui-chips-token {
 .light-theme .dropdown-item:hover {
   background-color: #26A69A !important;
   color: white !important; }
-
-#slide-menu {
-  position: fixed;
-  top: 50px;
-  left: -100px;
-  bottom: 0;
-  display: block;
-  float: left;
-  width: 100%;
-  height: 100%;
-  -moz-transition: all 300ms;
-  -webkit-transition: all 300ms;
-  transition: all 300ms; }
-
-body.menu-active #slide-menu {
-  left: 0px; }
-
-#content {
-  position: fixed;
-  top: 50px;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  padding: 60px;
-  overflow: scroll;
-  background: #fcfeff;
-  border-radius: 0;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -moz-transition: all 300ms;
-  -webkit-transition: all 300ms;
-  transition: all 300ms; }
-
-#content div.menu-trigger {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  width: 36px;
-  height: 36px;
-  cursor: pointer;
-  border-radius: 5px;
-  -moz-transition: all 300ms;
-  -webkit-transition: all 300ms;
-  transition: all 300ms; }
-
-body.menu-active #content {
-  left: 16.6666666667%;
-  width: calc(100% - 16.6666666667%); }
-
-body.menu-active #content .menu-trigger {
-  left: 16.6666666667%; }
 
 /*
 Template Name: Admin Template
@@ -9455,4 +9262,4 @@ File: scss
     display: flex;
     flex-direction: column; } }
 
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=style.css.map */

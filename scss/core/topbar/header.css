@@ -1,7 +1,7 @@
 /*
 Error: Undefined variable: "$danger".
-        on line 16 of G:/My Projects/AplosBiz/github/Abiz/scss/core/topbar/notify.scss
-        from line 2 of G:\My Projects\AplosBiz\github\Abiz\scss\core\topbar\header.scss
+        on line 16 of F:/Talha/Aplosbiz/html/github/scss/core/topbar/notify.scss
+        from line 2 of F:\Talha\Aplosbiz\html\github\scss\core\topbar\header.scss
 
 11:   transition: $transitions;
 12:   //box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.05);
@@ -16,8 +16,8 @@ Error: Undefined variable: "$danger".
 21:     .dropdown-toggle::after {
 
 Backtrace:
-G:/My Projects/AplosBiz/github/Abiz/scss/core/topbar/notify.scss:16
-G:\My Projects\AplosBiz\github\Abiz\scss\core\topbar\header.scss:2
+F:/Talha/Aplosbiz/html/github/scss/core/topbar/notify.scss:16
+F:\Talha\Aplosbiz\html\github\scss\core\topbar\header.scss:2
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
@@ -92,4 +92,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$danger\".\A         on line 16 of G:/My Projects/AplosBiz/github/Abiz/scss/core/topbar/notify.scss\A         from line 2 of G:\My Projects\AplosBiz\github\Abiz\scss\core\topbar\header.scss\A \A 11:   transition: $transitions;\A 12:   //box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.05);\A 13:   background: $topbar;\A 14:   height: $topbar-height;\A 15:   .navbar-collapse {\A 16:     padding: 0px 10px 0 0;\A 17:   }\A 18:   .top-navbar {\A 19:     min-height: $topbar-height;\A 20:     padding: 0px;\A 21:     .dropdown-toggle::after {"; }
+  content: "Error: Undefined variable: \"$danger\".\A         on line 16 of F:/Talha/Aplosbiz/html/github/scss/core/topbar/notify.scss\A         from line 2 of F:\Talha\Aplosbiz\html\github\scss\core\topbar\header.scss\A \A 11:   transition: $transitions;\A 12:   //box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.05);\A 13:   background: $topbar;\A 14:   height: $topbar-height;\A 15:   .navbar-collapse {\A 16:     padding: 0px 10px 0 0;\A 17:   }\A 18:   .top-navbar {\A 19:     min-height: $topbar-height;\A 20:     padding: 0px;\A 21:     .dropdown-toggle::after {"; }

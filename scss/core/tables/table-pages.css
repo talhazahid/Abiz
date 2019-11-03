@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$themecolor".
-        on line 88 of G:\My Projects\AplosBiz\github\Abiz\scss\core\tables\table-pages.scss
+        on line 88 of F:\Talha\Aplosbiz\html\github\scss\core\tables\table-pages.scss
 
 83:     border: 1px solid #ddd;
 84: }
@@ -15,7 +15,7 @@ Error: Undefined variable: "$themecolor".
 93:     background-color: $themecolor;
 
 Backtrace:
-G:\My Projects\AplosBiz\github\Abiz\scss\core\tables\table-pages.scss:88
+F:\Talha\Aplosbiz\html\github\scss\core\tables\table-pages.scss:88
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$themecolor\".\A         on line 88 of G:\My Projects\AplosBiz\github\Abiz\scss\core\tables\table-pages.scss\A \A 83:     border: 1px solid #ddd;\A 84: }\A 85: \A 86: .jsgrid-pager-page a:hover,\A 87: .jsgrid-pager-nav-button a:hover {\A 88:     background-color: $themecolor;\A 89:     color: $white;\A 90: }\A 91: \A 92: .jsgrid-pager-current-page {\A 93:     background-color: $themecolor;"; }
+  content: "Error: Undefined variable: \"$themecolor\".\A         on line 88 of F:\Talha\Aplosbiz\html\github\scss\core\tables\table-pages.scss\A \A 83:     border: 1px solid #ddd;\A 84: }\A 85: \A 86: .jsgrid-pager-page a:hover,\A 87: .jsgrid-pager-nav-button a:hover {\A 88:     background-color: $themecolor;\A 89:     color: $white;\A 90: }\A 91: \A 92: .jsgrid-pager-current-page {\A 93:     background-color: $themecolor;"; }
