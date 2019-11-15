@@ -55,14 +55,28 @@ File: scss
  
 @media only screen and (min-width: 768px) and (max-width: 1023px)  {
 
-    .right-column-menu-item {
 
-        flex-basis: 160px;
-
-       
-  
+    .light-theme .sidemenu-bg svg {
+        margin-right: 10px;
+        width: 22px;
     }
 
+
+
+    // .right-column-menu-item {
+
+    //     flex-basis: 160px;  
+  
+    // }
+
+
+
+    .light-theme .sidemenu .active a {
+        padding: 15px 5px;
+    }
+    .light-theme .sidemenu .active {
+        border-left: 2px solid #1DD1A1;
+    }
 
 
     .sidemenu li a {
@@ -207,6 +221,42 @@ footer ul li a {
     .login-split-border:after {
         display: none;        
       }
+
+      .register-page-right-col {
+        width: 250px;
+        background: white;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        border-left: 1px solid rgba(0, 0, 0, 0.125);
+
+
+        .btn {
+            padding: 10px 10px;
+
+        }
+
+    }
+
+
+
+    .right-content-items-column {
+
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+        grid-gap: 20px;
+
+
+    }
+    .register-page .right-column-menu-item {
+    margin-right: 0px;      
+     
+    }
+
+
+
+
+
 
       
 }
