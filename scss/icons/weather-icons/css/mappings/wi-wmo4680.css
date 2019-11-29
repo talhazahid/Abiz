@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$wi-css-prefix".
-        on line 1 of F:\Talha\Aplosbiz\html\github\scss\icons\weather-icons\sass\mappings\wi-wmo4680.scss
+        on line 1 of D:\Talha\Aplosbiz\html\github\scss\icons\weather-icons\sass\mappings\wi-wmo4680.scss
 
 1: .#{$wi-css-prefix}-wmo4680-0:before,
 2: .#{$wi-css-prefix}-wmo4680-00:before       { content: $thermometer           ; }
@@ -10,7 +10,7 @@ Error: Undefined variable: "$wi-css-prefix".
 6: .#{$wi-css-prefix}-wmo4680-02:before       { content: $thermometer           ; }
 
 Backtrace:
-F:\Talha\Aplosbiz\html\github\scss\icons\weather-icons\sass\mappings\wi-wmo4680.scss:1
+D:\Talha\Aplosbiz\html\github\scss\icons\weather-icons\sass\mappings\wi-wmo4680.scss:1
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/interpolation.rb:170:in `_perform'
@@ -52,4 +52,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$wi-css-prefix\".\A         on line 1 of F:\Talha\Aplosbiz\html\github\scss\icons\weather-icons\sass\mappings\wi-wmo4680.scss\A \A 1: .#{$wi-css-prefix}-wmo4680-0:before,\A 2: .#{$wi-css-prefix}-wmo4680-00:before       { content: $thermometer           ; }\A 3: .#{$wi-css-prefix}-wmo4680-1:before,\A 4: .#{$wi-css-prefix}-wmo4680-01:before       { content: $cloudy                ; }\A 5: .#{$wi-css-prefix}-wmo4680-2:before,\A 6: .#{$wi-css-prefix}-wmo4680-02:before       { content: $thermometer           ; }"; }
+  content: "Error: Undefined variable: \"$wi-css-prefix\".\A         on line 1 of D:\Talha\Aplosbiz\html\github\scss\icons\weather-icons\sass\mappings\wi-wmo4680.scss\A \A 1: .#{$wi-css-prefix}-wmo4680-0:before,\A 2: .#{$wi-css-prefix}-wmo4680-00:before       { content: $thermometer           ; }\A 3: .#{$wi-css-prefix}-wmo4680-1:before,\A 4: .#{$wi-css-prefix}-wmo4680-01:before       { content: $cloudy                ; }\A 5: .#{$wi-css-prefix}-wmo4680-2:before,\A 6: .#{$wi-css-prefix}-wmo4680-02:before       { content: $thermometer           ; }"; }

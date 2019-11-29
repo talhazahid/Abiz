@@ -56,6 +56,22 @@ File: scss
 @media only screen and (min-width: 768px) and (max-width: 1023px)  {
 
 
+
+    .login-bg-wrapper img {
+        width: 160px;
+        margin-bottom: 30px;
+    }
+
+
+    .login-box h2 {
+        color: #fff;
+        font-size: 40px;
+        text-align: center;
+        font-weight: 300;
+        margin-bottom: 15px;
+    }
+
+
     .light-theme .sidemenu-bg svg {
         margin-right: 10px;
         width: 22px;
@@ -72,7 +88,7 @@ File: scss
 
 
     .light-theme .sidemenu .active a {
-        padding: 15px 5px;
+        // padding: 15px 5px;
     }
     .light-theme .sidemenu .active {
         border-left: 2px solid #1DD1A1;
@@ -82,7 +98,7 @@ File: scss
     .sidemenu li a {
         text-decoration: none;
         color: white;
-        padding: 15px 10px;
+        // padding: 15px 10px;
         font-size: 13px;
     }
     
@@ -240,7 +256,7 @@ footer ul li a {
 
 
 
-    .right-content-items-column {
+    .grid-menu-items-layout {
 
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
@@ -248,6 +264,7 @@ footer ul li a {
 
 
     }
+    
     .register-page .right-column-menu-item {
     margin-right: 0px;      
      

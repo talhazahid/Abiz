@@ -320,7 +320,7 @@ $animation-fill-color-gray:#878787;
   padding: 4px 23px;
   color: #fff;
   font-size: 13px;
-  border-radius: 0px;
+  border-radius: 5px;
   &:hover {
     color: white;
     background: $hover-theme-btn;
@@ -336,7 +336,7 @@ $animation-fill-color-gray:#878787;
   padding: 6px 23px;
   color: #fff;
   font-size: 13px;
-  border-radius: 0px;
+  border-radius: 5px;
   &:hover {
     color: white;
     background: $hover-theme-btn;
@@ -370,9 +370,10 @@ $animation-fill-color-gray:#878787;
 @mixin uni-btn {
   padding: 10px 28px;
   font-size: 13px;
-  border-radius: 0px;
+  border-radius: 5px;
   border: 0px;
   cursor: pointer;
+  font-weight: 600;
 
   color:white;
 
@@ -383,6 +384,7 @@ $animation-fill-color-gray:#878787;
 @mixin theme-btn {
   background: #26A69A;
   color:white !important;
+  border: 1px solid #26A69A;
   &:hover {
     color: white;
     background: $hover-theme-btn;
@@ -423,7 +425,7 @@ $normal-line-height:20px;
    li a {
      text-decoration: none;
      color: white;
-     padding: 15px 20px;
+     padding: 15px 20px 15px 13px;
      border-bottom: 1px solid #A2A2A2;
      display: flex;
      align-items: center;
@@ -448,7 +450,7 @@ $normal-line-height:20px;
    li a {
      text-decoration: none;
      color: white;
-     padding: 15px 20px;
+     padding: 15px 20px 15px 13px;
      border-bottom: 1px solid #A2A2A2;
      border-top: 1px solid #A2A2A2;
      display: flex;
@@ -459,7 +461,8 @@ $normal-line-height:20px;
      -o-transition:  0.3s ease-in-out;
      transition:  0.3s ease-in-out;
      &:hover {
-      background: #515151;
+      background: #ececec;
+      color: #8D8D8D !important;
     }
   }
 }

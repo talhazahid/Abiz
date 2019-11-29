@@ -1,7 +1,7 @@
 /*
 Error: Undefined mixin 'media-breakpoint-up'.
-        on line 42 of F:\Talha\Aplosbiz\html\github\scss\horizontal\horizontal.scss, in `media-breakpoint-up'
-        from line 42 of F:\Talha\Aplosbiz\html\github\scss\horizontal\horizontal.scss
+        on line 42 of D:\Talha\Aplosbiz\html\github\scss\horizontal\horizontal.scss, in `media-breakpoint-up'
+        from line 42 of D:\Talha\Aplosbiz\html\github\scss\horizontal\horizontal.scss
 
 37: }
 38: /****************************
@@ -16,8 +16,8 @@ Error: Undefined mixin 'media-breakpoint-up'.
 47:         }
 
 Backtrace:
-F:\Talha\Aplosbiz\html\github\scss\horizontal\horizontal.scss:42:in `media-breakpoint-up'
-F:\Talha\Aplosbiz\html\github\scss\horizontal\horizontal.scss:42
+D:\Talha\Aplosbiz\html\github\scss\horizontal\horizontal.scss:42:in `media-breakpoint-up'
+D:\Talha\Aplosbiz\html\github\scss\horizontal\horizontal.scss:42
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:352:in `block in visit_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:98:in `block in with_mixin'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
@@ -55,4 +55,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined mixin 'media-breakpoint-up'.\A         on line 42 of F:\Talha\Aplosbiz\html\github\scss\horizontal\horizontal.scss, in `media-breakpoint-up'\A         from line 42 of F:\Talha\Aplosbiz\html\github\scss\horizontal\horizontal.scss\A \A 37: }\A 38: /****************************\A 39: This is for the horizontal layout\A 40: ***************************/\A 41: \A 42: @include media-breakpoint-up(md) {\A 43:     #main-wrapper[data-layout=\"horizontal\"]{\A 44:         background: $body-bg;\A 45:         .topbar{\A 46:             transition: 0s;\A 47:         }"; }
+  content: "Error: Undefined mixin 'media-breakpoint-up'.\A         on line 42 of D:\Talha\Aplosbiz\html\github\scss\horizontal\horizontal.scss, in `media-breakpoint-up'\A         from line 42 of D:\Talha\Aplosbiz\html\github\scss\horizontal\horizontal.scss\A \A 37: }\A 38: /****************************\A 39: This is for the horizontal layout\A 40: ***************************/\A 41: \A 42: @include media-breakpoint-up(md) {\A 43:     #main-wrapper[data-layout=\"horizontal\"]{\A 44:         background: $body-bg;\A 45:         .topbar{\A 46:             transition: 0s;\A 47:         }"; }

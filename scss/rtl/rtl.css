@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$border-color".
-        on line 82 of F:\Talha\Aplosbiz\html\github\scss\rtl\rtl.scss
+        on line 82 of D:\Talha\Aplosbiz\html\github\scss\rtl\rtl.scss
 
 77:         margin-right: 0px!important;
 78:     }
@@ -15,7 +15,7 @@ Error: Undefined variable: "$border-color".
 87:         border-right: 1px solid $border-color!important;
 
 Backtrace:
-F:\Talha\Aplosbiz\html\github\scss\rtl\rtl.scss:82
+D:\Talha\Aplosbiz\html\github\scss\rtl\rtl.scss:82
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
@@ -77,4 +77,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$border-color\".\A         on line 82 of F:\Talha\Aplosbiz\html\github\scss\rtl\rtl.scss\A \A 77:         margin-right: 0px!important;\A 78:     }\A 79: \A 80:     .border-right {\A 81:         border-right: none!important;\A 82:         border-left: 1px solid $border-color!important;\A 83:     }\A 84: \A 85:     .border-left {\A 86:         border-left: none!important;\A 87:         border-right: 1px solid $border-color!important;"; }
+  content: "Error: Undefined variable: \"$border-color\".\A         on line 82 of D:\Talha\Aplosbiz\html\github\scss\rtl\rtl.scss\A \A 77:         margin-right: 0px!important;\A 78:     }\A 79: \A 80:     .border-right {\A 81:         border-right: none!important;\A 82:         border-left: 1px solid $border-color!important;\A 83:     }\A 84: \A 85:     .border-left {\A 86:         border-left: none!important;\A 87:         border-right: 1px solid $border-color!important;"; }
