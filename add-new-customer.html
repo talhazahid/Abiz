@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en" class="light-theme">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="scss/main.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="js/custom.js"></script>
+  <title>AplosBiz</title>
+</head>
+
+<body>
+  <div class="container-fluid p-0 m-0">
+    <!-- Header Fluid -->
+    <header>
+      <div class="row align-items-center">
+        <div class="col-12 left-header col-md-4 col-lg-5 d-flex align-items-center">
+          <div class="menu-trigger">
+            <img src="images/icon-menu.svg" class="white-svg">
+          </div>
+          <div class="logo-fluid">
+            <img src="images/white-logo.svg" />
+          </div>
+        </div>
+        <div class="col-md-8 col-lg-7 header-right">
+          <button data-toggle="modal" data-target="#exampleModal" class="btn  dashboard-btn-big header-btn">
+            Register
+          </button>
+          <div class="dropdown">
+            <button class="btn switch-store-btn btn-theme-style dropdown-toggle" type="button" id="dropdownMenuButton"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Switch Store
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="btn  btn-theme-style dropdown-toggle bell-btn" type="button" id="bell" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              <img src="images/bell.png" />
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Notification 1</a>
+              <a class="dropdown-item" href="#">Notification 2</a>
+              <a class="dropdown-item" href="#">Notification 3</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="btn  btn-theme-style dropdown-toggle user-profile" type="button" id="user-profile"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="images/profile.png" />
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Profile</a>
+              <a class="dropdown-item" href="#">Settings</a>
+              <a class="dropdown-item" href="#">Logout</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header Fluid -->
+    <div class="container-fluid p-0">
+      <div class="row relative ">
+
+        <div id="slide-menu" class="p-0 sidemenu-bg">
+
+
+          <div class="sidemenu">
+            <ul>
+              <li class="active"><a href="#"> <img src="images/home-ico.svg" class="menu-svg"> <span>Home</span></a></li>
+              <li><a href="#"> <img src="images/sales-ico.svg" class="menu-svg">  <span>Sales</span></a></li>
+              <li><a href="#"> <img src="images/history-ico.svg" class="menu-svg">  <span>History</span></a></li>
+              <li><a href="#"> <img src="images/inventory-ico.svg" class="menu-svg">  <span>Inventory</span></a></li>
+              <li><a href="#"> <img src="images/customers-ico.svg" class="menu-svg">  <span>Customers</span></a></li>
+              <li><a href="#"> <img src="images/repair-ico.svg" class="menu-svg">  <span>Repairs</span></a></li>
+              <li><a href="#"> <img src="images/admin-tools-ico.svg" class="menu-svg"> <span>Admin Tools</span> </a></li>
+            </ul>
+          </div>
+          <div class="sidemenu-bottom-section">
+            <ul>
+              <li><a href="#"> <img src="images/help-ico.svg" class="menu-svg">Help</a></li>
+            </ul>
+            <p>Powered by Aplosbiz ver 1.1v</p>
+          </div>
+        </div>
+
+
+
+        <div class="p-0 section-bg" id="content">
+          <div class="row white-bg">
+            <div class="col-lg-12 p-0">
+              <div class="col-lg-12 p-0">
+                <div class="breadcrumb-row">
+                  <div>
+                    <img src="images/ico-new-product.svg" class="dark-svg">  
+                    <div>
+                        New Product
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="right-content-wrapper">
+                <div class="right-content-items-row">
+                  <div class="right-content-items-column justify-content-center">
+                    <div class="col-lg-12 ">
+                      <div class="flex-box-col ">
+
+                        <div class="white-bg add-customer-box box-depth">
+
+                            <div class="fileds-row-col-three">
+                                <div>
+                                  <span>First Name</span> <span>*</span> <span>(Required)</span>
+                                  <input type="text" class=" theme-input" id="text">                                
+                                </div>
+                                <div>
+                                  <span>Phone</span> <span>*</span> <span>(Required)</span>
+                                  <input type="text" class=" theme-input" id="text">                                
+                                </div>
+                                <div>
+                                  <span>Email Address</span> <span>*</span> <span>(Optional)</span>
+                                  <input type="text" class=" theme-input" id="text">                                
+                                </div>
+                            </div>
+                        </div>
+
+                          
+
+
+
+                                <div class="right-col-full-width-tabs mt-4 custom-tab-form">
+                                    <ul class="nav nav-tabs custom-tab-form" id="myTab" role="tablist">
+                                        <li class="nav-item">
+                                          <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"> <img src="images/tabs-general.svg" class="hover-white">  General</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" id="profile-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><img src="images/tabs-contact.svg" class="hover-white"> Contact</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" id="contact-tab" data-toggle="tab" href="#tags" role="tab" aria-controls="Tags" aria-selected="false"><img src="images/tabs-tags.svg" class="hover-white"> Tags</a>
+                                        </li>
+                                        <li class="nav-item">
+                                          <a class="nav-link" id="custom-tabs" data-toggle="tab" href="#custom-fields" role="tab" aria-controls="contact" aria-selected="false"><img src="images/tabs-customfields.svg" class="hover-white"> Custom Fields</a>
+                                        </li>
+                                      </ul>
+                                      <div class="tab-content box-depth" id="myTabContent">
+                                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                          <div class="row  pt-3 pb-3">
+                                            <div class="col-lg-6">
+                                                <div class="right-side-left-column"> 
+                                              <div class="crud-form-fields">
+                                                  <input type="text" class=" theme-input" id="text" placeholder="First Name">
+                                                  <input type="text" class=" theme-input" id="text" placeholder="Last Name">
+                                                  <input type="text" class=" theme-input" id="text" placeholder="Title">
+                                                  <input type="text" class=" theme-input" id="text" placeholder="Company">
+                                                  <input type="text" class=" theme-input" id="text" placeholder="Company registration number">
+                                                  <input type="text" class=" theme-input" id="text" placeholder="VAT number">
+                                                  <input type="text" class=" theme-input" id="text" placeholder="Birth Date">
+                                              </div>
+                                            </div>
+                                             </div>
+                                            <div class="col-lg-6">
+                                                <div class="right-side-right-column">
+                                                    <div class="crud-form-fields">
+                                                        <input type="text" class=" theme-input" id="text" placeholder="Address">
+                                                        <input type="text" class=" theme-input" id="text" placeholder="Address 2">
+                                                        <input type="text" class=" theme-input" id="text" placeholder="City">
+                                                        <input type="text" class=" theme-input" id="text" placeholder="Country">
+                                                        <input type="text" class=" theme-input" id="text" placeholder="Region registration number">
+                                                        <input type="text" class=" theme-input" id="text" placeholder="Postcode">
+                                                    </div>
+                                                  </div>
+                                            </div>
+                                          </div>
+                                              </div>
+                                              <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                                  <div class="row  pt-3 pb-3  d-flex justify-content-center">
+                                                      <div class="product-page-box ">
+                                                    
+                                                           <div class="crud-form-fields">
+                                                            <input type="text" class=" theme-input" id="text" placeholder="First Name">
+                                                            <input type="text" class=" theme-input" id="text" placeholder="Last Name">
+                                                            <input type="text" class=" theme-input" id="text" placeholder="Title">
+                                                            <input type="text" class=" theme-input" id="text" placeholder="Company">
+                                                            <input type="text" class=" theme-input" id="text" placeholder="Company registration number">
+                                                            <input type="text" class=" theme-input" id="text" placeholder="VAT number">
+
+
+                                                            <textarea name="text" class=" mt-3  notes-field" id="comment" placeholder="Comment"></textarea>
+
+
+                                                            <input type="text" class=" theme-input" id="text" placeholder="Birth Date">
+                                                        </div>
+                                                     
+                                                       </div>
+                                                 
+                                                    </div>
+                                              </div>
+                                              <div class="tab-pane fade" id="tags" role="tabpanel" aria-labelledby="Tags-tab">
+                                                  <div class="row  pt-3 pb-3">
+                                                      <div class="col-lg-6">
+                                                          <div class="right-side-left-column"> 
+                                                        <div class="crud-form-fields">
+                                                            <input type="text" class=" theme-input" id="text" placeholder="First Name">
+                                                            <input type="text" class=" theme-input" id="text" placeholder="Last Name">
+                                                            <input type="text" class=" theme-input" id="text" placeholder="Title">
+                                                            <input type="text" class=" theme-input" id="text" placeholder="Company">
+                                                            <input type="text" class=" theme-input" id="text" placeholder="Company registration number">
+                                                            <input type="text" class=" theme-input" id="text" placeholder="VAT number">
+                                                            <input type="text" class=" theme-input" id="text" placeholder="Birth Date">
+                                                        </div>
+                                                      </div>
+                                                       </div>
+                                                      <div class="col-lg-6">
+                                                          <div class="right-side-right-column">
+                                                              <div class="crud-form-fields">
+                                                                  <input type="text" class=" theme-input" id="text" placeholder="Address">
+                                                                  <input type="text" class=" theme-input" id="text" placeholder="Address 2">
+                                                                  <input type="text" class=" theme-input" id="text" placeholder="City">
+                                                                  <input type="text" class=" theme-input" id="text" placeholder="Country">
+                                                                  <input type="text" class=" theme-input" id="text" placeholder="Region registration number">
+                                                                  <input type="text" class=" theme-input" id="text" placeholder="Postcode">
+                                                              </div>
+                                                            </div>
+                                                      </div>
+                                                    </div>
+                                              </div>
+                                              <div class="tab-pane fade" id="custom-fields" role="tabpanel" aria-labelledby="Tags-tab">
+                                                  <div class="row  pt-3 pb-3">
+                                                      <div class="col-lg-6">
+                                                          <div class="right-side-left-column"> 
+                                                        <div class="crud-form-fields">
+                                                            <input type="text" class=" theme-input" id="text" placeholder="First Name">
+                                                            <input type="text" class=" theme-input" id="text" placeholder="Last Name">
+                                                            <input type="text" class=" theme-input" id="text" placeholder="Title">
+                                                            <input type="text" class=" theme-input" id="text" placeholder="Company">
+                                                            <input type="text" class=" theme-input" id="text" placeholder="Company registration number">
+                                                            <input type="text" class=" theme-input" id="text" placeholder="VAT number">
+                                                            <input type="text" class=" theme-input" id="text" placeholder="Birth Date">
+                                                        </div>
+                                                      </div>
+                                                       </div>
+                                                      <div class="col-lg-6">
+                                                          <div class="right-side-right-column">
+                                                              <div class="crud-form-fields">
+                                                                  <input type="text" class=" theme-input" id="text" placeholder="Address">
+                                                                  <input type="text" class=" theme-input" id="text" placeholder="Address 2">
+                                                                  <input type="text" class=" theme-input" id="text" placeholder="City">
+                                                                  <input type="text" class=" theme-input" id="text" placeholder="Country">
+                                                                  <input type="text" class=" theme-input" id="text" placeholder="Region registration number">
+                                                                  <input type="text" class=" theme-input" id="text" placeholder="Postcode">
+                                                              </div>
+                                                            </div>
+                                                      </div>
+                                                    </div>
+                                              </div>
+                                        </div>
+                                      </div>
+
+
+
+                                </div>
+                          </div>
+                  </div>
+                  <div class="row">
+                    <div class="mx-auto mt-4 mb-1 cancel-save-btn-row">
+                      <button type="button" class="btn btn-outline-secondary">
+                        CANCEL
+                      </button>
+                      <button type="button" class="btn theme-btn ">
+                        CREATE REGISTER
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <!-- edit modal -->
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-auto-width" role="document">
+      <div class="modal-content model-content-auto-width">
+        <div class="modal-body no-spacing">
+
+
+
+          <div class="row">
+            <!-- Aqib-->
+            <div class="col-lg-5 col-md-6 col-xl-4 mx-auto white-bg p-0">
+
+              <div class="row mt-3 mb-3">
+
+
+                <div class="col">
+                    <div class="row right-payment-modal-top-row">
+
+                        <div class="heading col-md-4 col-lg-4">Edit Item</div>
+
+
+                        <div class="col-lg-8 col-md-8 text-right p-0">
+
+                            <button type="button" class="btn  close-batch" data-dismiss="modal">
+                             REMOVE
+                             </button>
+                        </div>
+                       
+
+                    </div>
+                </div>
+                  <div class="col-lg-12  mx-auto modal-bg-form">
+
+
+               
+                      
+        
+                          
+                      <div class="row right-payment-modal-row">
+                        <div class="col-lg-4 col-md-4  p-0">Name</div>
+                         <div class="col-lg-8  col-md-8 p-0">
+                          <label>    
+                            <input type="text" class="full-width theme-input" id="text" placeholder="">
+                          </label>                                    
+                        </div>       
+                      </div>
+                      <div class="row right-payment-modal-row">
+                        <div class="col-lg-4  col-md-4  p-0">Quantity</div>
+                         <div class="col-lg-8  col-md-8 p-0">
+                          <label class="calculator-field">    
+                            <input type="text" class="full-width theme-input" id="text" placeholder="">
+                          </label>                                    
+                        </div>       
+                      </div>
+                      <div class="row right-payment-modal-row">
+                        <div class="col-lg-4 col-md-4  p-0">Selling</div>
+                         <div class="col-lg-8 col-md-8 p-0">
+                            <label class="calculator-field">  
+                            <input type="text" class="full-width theme-input" id="text" placeholder="">
+                          </label>                                    
+                        </div>       
+                      </div>
+                      <div class="row right-payment-modal-row">
+                        <div class="col-lg-4 col-md-4  p-0">Cost Price</div>
+                         <div class="col-lg-8 col-md-8 p-0">
+                            <label class="calculator-field">  
+                            <input type="text" class="full-width theme-input" id="text" placeholder="">
+                          </label>                                    
+                        </div>       
+                      </div>
+
+
+                      <div class="row right-payment-modal-row">
+                        <div class="col-lg-4  col-md-4  p-0">Discount</div>
+                         <div class="col-lg-8  col-md-8 p-0">
+                            <label class="calculator-field">   
+                            <input type="text" class="full-width theme-input" id="text" placeholder="">
+                          </label>                                    
+                        </div>       
+                      </div>
+                 
+    
+                    </div>
+
+                    <div class="register-payment-modal-bottom-box">
+
+                 
+                          <div class="divider"></div>
+
+                          <div class="row right-payment-modal-row">
+    
+                            <div class="col-lg-12 register-modal-row-heading p-0">
+                              Tax
+                            </div>
+    
+                            <div class="col-lg-4  col-md-4  p-0 register-modal-checkbox-container">
+                               
+    
+                              <div class="mr-2">
+                                <input type="checkbox" class="" id="exampleCheck1" style="-webkit-appearance: checkbox;"> 
+                              </div>
+    
+                              <div>
+                                Sales Tax
+                              </div>
+                            
+                             
+                            </div>
+    
+    
+                             <div class="col-lg-8  col-md-8 p-0 modal-tax-data">
+                             17.88$                                 
+                            </div>   
+    
+                          </div>
+    
+    
+                          <div class="divider"></div>
+    
+                          <div class="row right-payment-modal-row">
+    
+                            <div class="col-lg-12 register-modal-row-heading p-0">
+                              Discount
+                            </div>
+    
+                            <div class="col-lg-4  col-md-4  p-0 register-modal-checkbox-container">
+                               
+    
+                              <div class="mr-2">
+                                <input type="checkbox" class="" id="exampleCheck1" style="-webkit-appearance: checkbox;"> 
+                              </div>
+    
+                              <div>
+                                40% Off
+                              </div>
+                            
+                             
+                            </div>
+    
+    
+                             <div class="col-lg-8  col-md-8 p-0 modal-tax-data">
+                             170.88$                                 
+                            </div>   
+    
+                          </div>
+
+
+                    
+                 
+
+
+                    </div>
+
+
+
+              </div>
+
+              <div class="modal-footer pt-0 modal-footer-no-border">
+
+                <div class="mx-auto  mb-1 cancel-save-btn-row">
+                  <button type="button" class="btn btn-outline-secondary">
+                    CANCEL
+                  </button>
+                  <button type="button" class="btn theme-btn ">
+                    SAVE CHANGES
+                  </button>
+                </div>
+
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+  </div>
+  <script>
+    $("#myModal").on("shown.bs.modal", function () {
+      $("#myInput").trigger("focus");
+    });
+
+
+
+
+
+    (function () {
+      var $body = document.body
+        , $menu_trigger = $body.getElementsByClassName('menu-trigger')[0];
+
+      if (typeof $menu_trigger !== 'undefined') {
+        $menu_trigger.addEventListener('click', function () {
+          $body.className = ($body.className == 'menu-active') ? '' : 'menu-active';
+        });
+      }
+
+    }).call(this);
+  </script>
+</body>
+
+</html>

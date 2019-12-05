@@ -1,5 +1,5 @@
 .light-theme header {
-  background: #455A64;
+  background: #455a64;
   color: white; }
 .light-theme .bell-btn {
   display: none; }
@@ -9,6 +9,9 @@
   font-size: 13px;
   color: white;
   margin: 0px 15px 0; }
+.light-theme .show .switch-store-btn {
+  background: #f1f1f1;
+  color: #4e4e4e; }
 .light-theme .dashboard-btn-big {
   margin-right: 5px; }
 .light-theme .user-profile img {
@@ -27,7 +30,7 @@
   margin-right: 10px;
   width: 25px; }
 .light-theme .sidemenu-bottom-section li a {
-  color: #8D8D8D; }
+  color: #8d8d8d; }
   .light-theme .sidemenu-bottom-section li a:hover {
     color: white; }
 .light-theme .sidemenu-bottom-section p {
@@ -35,35 +38,36 @@
 .light-theme .sidemenu li a:hover {
   background: #d6d6d6; }
 .light-theme .sidemenu li a {
-  position: relative; }
+  position: relative;
+  transition: all 0.3s ease; }
   .light-theme .sidemenu li a span {
     visibility: hidden;
     opacity: 0;
-    transition: opacity .25s linear; }
+    transition: opacity 0.25s linear; }
 .light-theme .menu-active .sidemenu li a span {
   visibility: visible;
   opacity: 1;
-  transition: opacity .25s linear; }
+  transition: opacity 0.25s linear; }
 .light-theme .sidemenu li.active {
   position: relative; }
   .light-theme .sidemenu li.active::before {
     display: block;
-    content: '';
-    background: #1DD1A1;
+    content: "";
+    background: #1dd1a1;
     height: 100%;
-    width: 3px;
+    width: 4px;
     position: absolute; }
 .light-theme .sidemenu li {
-  border-left: 0px solid  #FCFCFC; }
+  border-left: 0px solid #fcfcfc; }
 .light-theme .table-striped tbody tr:nth-of-type(odd) {
   background-color: rgba(154, 154, 154, 0.05); }
 .light-theme .dropdown-toggle .dropdown-item {
   font-weight: 300; }
 .light-theme .dropdown-item:active {
-  background-color: #26A69A !important;
+  background-color: #26a69a !important;
   color: white !important; }
 .light-theme .dropdown-item:hover {
-  background-color: #26A69A !important;
+  background-color: #26a69a !important;
   color: white !important; }
 
 #slide-menu {
@@ -124,11 +128,11 @@ body.menu-active #content .menu-trigger {
 .sidemenu-bottom-section p {
   visibility: hidden;
   opacity: 0;
-  transition: opacity .25s linear; }
+  transition: opacity 0.25s linear; }
 
 body.menu-active .sidemenu-bottom-section p {
   visibility: visible;
   opacity: 1;
-  transition: opacity .25s linear; }
+  transition: opacity 0.25s linear; }
 
 /*# sourceMappingURL=skins.css.map */

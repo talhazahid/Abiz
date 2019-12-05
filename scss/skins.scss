@@ -11,8 +11,13 @@
     padding: 6px 10px;
     font-size: 13px;
     color: white;
-
     margin: 0px 15px 0;
+
+  }
+
+  .show  .switch-store-btn {
+    background: #f1f1f1;
+    color: #4e4e4e;
   }
 
   .dashboard-btn-big {
@@ -62,6 +67,7 @@
 
   .sidemenu li a {
     position: relative;
+    transition: all 0.3s ease;
 
     span {
       visibility: hidden;
@@ -108,7 +114,7 @@
       content: "";
       background: #1dd1a1;
       height: 100%;
-      width: 3px;
+      width: 4px;
       position: absolute;
     }
   }

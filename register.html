@@ -22,7 +22,7 @@
     <!-- Header Fluid -->
     <header>
       <div class="row align-items-center">
-        <div class="col-12 left-header col-md-4 col-lg-5 d-flex align-items-center">
+        <div class="col-12 left-header col-md-4 col-lg-2 d-flex align-items-center">
           <div class="menu-trigger">
             <img src="images/icon-menu.svg" class="white-svg">
           </div>
@@ -30,43 +30,90 @@
             <img src="images/white-logo.svg" />
           </div>
         </div>
-        <div class="col-md-8 col-lg-7 header-right">
-          <button data-toggle="modal" data-target="#exampleModal" class="btn  dashboard-btn-big header-btn">
-            Register
-          </button>
-          <div class="dropdown">
-            <button class="btn switch-store-btn btn-theme-style dropdown-toggle" type="button" id="dropdownMenuButton"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Switch Store
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
+        <div class="col-md-8 col-lg-10 header-right d-flex">
+
+          <div class="shortcut-menu-box">
+
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="images/ico-new-product.svg" class="white-svg">
+                  Register
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                    <img src="images/ico-new-product.svg" class="white-svg">
+                  Sales
+                </a>
+              </li>
+                
+             
+            </ul>
+
           </div>
-          <div class="dropdown">
-            <button class="btn  btn-theme-style dropdown-toggle bell-btn" type="button" id="bell" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              <img src="images/bell.png" />
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Notification 1</a>
-              <a class="dropdown-item" href="#">Notification 2</a>
-              <a class="dropdown-item" href="#">Notification 3</a>
+
+
+          <div class="right-header-options">
+            <div class="placement-search-box">
+              <div>
+                <a href="#" class="header-placement">
+                  <img src="images/icon-thumbtack.svg">
+                </a>
+              </div>
+              <div>
+                  <a href="#" class="header-search"  data-toggle="modal" data-target="#search-modal">
+                      <img src="images/icon-header-search.svg">
+                    </a>
+              </div>
             </div>
-          </div>
-          <div class="dropdown">
-            <button class="btn  btn-theme-style dropdown-toggle user-profile" type="button" id="user-profile"
-              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <img src="images/profile.png" />
-            </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <a class="dropdown-item" href="#">Profile</a>
-              <a class="dropdown-item" href="#">Settings</a>
-              <a class="dropdown-item" href="#">Logout</a>
+
+            <div class="header-btns-box">
+                <button data-toggle="modal" data-target="#exampleModal" class="btn  dashboard-btn-big header-btn">
+                    Register
+                  </button>
+                  <div class="dropdown">
+                    <button class="btn switch-store-btn btn-theme-style dropdown-toggle" type="button" id="dropdownMenuButton"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Switch Store
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <button class="btn  btn-theme-style dropdown-toggle bell-btn" type="button" id="bell" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">
+                      <img src="images/bell.png" />
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Notification 1</a>
+                      <a class="dropdown-item" href="#">Notification 2</a>
+                      <a class="dropdown-item" href="#">Notification 3</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <button class="btn  btn-theme-style dropdown-toggle user-profile" type="button" id="user-profile"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <img src="images/profile.png" />
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Profile</a>
+                      <a class="dropdown-item" href="#">Settings</a>
+                      <a class="dropdown-item" href="#">Logout</a>
+                    </div>
+                  </div>
             </div>
+
+
           </div>
+
+
+
+
+          
         </div>
       </div>
     </header>
@@ -79,8 +126,27 @@
 
           <div class="sidemenu">
             <ul>
-              <li class="active"><a href="#"> <img src="images/home-ico.svg" class="menu-svg"> <span>Home</span></a></li>
-              <li><a href="#"> <img src="images/sales-ico.svg" class="menu-svg">  <span>Sales</span></a></li>
+              <li class="active tooltip-parent">  <!-- Tooltip Parent Class add hogi -->
+                <a href="#"> 
+                <img src="images/home-ico.svg" class="menu-svg"> 
+                <span>Home</span>
+              </a>
+
+              
+                <!-- Extra menu item class wrapper-->
+                <div class="menu-hover-tooltip">  
+                  <span>Home</span>
+                </div>
+                <!-- Extra menu item class wrapper-->
+
+
+              </li>
+              <li class=" tooltip-parent"><a href="#"> <img src="images/sales-ico.svg" class="menu-svg">  <span>Sales</span></a>
+                <div class="menu-hover-tooltip">
+                  <span>Sales</span>
+                </div>
+              
+              </li>
               <li><a href="#"> <img src="images/history-ico.svg" class="menu-svg">  <span>History</span></a></li>
               <li><a href="#"> <img src="images/inventory-ico.svg" class="menu-svg">  <span>Inventory</span></a></li>
               <li><a href="#"> <img src="images/customers-ico.svg" class="menu-svg">  <span>Customers</span></a></li>
@@ -570,7 +636,25 @@
   </div>
 
 
+<!-- Search Modal -->
+<div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-search-dialog" role="document">
+      <div class="modal-content">
+       
+          <div class="row  align-items-center ">
+              <div class="col-lg-7 col-xl-5 mx-auto">
+                <div class=" search-modal-box">
+                    <input type="text" class="full-width theme-input" id="text" placeholder="Search">
+                    <button></button>
+                </div>
+              </div>
+          </div>
 
+
+
+      </div>
+    </div>
+  </div>
 
 
 
