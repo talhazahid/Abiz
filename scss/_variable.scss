@@ -462,7 +462,11 @@ $normal-line-height:20px;
      transition:  0.3s ease-in-out;
      &:hover {
       background: #d6d6d6;
-      color: #8D8D8D !important;
+      color: #8D8D8D !important;      
+    }
+     &:focus {
+      background: #d6d6d6;
+      color: #8D8D8D !important;      
     }
   }
 }

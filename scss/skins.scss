@@ -64,6 +64,9 @@
   .sidemenu li a:hover {
     background: #d6d6d6;
   }
+  .sidemenu li a:focus {
+    background: #d6d6d6;
+  }
 
   .sidemenu li a {
     position: relative;
@@ -84,6 +87,10 @@
     }
   }
 
+
+  .menu-hover-tooltip span {
+    opacity: 1 !important;
+  }
   // .sidemenu li:nth-child(1) a:nth-child(1) {
   //     border-left: 4px solid #1DD1A1;
   // }
@@ -169,12 +176,12 @@ body.menu-active #slide-menu {
   height: 100%;
   padding: 60px;
   // overflow: scroll;
-  background: #fcfeff;
+  background: #F0F4F4;
   border-radius: 0;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  overflow-x: hidden;
+  overflow: hidden;
   -moz-transition: all 300ms;
   -webkit-transition: all 300ms;
   transition: all 300ms;
@@ -221,3 +228,7 @@ body.menu-active {
     transition: opacity 0.25s linear;
   }
 }
+
+
+
+

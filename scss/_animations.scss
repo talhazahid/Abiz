@@ -56,3 +56,13 @@
   
  
   
+
+
+.modal.show .modal-search-dialog {
+    transform: translate(0, 0);
+}
+
+.modal.fade .modal-search-dialog {
+    transition: transform 0.3s ease-out;
+    transform: translate(0, -25%);
+}
