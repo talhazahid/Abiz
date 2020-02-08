@@ -139,4 +139,9 @@ body.menu-active .sidemenu-bottom-section p {
   opacity: 1;
   transition: opacity 0.25s linear; }
 
+:focus {
+  outline-color: #26a69a !important;
+  outline-style: auto;
+  outline-width: 1px; }
+
 /*# sourceMappingURL=skins.css.map */
