@@ -239,6 +239,8 @@ a:hover {
   padding: 10px !important;
   border: 0px;
   height: auto !important;
+  border-radius: 6px;
+
 }
 .login-form button {
   background: #26a69a;
@@ -306,6 +308,7 @@ a:hover {
   @include select-store-box-link;
   position: relative;
   text-transform: uppercase;
+  border-radius: 6px;
 }
 .select-store-box .form-check {
   position: absolute;
@@ -934,9 +937,15 @@ aside {
 }
 .breadcrumb-row {
   border-top: 3px solid #696b6a;
-  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14);
-  -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14);
+  // -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14);
+  // -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14);
+  // box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14);
+
+  background-color: #fff;
+ 
+  -webkit-box-shadow: 0 3px 10px rgba(62,85,120,.07);
+  -moz-box-shadow: 0 3px 10px rgba(62,85,120,.07);
+  box-shadow: 0 3px 10px rgba(62,85,120,.07);
   padding: 11px 20px 11px;
   color: #919191;
   font-size: 20px;
@@ -1028,15 +1037,17 @@ aside {
   align-items: center;
   background: white;
   // border: 1px solid #acadae;
-  border-top: 10px solid #78909c;
-  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.34);
-  -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.34);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.34);
+  border-top:10px solid #546375;
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.34);
+  -webkit-transition: box-shadow 0.25s linear;
   transition: box-shadow 0.25s linear;
   cursor: pointer;
   margin-top: 20px;
   color: inherit;
+  -webkit-transform: scale(1);
   transform: scale(1);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
   &:hover {
     color: inherit;
     box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.66);
@@ -1546,10 +1557,12 @@ aside {
 .custom-tab-form {
   .nav-link {
     border: 1px solid #d6d6d6;
+    align-items: flex-end;
   }
   // border-bottom: 3px solid #78909c;
   .nav-item {
     .nav-item a {
+   
       &:hover {
         border: 0px !important;
         text-decoration: none;
@@ -1568,6 +1581,13 @@ aside {
   .hover-white path {
     fill: white !important;
   }
+
+&:focus {
+  background: #047a6f !important;
+}
+
+
+
 }
 .full-width {
   width: 100%;
@@ -1706,7 +1726,7 @@ aside {
       background: #fff;
       box-shadow: none;
       padding: 11px;
-      border-radius: 0px;
+      border-radius: 6px;
       border: 1px solid #dcdcdc;
       margin-top: 0px;
     }
@@ -1829,6 +1849,8 @@ select {
   -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.19);
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.19);
+
+  border-radius: 6px;
 }
 
 .box-padding {
@@ -1846,7 +1868,7 @@ select {
 }
 
 button {
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .right-side-full-column-center {
@@ -2019,6 +2041,8 @@ button {
   margin-top: 0px;
   font-size: 13px;
   font-weight: 300;
+  position: relative;
+  top: 5px;
   /* border-radius: 6px; */
 }
 
@@ -2905,7 +2929,8 @@ body .ui-chips > ul.ui-inputtext .ui-chips-token {
       background: white;
       box-shadow: none;
       padding: 10px 10px;
-      border-radius: 0px;
+    
+      border-radius: 6px;
       border: 1px solid #dcdcdc;
 
       div:first-child {
@@ -3055,12 +3080,16 @@ body .ui-chips > ul.ui-inputtext .ui-chips-token {
       margin-right: 20px;
 
       a {
+        display: -webkit-box;
         display: flex;
+        -webkit-box-align: center;
         align-items: center;
         color: white;
         padding: 4px 10px 6px 0px;
-        border: 1px solid white;
+        /* border: 1px solid white; */
         border-radius: 6px;
+        box-shadow: 0 0 0 1px white;
+        border: none;
 
         svg {
           height: 19px;
@@ -3747,6 +3776,7 @@ display: flex;
 color: white;
 padding: 10px;
 height: 100%;
+border-radius: 6px;
 
 }
 
@@ -3810,4 +3840,278 @@ button {
 .d-flex-col {
   display: flex;
   flex-direction: column;
+}
+
+
+.mat-form-field-appearance-legacy .mat-form-field-underline {
+  height: 0px !important;
+}
+
+
+.enter-payment-to-change {
+  
+}
+
+
+
+body .ngx-pagination .current {
+  background: #26a69a;
+  border-radius: 6px;
+}
+
+
+
+html body .card {
+
+  border: 1px solid #dadada;
+
+}
+
+.payment-remove {
+  margin-left: 15px;
+}
+
+
+
+
+.inventory-calendar {
+  
+  input {
+    cursor: pointer;
+    width: 112px;
+    background-image: url(../images/icon-calendar.svg);
+    background-repeat: no-repeat;
+    background-position: 90% center;
+
+
+  }
+}
+
+
+.add-inventory-section {
+  background: #FBFBFB;
+  border: 1px solid #E5E5E5;
+  display: flex;
+  justify-content: center;
+  padding: 15px 15px;
+  margin-top: 15px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+
+
+
+  .inventory-calendar {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  .inventory-search-field {
+    width: 245px;
+  }
+
+  .quantity-field {
+    width: 65px;
+  }
+
+  .unit-field {
+    width: 100px;
+  }
+
+  .total-field {
+    width: 100px;
+  }
+  select {
+    margin-top: 0px;
+    width: 170px;
+  }
+
+  label {
+    margin-right: 15px;
+
+    input:nth-child(1) {
+      width: 390px;
+    }
+
+    &:last-child {
+      margin-right: 0px;
+    }
+  }
+}
+
+
+.inventory-fields-row {
+  flex: 1;
+}
+.add-inventory-btn-row {
+  display: inline-block;
+  position: relative;
+  top: -2px;
+
+
+  button {
+    height: 44px;
+  }
+}
+
+
+.inventory-table table {
+  white-space: nowrap;
+}
+
+.checkbox {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+}
+.hidden {
+  visibility: hidden;
+}
+
+.action-checkbox {
+  width: 15px;
+  display: inline-block;
+}
+
+thead {
+  background: #647A84;
+  color: white;
+}
+.table thead th {
+  color: white;
+  font-weight: 500;
+}
+
+.total-bottom-row {
+
+  position: relative;
+
+
+  td {border: 0px !important;}
+
+  &:after {
+    content: "";
+    display: block;
+    width: 95%;
+    background-color: #e1e1e1;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    margin-top: 44px;
+    box-sizing: border-box;
+    margin: 44px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+}
+ 
+}
+
+.table-bottom-border {
+  border-bottom: 1px solid #E5E5E5;
+  @include box-depth;
+}
+
+
+.inventory-checkout-row {
+  display: flex;
+}
+
+.inventory-notes {
+display: flex;
+}
+
+.inventory-due-amount {
+  width: 400px;
+  margin: 0px 20px;
+
+  .checkout-pay-money {
+    font-size: 48px;
+  }
+
+  .checkout-pay-sold {
+    margin-top: 0px;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+
+
+}
+
+.inventory-checkout {
+
+}
+
+.inventory-note-box {
+  display: flex;
+    flex-direction: column;
+  width: 220px;
+  border: 1px solid #E7E7E7;
+  border-radius: 6px;
+  @include box-depth;
+  &:first-child {
+    margin-right: 20px;
+  }
+}
+
+
+.inventory-note-box-heading {
+    background: #F8F8F8;
+    display: flex;
+    border-bottom: 1px solid #B9B9B9;
+    padding: 10px;
+
+  
+
+    div:first-child {
+      margin-right: 5px;
+      position: relative;
+      top: -1px;
+
+    }
+}
+
+
+
+.inventory-text {
+  flex-grow: 1;
+}
+
+.inventory-text textarea {     
+  padding: 4px 10px;
+  width: 100%;
+  border: 0px;
+  height: 100%;
+  resize: none;
+  font-size: 13px;
+}
+
+
+.inventory-checkout-fields {
+
+  input {
+    width: 100%;
+    box-sizing: border-box;
+
+    &:first-child {
+      margin-bottom: 10px;
+    }
+  }
+
+}
+
+
+
+.inventory-checkout-btns {
+
+  margin-top: 10px;
+
+  .cancel-save-btn-row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  button {
+    width: 47%;
+  }
 }

@@ -289,3 +289,54 @@ footer ul li a {
       
 }
 
+
+
+
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px)  {
+
+
+    .right-content-wrapper {
+        padding: 10px 0px 50px;
+    }
+
+
+
+    .add-inventory-section select {
+        margin-top: 0px;
+        width: 140px;
+    }
+
+    .add-inventory-section .inventory-search-field {
+        width: 185px;
+    }
+
+    .add-inventory-section .quantity-field {
+        width: 60px;
+    }
+
+    .add-inventory-section .unit-field {
+        width:90px;
+    }
+
+    .add-inventory-section .total-field {
+        width: 90px;
+    }
+
+    .inventory-note-box { 
+        width: 160px;
+    }
+
+
+    .inventory-due-amount {
+        width: 460px;
+     
+    }
+
+   .add-inventory-btn-row .btn {
+        padding: 10px 15px;
+    }
+
+
+
+}

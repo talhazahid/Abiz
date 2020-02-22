@@ -1,6 +1,6 @@
 .light-theme {
   header {
-    background: #455a64;
+    background: #354750;
     color: white;
   }
   .bell-btn {
@@ -12,8 +12,19 @@
     font-size: 13px;
     color: white;
     margin: 0px 15px 0;
+    box-shadow: 0 0 0 1px white;
+    border: none;
 
+
+    &:hover {
+      background: white;
+      color: black;
   }
+    &:focus {
+      background: white;
+      color: black;
+  }
+}
 
   .show  .switch-store-btn {
     background: #f1f1f1;
@@ -32,7 +43,7 @@
     border: 0px;
   }
   .sidemenu-bg {
-    background: #f7f7f7;
+    background: white;
   }
   .sidemenu li a {
     color: #828282;
@@ -62,10 +73,22 @@
   }
 
   .sidemenu li a:hover {
-    background: #d6d6d6;
+    background: #26a69a;
+    color: white;
+
+    path {
+      fill: white;
+  }
   }
   .sidemenu li a:focus {
-    background: #d6d6d6;
+    background: #26a69a;
+    color: white;
+
+    path {
+      fill: white;
+  }
+
+
   }
 
   .sidemenu li a {
@@ -115,14 +138,36 @@
 
   .sidemenu li.active {
     position: relative;
+  
+    background: #26a69a;
+
+  path {
+      fill: white;
+  }
+
+  a {
+    color: white;
+  }
 
     &::before {
+      // display: block;
+      // content: "";
+      // background: #1dd1a1;
+      // height: 100%;
+      // width: 4px;
+      // position: absolute;
+
       display: block;
       content: "";
-      background: #1dd1a1;
+      background: #26a69a;
       height: 100%;
-      width: 4px;
+      width: 3px;
       position: absolute;
+      // right: 0px;
+      border-top-right-radius: 5px;
+      -webkit-border-bottom-right-radius: 5px;
+      -moz-border-radius-bottom-right: 5px;
+      border-bottom-right-radius: 5px;
     }
   }
 
@@ -131,7 +176,7 @@
   }
 
   .table-striped tbody tr:nth-of-type(odd) {
-    background-color: rgba(154, 154, 154, 0.05);
+    background-color: #F6F6F6;
   }
 
   .dropdown-toggle .dropdown-item {
@@ -176,7 +221,7 @@ body.menu-active #slide-menu {
   height: 100%;
   padding: 60px;
   // overflow: scroll;
-  background: #F0F4F4;
+  background: #F1F2F7;
   border-radius: 0;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -238,4 +283,13 @@ body.menu-active {
 
 
 
+.custom-tab-form ul li a {
+  border-top-left-radius: 6px !important;
+  border-top-right-radius: 6px !important;
+  margin-left: 10px;
+}
 
+
+.custom-tab-form ul li:first-child a {
+  margin-left: 0px;
+}

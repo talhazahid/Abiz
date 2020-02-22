@@ -6973,7 +6973,8 @@ a:hover {
 .login-form input {
   padding: 10px !important;
   border: 0px;
-  height: auto !important; }
+  height: auto !important;
+  border-radius: 6px; }
 
 .login-form button {
   background: #26a69a;
@@ -7039,7 +7040,8 @@ a:hover {
   transition: all 0.3s cubic-bezier(0.2, 0, 0, 1) 0s;
   z-index: 10;
   position: relative;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  border-radius: 6px; }
   .select-store-box:hover {
     color: #333;
     font-weight: 400;
@@ -7081,7 +7083,7 @@ a:hover {
   background: #fff;
   box-shadow: none;
   padding: 10px;
-  border-radius: 0px;
+  border-radius: 6px;
   border: 1px solid #dcdcdc; }
 
 .back-arrrow-btn {
@@ -7252,7 +7254,7 @@ thead {
 .btn {
   padding: 10px 28px;
   font-size: 13px;
-  border-radius: 5px;
+  border-radius: 6px;
   border: 0px;
   cursor: pointer;
   font-weight: 600;
@@ -7447,7 +7449,7 @@ aside {
     background: #26c3b3; }
   .dashboard-btn-big:focus {
     color: white !important;
-    background: #26c3b3;
+    background: #047a6f;
     box-shadow: none !important; }
 
 .breadcrumb {
@@ -7713,7 +7715,7 @@ aside {
     text-decoration: none;
     color: white;
     padding: 15px 20px 15px 13px;
-    border-bottom: 1px solid #A2A2A2;
+    border-bottom: 1px solid #dadada;
     display: flex;
     align-items: center; }
     .sidemenu li a:hover {
@@ -7736,8 +7738,8 @@ aside {
     text-decoration: none;
     color: white;
     padding: 15px 20px 15px 13px;
-    border-bottom: 1px solid #A2A2A2;
-    border-top: 1px solid #A2A2A2;
+    border-bottom: 1px solid #dadada;
+    border-top: 1px solid #dadada;
     display: flex;
     align-items: center;
     -webkit-transition: 0.3s ease-in-out;
@@ -7746,11 +7748,13 @@ aside {
     -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out; }
     .sidemenu-bottom-section li a:hover {
-      background: #d6d6d6;
-      color: #8D8D8D !important; }
+      background: #047a6f; }
+      .sidemenu-bottom-section li a:hover path {
+        fill: white; }
     .sidemenu-bottom-section li a:focus {
-      background: #d6d6d6;
-      color: #8D8D8D !important; }
+      background: #26a69a; }
+      .sidemenu-bottom-section li a:focus path {
+        fill: white; }
   .sidemenu-bottom-section p {
     text-align: center;
     padding: 15px 20px;
@@ -7760,9 +7764,10 @@ aside {
 
 .breadcrumb-row {
   border-top: 3px solid #696b6a;
-  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14);
-  -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14);
+  background-color: #fff;
+  -webkit-box-shadow: 0 3px 10px rgba(62, 85, 120, 0.07);
+  -moz-box-shadow: 0 3px 10px rgba(62, 85, 120, 0.07);
+  box-shadow: 0 3px 10px rgba(62, 85, 120, 0.07);
   padding: 11px 20px 11px;
   color: #919191;
   font-size: 20px;
@@ -7814,15 +7819,17 @@ aside {
   text-align: center;
   align-items: center;
   background: white;
-  border-top: 10px solid #78909c;
-  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.34);
-  -moz-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.34);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.34);
+  border-top: 10px solid #546375;
+  box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.34);
+  -webkit-transition: box-shadow 0.25s linear;
   transition: box-shadow 0.25s linear;
   cursor: pointer;
   margin-top: 20px;
   color: inherit;
-  transform: scale(1); }
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px; }
   .right-column-menu-item:hover {
     color: inherit;
     box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.66);
@@ -8303,7 +8310,8 @@ aside {
   cursor: pointer; }
 
 .custom-tab-form .nav-link {
-  border: 1px solid #d6d6d6; }
+  border: 1px solid #d6d6d6;
+  align-items: flex-end; }
 .custom-tab-form .nav-item .nav-item a:hover {
   border: 0px !important;
   text-decoration: none; }
@@ -8317,6 +8325,8 @@ aside {
   background: #26a69a !important; }
   .custom-tab-form ul li .active .hover-white path {
     fill: white !important; }
+  .custom-tab-form ul li .active:focus {
+    background: #047a6f !important; }
 
 .full-width {
   width: 100%; }
@@ -8469,7 +8479,7 @@ aside {
       background: #fff;
       box-shadow: none;
       padding: 11px;
-      border-radius: 0px;
+      border-radius: 6px;
       border: 1px solid #dcdcdc;
       margin-top: 0px; }
 
@@ -8572,7 +8582,8 @@ select {
   background: white;
   -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.19);
-  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.19); }
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.19);
+  border-radius: 6px; }
 
 .box-padding {
   padding: 20px 5px; }
@@ -8586,7 +8597,7 @@ select {
   margin-right: 6px; }
 
 button {
-  text-transform: uppercase; }
+  text-transform: capitalize; }
 
 .right-side-full-column-center {
   display: flex;
@@ -8712,6 +8723,8 @@ button {
   margin-top: 0px;
   font-size: 13px;
   font-weight: 300;
+  position: relative;
+  top: 5px;
   /* border-radius: 6px; */ }
 
 .dropleft .dropdown-menu {
@@ -9398,7 +9411,7 @@ body .ui-chips > ul.ui-inputtext .ui-chips-token {
       background: white;
       box-shadow: none;
       padding: 10px 10px;
-      border-radius: 0px;
+      border-radius: 6px;
       border: 1px solid #dcdcdc; }
       .walk-in-customer .walkin-customer-menu .walkin-placeholder div:first-child {
         flex: 1; }
@@ -9512,12 +9525,16 @@ body .ui-chips > ul.ui-inputtext .ui-chips-token {
     .shortcut-menu-box ul li {
       margin-right: 20px; }
       .shortcut-menu-box ul li a {
+        display: -webkit-box;
         display: flex;
+        -webkit-box-align: center;
         align-items: center;
         color: white;
         padding: 4px 10px 6px 0px;
-        border: 1px solid white;
-        border-radius: 6px; }
+        /* border: 1px solid white; */
+        border-radius: 6px;
+        box-shadow: 0 0 0 1px white;
+        border: none; }
         .shortcut-menu-box ul li a svg {
           height: 19px;
           margin-right: -1px; }
@@ -10043,7 +10060,8 @@ body .ui-chkbox .ui-chkbox-box.ui-state-active {
   flex-direction: column;
   color: white;
   padding: 10px;
-  height: 100%; }
+  height: 100%;
+  border-radius: 6px; }
 
 .checkout-pay-heading {
   font-size: 15px; }
@@ -10086,11 +10104,184 @@ body .ui-chkbox .ui-chkbox-box.ui-state-active {
   display: flex;
   flex-direction: column; }
 
+.mat-form-field-appearance-legacy .mat-form-field-underline {
+  height: 0px !important; }
+
+body .ngx-pagination .current {
+  background: #26a69a;
+  border-radius: 6px; }
+
+html body .card {
+  border: 1px solid #dadada; }
+
+.payment-remove {
+  margin-left: 15px; }
+
+.inventory-calendar input {
+  cursor: pointer;
+  width: 112px;
+  background-image: url(../images/icon-calendar.svg);
+  background-repeat: no-repeat;
+  background-position: 90% center; }
+
+.add-inventory-section {
+  background: #FBFBFB;
+  border: 1px solid #E5E5E5;
+  display: flex;
+  justify-content: center;
+  padding: 15px 15px;
+  margin-top: 15px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; }
+  .add-inventory-section .inventory-calendar {
+    display: inline-block;
+    margin-right: 15px; }
+  .add-inventory-section .inventory-search-field {
+    width: 245px; }
+  .add-inventory-section .quantity-field {
+    width: 65px; }
+  .add-inventory-section .unit-field {
+    width: 100px; }
+  .add-inventory-section .total-field {
+    width: 100px; }
+  .add-inventory-section select {
+    margin-top: 0px;
+    width: 170px; }
+  .add-inventory-section label {
+    margin-right: 15px; }
+    .add-inventory-section label input:nth-child(1) {
+      width: 390px; }
+    .add-inventory-section label:last-child {
+      margin-right: 0px; }
+
+.inventory-fields-row {
+  flex: 1; }
+
+.add-inventory-btn-row {
+  display: inline-block;
+  position: relative;
+  top: -2px; }
+  .add-inventory-btn-row button {
+    height: 44px; }
+
+.inventory-table table {
+  white-space: nowrap; }
+
+.checkbox {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox; }
+
+.hidden {
+  visibility: hidden; }
+
+.action-checkbox {
+  width: 15px;
+  display: inline-block; }
+
+thead {
+  background: #647A84;
+  color: white; }
+
+.table thead th {
+  color: white;
+  font-weight: 500; }
+
+.total-bottom-row {
+  position: relative; }
+  .total-bottom-row td {
+    border: 0px !important; }
+  .total-bottom-row:after {
+    content: "";
+    display: block;
+    width: 95%;
+    background-color: #e1e1e1;
+    height: 1px;
+    position: absolute;
+    left: 0;
+    margin-top: 44px;
+    box-sizing: border-box;
+    margin: 44px auto 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0; }
+
+.table-bottom-border {
+  border-bottom: 1px solid #E5E5E5;
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.19); }
+
+.inventory-checkout-row {
+  display: flex; }
+
+.inventory-notes {
+  display: flex; }
+
+.inventory-due-amount {
+  width: 400px;
+  margin: 0px 20px; }
+  .inventory-due-amount .checkout-pay-money {
+    font-size: 48px; }
+  .inventory-due-amount .checkout-pay-sold {
+    margin-top: 0px;
+    line-height: 15px;
+    margin-bottom: 5px; }
+
+.inventory-note-box {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+  border: 1px solid #E7E7E7;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.19); }
+  .inventory-note-box:first-child {
+    margin-right: 20px; }
+
+.inventory-note-box-heading {
+  background: #F8F8F8;
+  display: flex;
+  border-bottom: 1px solid #B9B9B9;
+  padding: 10px; }
+  .inventory-note-box-heading div:first-child {
+    margin-right: 5px;
+    position: relative;
+    top: -1px; }
+
+.inventory-text {
+  flex-grow: 1; }
+
+.inventory-text textarea {
+  padding: 4px 10px;
+  width: 100%;
+  border: 0px;
+  height: 100%;
+  resize: none;
+  font-size: 13px; }
+
+.inventory-checkout-fields input {
+  width: 100%;
+  box-sizing: border-box; }
+  .inventory-checkout-fields input:first-child {
+    margin-bottom: 10px; }
+
+.inventory-checkout-btns {
+  margin-top: 10px; }
+  .inventory-checkout-btns .cancel-save-btn-row {
+    display: flex;
+    justify-content: space-between; }
+  .inventory-checkout-btns button {
+    width: 47%; }
+
 @media only screen and (max-width: 767px) {
   .sidemenu-bg {
     display: none; } }
 .light-theme header {
-  background: #455a64;
+  background: #354750;
   color: white; }
 .light-theme .bell-btn {
   display: none; }
@@ -10099,7 +10290,15 @@ body .ui-chkbox .ui-chkbox-box.ui-state-active {
   padding: 6px 10px;
   font-size: 13px;
   color: white;
-  margin: 0px 15px 0; }
+  margin: 0px 15px 0;
+  box-shadow: 0 0 0 1px white;
+  border: none; }
+  .light-theme .switch-store-btn:hover {
+    background: white;
+    color: black; }
+  .light-theme .switch-store-btn:focus {
+    background: white;
+    color: black; }
 .light-theme .show .switch-store-btn {
   background: #f1f1f1;
   color: #4e4e4e; }
@@ -10110,7 +10309,7 @@ body .ui-chkbox .ui-chkbox-box.ui-state-active {
 .light-theme .user-profile {
   border: 0px; }
 .light-theme .sidemenu-bg {
-  background: #f7f7f7; }
+  background: white; }
 .light-theme .sidemenu li a {
   color: #828282; }
 .light-theme .breadcrumb-row {
@@ -10127,9 +10326,15 @@ body .ui-chkbox .ui-chkbox-box.ui-state-active {
 .light-theme .sidemenu-bottom-section p {
   color: #929292; }
 .light-theme .sidemenu li a:hover {
-  background: #d6d6d6; }
+  background: #26a69a;
+  color: white; }
+  .light-theme .sidemenu li a:hover path {
+    fill: white; }
 .light-theme .sidemenu li a:focus {
-  background: #d6d6d6; }
+  background: #26a69a;
+  color: white; }
+  .light-theme .sidemenu li a:focus path {
+    fill: white; }
 .light-theme .sidemenu li a {
   position: relative;
   transition: all 0.3s ease; }
@@ -10144,18 +10349,27 @@ body .ui-chkbox .ui-chkbox-box.ui-state-active {
 .light-theme .menu-hover-tooltip span {
   opacity: 1 !important; }
 .light-theme .sidemenu li.active {
-  position: relative; }
+  position: relative;
+  background: #26a69a; }
+  .light-theme .sidemenu li.active path {
+    fill: white; }
+  .light-theme .sidemenu li.active a {
+    color: white; }
   .light-theme .sidemenu li.active::before {
     display: block;
     content: "";
-    background: #1dd1a1;
+    background: #26a69a;
     height: 100%;
-    width: 4px;
-    position: absolute; }
+    width: 3px;
+    position: absolute;
+    border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-bottom-right: 5px;
+    border-bottom-right-radius: 5px; }
 .light-theme .sidemenu li {
   border-left: 0px solid #fcfcfc; }
 .light-theme .table-striped tbody tr:nth-of-type(odd) {
-  background-color: rgba(154, 154, 154, 0.05); }
+  background-color: #F6F6F6; }
 .light-theme .dropdown-toggle .dropdown-item {
   font-weight: 300; }
 .light-theme .dropdown-item:active {
@@ -10187,7 +10401,7 @@ body.menu-active #slide-menu {
   width: calc(100% - 49px);
   height: 100%;
   padding: 60px;
-  background: #F0F4F4;
+  background: #F1F2F7;
   border-radius: 0;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -10234,6 +10448,14 @@ body.menu-active .sidemenu-bottom-section p {
   outline-color: #26a69a !important;
   outline-style: auto;
   outline-width: 1px; }
+
+.custom-tab-form ul li a {
+  border-top-left-radius: 6px !important;
+  border-top-right-radius: 6px !important;
+  margin-left: 10px; }
+
+.custom-tab-form ul li:first-child a {
+  margin-left: 0px; }
 
 /*
 Template Name: Admin Template
@@ -10392,6 +10614,34 @@ File: scss
   .two-page-box {
     display: flex;
     flex-direction: column; } }
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+  .right-content-wrapper {
+    padding: 10px 0px 50px; }
+
+  .add-inventory-section select {
+    margin-top: 0px;
+    width: 140px; }
+
+  .add-inventory-section .inventory-search-field {
+    width: 185px; }
+
+  .add-inventory-section .quantity-field {
+    width: 60px; }
+
+  .add-inventory-section .unit-field {
+    width: 90px; }
+
+  .add-inventory-section .total-field {
+    width: 90px; }
+
+  .inventory-note-box {
+    width: 160px; }
+
+  .inventory-due-amount {
+    width: 460px; }
+
+  .add-inventory-btn-row .btn {
+    padding: 10px 15px; } }
 /* Change this breakpoint if you change the breakpoint of the navbar */
 .animate {
   animation-duration: 0.3s;
