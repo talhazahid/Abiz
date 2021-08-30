@@ -1,7 +1,7 @@
 /*
 Error: Undefined variable: "$body-bg".
-        on line 13 of D:/Talha/Aplosbiz/html/github/scss/core/layout/layout.scss
-        from line 1 of D:\Talha\Aplosbiz\html\github\scss\core\core.scss
+        on line 13 of D:/My Projects/AplosBiz/html/scss/core/layout/layout.scss
+        from line 1 of D:\My Projects\AplosBiz\html\scss\core\core.scss
 
 8: 
 9: //table pages
@@ -16,8 +16,8 @@ Error: Undefined variable: "$body-bg".
 18: @import 'wave-effects/wave-effects';
 
 Backtrace:
-D:/Talha/Aplosbiz/html/github/scss/core/layout/layout.scss:13
-D:\Talha\Aplosbiz\html\github\scss\core\core.scss:1
+D:/My Projects/AplosBiz/html/scss/core/layout/layout.scss:13
+D:\My Projects\AplosBiz\html\scss\core\core.scss:1
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -77,4 +77,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$body-bg\".\A         on line 13 of D:/Talha/Aplosbiz/html/github/scss/core/layout/layout.scss\A         from line 1 of D:\Talha\Aplosbiz\html\github\scss\core\core.scss\A \A 8: \A 9: //table pages\A 10: @import 'tables/table-pages';\A 11: // breadcrumb\A 12: @import 'breadcrumb/breadcrumb';     \A 13: \A 14: // sidebar\A 15: @import 'sidebar/sidebar'; \A 16: \A 17: //wave effects\A 18: @import 'wave-effects/wave-effects';"; }
+  content: "Error: Undefined variable: \"$body-bg\".\A         on line 13 of D:/My Projects/AplosBiz/html/scss/core/layout/layout.scss\A         from line 1 of D:\My Projects\AplosBiz\html\scss\core\core.scss\A \A 8: \A 9: //table pages\A 10: @import 'tables/table-pages';\A 11: // breadcrumb\A 12: @import 'breadcrumb/breadcrumb';     \A 13: \A 14: // sidebar\A 15: @import 'sidebar/sidebar'; \A 16: \A 17: //wave effects\A 18: @import 'wave-effects/wave-effects';"; }

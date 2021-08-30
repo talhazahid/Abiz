@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$text-muted".
-        on line 33 of D:\Talha\Aplosbiz\html\github\scss\widgets\task.scss
+        on line 33 of D:\My Projects\AplosBiz\html\scss\widgets\task.scss
 
 28:             .item-date {
 29:                 padding-left: 25px;
@@ -15,7 +15,7 @@ Error: Undefined variable: "$text-muted".
 38: 
 
 Backtrace:
-D:\Talha\Aplosbiz\html\github\scss\widgets\task.scss:33
+D:\My Projects\AplosBiz\html\scss\widgets\task.scss:33
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -95,4 +95,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$text-muted\".\A         on line 33 of D:\Talha\Aplosbiz\html\github\scss\widgets\task.scss\A \A 28:             .item-date {\A 29:                 padding-left: 25px;\A 30:                 font-size: 12px;\A 31:                 margin-top: 5px;\A 32:                 display: inline-block;\A 33:                 color: $text-muted;\A 34:             }\A 35:         }\A 36:     }\A 37: }\A 38: "; }
+  content: "Error: Undefined variable: \"$text-muted\".\A         on line 33 of D:\My Projects\AplosBiz\html\scss\widgets\task.scss\A \A 28:             .item-date {\A 29:                 padding-left: 25px;\A 30:                 font-size: 12px;\A 31:                 margin-top: 5px;\A 32:                 display: inline-block;\A 33:                 color: $text-muted;\A 34:             }\A 35:         }\A 36:     }\A 37: }\A 38: "; }

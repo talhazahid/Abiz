@@ -1,7 +1,7 @@
 /*******************************/
 // Custom Variables
 /*******************************/
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 /*Theme Colors*/
 $themecolor: #4798e8;
 $themecolor-dark: #028ee1;
@@ -14,7 +14,7 @@ $skin3: #17a991;
 $skin4: #6659f7;
 $skin5: #333d54;
 $skin6: #fff;
-$white-txt:  #fff;
+$white-txt: #fff;
 /*Topbar Colors*/
 $topbar: $theme-light;
 $topbar-height: 64px;
@@ -44,14 +44,14 @@ $lft: left;
 $rgt: right;
 $card-alt: #e4e9ef;
 %square {
-  border-radius: 0px;
+ border-radius: 0px;
 }
 %rotate45 {
-  transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -webkit-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
+ transform: rotate(45deg);
+ -ms-transform: rotate(45deg);
+ -webkit-transform: rotate(45deg);
+ -o-transform: rotate(45deg);
+ -moz-transform: rotate(45deg);
 }
 /* ***************************** */
 // Bootstrap overrides
@@ -101,23 +101,23 @@ $cyan: #01c0c8 !default;
 $primary: #7460ee !default;
 $text-muted: $gray-500 !default;
 $colors: (
-  blue: $blue,
-  indigo: $indigo,
-  purple: $purple,
-  pink: $pink,
-  red: $red,
-  orange: $orange,
-  yellow: $yellow,
-  green: $green,
-  teal: $teal,
-  cyan: $cyan,
-  white: $white,
-  gray: $gray-600,
-  gray-dark: $gray-800,
-  light-info: $light-info,
-  light-danger: $light-danger,
-  light-success: $light-success,
-  light-warning: $light-warning
+ blue: $blue,
+ indigo: $indigo,
+ purple: $purple,
+ pink: $pink,
+ red: $red,
+ orange: $orange,
+ yellow: $yellow,
+ green: $green,
+ teal: $teal,
+ cyan: $cyan,
+ white: $white,
+ gray: $gray-600,
+ gray-dark: $gray-800,
+ light-info: $light-info,
+ light-danger: $light-danger,
+ light-success: $light-success,
+ light-warning: $light-warning,
 );
 $primary: $blue !default;
 $secondary: $gray-600 !default;
@@ -131,24 +131,24 @@ $cyan: $cyan !default;
 $orange: $orange !default;
 $theme-colors: () !default;
 $theme-colors: map-merge(
-  (
-    'primary': $primary,
-    'secondary': $secondary,
-    'success': $success,
-    'info': $info,
-    'warning': $warning,
-    'danger': $danger,
-    'light': $light,
-    'dark': $dark,
-    'cyan': $cyan,
-    'orange': $orange,
-    'purple': $purple,
-    'light-info': $light-info,
-    'light-danger': $light-danger,
-    'light-success': $light-success,
-    'light-warning': $light-warning
-  ),
-  $theme-colors
+ (
+  "primary": $primary,
+  "secondary": $secondary,
+  "success": $success,
+  "info": $info,
+  "warning": $warning,
+  "danger": $danger,
+  "light": $light,
+  "dark": $dark,
+  "cyan": $cyan,
+  "orange": $orange,
+  "purple": $purple,
+  "light-info": $light-info,
+  "light-danger": $light-danger,
+  "light-success": $light-success,
+  "light-warning": $light-warning,
+ ),
+ $theme-colors
 );
 // Quickly modify global styling by enabling or disabling optional features.
 $enable-caret: true !default;
@@ -168,7 +168,7 @@ $grid-gutter-width: 20px !default;
 // Typography
 // Font, line-height, and color for body text, headings, and more.
 $font-size-base: 0.875rem;
-$font-family-sans-serif: 'Poppins', sans-serif !default;
+$font-family-sans-serif: "Poppins", sans-serif !default;
 $font-weight-light: 300 !default;
 $font-weight-normal: 300 !default;
 $font-weight-medium: 500 !default;
@@ -221,7 +221,7 @@ $custom-control-indicator-active-bg: rgba(0, 0, 0, 35%) !default;
 $custom-select-indicator: url(../../assets/images/custom-select.png) !default;
 $input-btn-focus-box-shadow: transparent !default;
 $custom-select-focus-box-shadow: transparent !default;
-$custom-select-indicator: str-replace(url(''), '%23') !default;
+$custom-select-indicator: str-replace(url(""), "%23") !default;
 // Define common padding and border radius sizes and more.
 $border-width: 1px !default;
 $border-color: $gray-200 !default;
@@ -236,269 +236,267 @@ $nav-tabs-link-active-bg: $white !default;
 // Define the minimum dimensions at which your layout will change,
 // adapting to different screen sizes, for use in media queries.
 $grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1600px
+ xs: 0,
+ sm: 576px,
+ md: 768px,
+ lg: 992px,
+ xl: 1600px,
 ) !default;
 // Navbar
 $navbar-dark-color: rgba($white, 0.8) !default;
 $navbar-dark-hover-color: rgba($white, 1) !default;
 // Talha SCSS
 
-$themebg:#26A69A;
-$animation-fill-color-theme: #00C4B1;
+$themebg: #26a69a;
+$theme-blue: #03a9f4;
+$theme-red: #ee5966;
+$theme-gray: #455a64;
+$animation-fill-color-theme: #00c4b1;
 $animation-fill-color-theme-black: #6c757d;
 $animation-fill-color-red: #e72e2e;
-$animation-fill-color-gray:#878787;
+$animation-fill-color-gray: #878787;
 // Mixins
 // @mixin theme-border {
 //   border-radius:6px;
 // }
 
-
-
-
-
-
 @mixin top-bottom-20 {
-  margin: 20px 0px;
+ margin: 20px 0px;
 }
 @mixin top-bottom-40 {
-  margin: 40px 0px;
+ margin: 40px 0px;
 }
 @mixin select-store-box-link {
+ text-decoration: none;
+ color: white;
+ transition: all 0.3s cubic-bezier(0.2, 0, 0, 1) 0s;
+ z-index: 10;
+ &:hover {
+  color: #333;
+  font-weight: 400;
+  background: #fff;
   text-decoration: none;
-  color: white;
-  transition: all 0.3s cubic-bezier(0.2, 0, 0, 1) 0s;
-  z-index: 10;
-  &:hover {
-    color: #333;
-    font-weight: 400;
-    background: #fff;
-    text-decoration: none;
-    -webkit-box-shadow: -1px 0px 18px 1px rgba(0,0,0,0.33);
-    -moz-box-shadow: -1px 0px 18px 1px rgba(0,0,0,0.33);
-    box-shadow: -1px 0px 18px 1px rgba(0,0,0,0.33);
-  }
-  &:focus {
-    color: #fff;
-    background: #26A69A;
-    text-decoration: none;
-  }
+  -webkit-box-shadow: -1px 0px 18px 1px rgba(0, 0, 0, 0.33);
+  -moz-box-shadow: -1px 0px 18px 1px rgba(0, 0, 0, 0.33);
+  box-shadow: -1px 0px 18px 1px rgba(0, 0, 0, 0.33);
+ }
+ &:focus {
+  color: #fff;
+  background: #26a69a;
+  text-decoration: none;
+ }
 }
 @mixin theme-input {
-  font-size: 14px;
-  background: #fff;
-  box-shadow: none;
-  padding: 10px;
-  border-radius: 6px;
-  border: 1px solid #dcdcdc;
+ font-size: 14px;
+ background: #fff;
+ box-shadow: none;
+ padding: 10px;
+ border-radius: 6px;
+ border: 1px solid #dcdcdc;
 }
 @mixin title-heading {
-  background: #F9F9F9;
-  padding: 7px 15px;
-  color: #515151;
+ background: #f9f9f9;
+ padding: 7px 15px;
+ color: #515151;
 }
 @mixin modal-headings {
-  padding: 7px 15px 7px 0px;
-  color: #515151;
-  font-size: 16px;
-  border-bottom: 1px solid #BBBBBB;
-  margin-bottom: 15px;
-  background: none;
-  text-transform: uppercase;
+ padding: 7px 15px 7px 0px;
+ color: #515151;
+ font-size: 16px;
+ border-bottom: 1px solid #bbbbbb;
+ margin-bottom: 15px;
+ background: none;
+ text-transform: uppercase;
 }
 @mixin btn-theme-style {
-  padding: 7px 20px;
-  margin: 5px 10px;
-  cursor: pointer; 
+ padding: 7px 20px;
+ margin: 5px 10px;
+ cursor: pointer;
 }
 @mixin dashboard-btn-small {
-  background: #26A69A;
-  padding: 4px 23px;
-  color: #fff;
-  font-size: 13px;
-  border-radius: 5px;
-  &:hover {
-    color: white;
-    background: $hover-theme-btn;
-  }
-  &:focus {
-    color: white !important;
-    background: $hover-theme-btn;
-    box-shadow: none !important;
-  }
+ background: #26a69a;
+ padding: 4px 23px;
+ color: #fff;
+ font-size: 13px;
+ border-radius: 5px;
+ &:hover {
+  color: white;
+  background: $hover-theme-btn;
+ }
+ &:focus {
+  color: white !important;
+  background: $hover-theme-btn;
+  box-shadow: none !important;
+ }
 }
 @mixin dashboard-btn-big {
-  background: #26A69A;
-  padding: 6px 23px;
-  color: #fff;
-  font-size: 13px;
-  border-radius: 5px;
-  &:hover {
-    color: white;
-    background: $hover-theme-btn;
-  }
-  &:focus {
-    color: white !important;
-    background: #047a6f;
-    box-shadow: none !important;
-  }
+ background: #26a69a;
+ padding: 6px 23px;
+ color: #fff;
+ font-size: 13px;
+ border-radius: 5px;
+ &:hover {
+  color: white;
+  background: $hover-theme-btn;
+ }
+ &:focus {
+  color: white !important;
+  background: #047a6f;
+  box-shadow: none !important;
+ }
 }
-@mixin  three-col-widget {
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.16);
-  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.16);
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.16);
-  text-align: center;
-  padding: 60px 0px;
+@mixin three-col-widget {
+ -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.16);
+ -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.16);
+ box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.16);
+ text-align: center;
+ padding: 60px 0px;
 }
 @mixin widget-box {
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.16);
-  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.16);
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.16);
+ // -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.16);
+ // -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.16);
+ // box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.16);
+ box-shadow: var(--nm);
+ border: 1px solid #e9e9e9;
 }
 @mixin widget-box-30 {
-  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.16);
-  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.16);
-  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.16);
-  padding: 30px 0px;
-  text-align: center;
+ -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.16);
+ -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.16);
+ box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.16);
+ padding: 30px 0px;
+ text-align: center;
 }
 //  Talha Variables
 @mixin uni-btn {
-  padding: 10px 28px;
-  font-size: 13px;
-  border-radius: 6px;
-  border: 0px;
-  cursor: pointer;
-  font-weight: 600;
+ padding: 10px 28px;
+ font-size: 13px;
+ border-radius: 6px;
+ border: 0px;
+ cursor: pointer;
+ font-weight: 500;
 
-  color:white;
+ color: white;
 
-  &:hover {
-    color:white;
-  }
+ &:hover {
+  color: white;
+ }
 }
 @mixin theme-btn {
-  background: #26A69A;
-  color:white !important;
-  border: 1px solid #26A69A;
-  &:hover {
-    color: white;
-    background: $hover-theme-btn;
-  }
-  &:focus {
-    color: white !important;
-    background: $hover-theme-btn;
-    box-shadow: none !important;
-  }
-
-
+ background: #26a69a;
+ color: white !important;
+ border: 1px solid #26a69a;
+ &:hover {
+  color: white;
+  background: $hover-theme-btn;
+ }
+ &:focus {
+  color: white !important;
+  background: $hover-theme-btn;
+  box-shadow: none !important;
+ }
 }
-
 
 $hover-theme-btn: #26c3b3;
 // Links Colors
-$link:#03A9F4;
+$link: #03a9f4;
 // Border
-$border-box: 1px solid #CED6E0;
+$border-box: 1px solid #ced6e0;
 // Primary Secondary Colors
 $primary-color: #515151;
 // Font Sizes
 $main-heading-font-size: 36px;
-$normal-font:16px;
+$normal-font: 16px;
 // Font Weights
-$normal-weight:normal;
-$normal-line-height:20px;
-// Menu Mixin 
-@mixin  sidemenu {
-  flex-grow: 1;
-  color: #fff;
-   ul {
-     list-style: none;
-   }
-   img {
-     margin-right: 10px;
-   }
-   li a {
-     text-decoration: none;
-     color: white;
-     padding: 15px 20px 15px 13px;
-     border-bottom:1px solid #dadada;
-     display: flex;
-     align-items: center;
-    //  -webkit-transition: 0.3s ease-in-out;
-    //  -moz-transition:  0.3s ease-in-out;
-    //  -ms-transition:  0.3s ease-in-out;
-    //  -o-transition:  0.3s ease-in-out;
-    //  transition:  0.3s ease-in-out;
-     &:hover {
-      background:#6b6b6b ;
-    }
-   }
+$normal-weight: normal;
+$normal-line-height: 20px;
+// Menu Mixin
+@mixin sidemenu {
+ flex-grow: 1;
+ color: #fff;
+ ul {
+  list-style: none;
+ }
+ img {
+  margin-right: 10px;
+ }
+ li a {
+  text-decoration: none;
+  color: white;
+  padding: 15px 20px 15px 13px;
+  border-bottom: 0px solid #dadada;
+  display: flex;
+  align-items: center;
+  //  -webkit-transition: 0.3s ease-in-out;
+  //  -moz-transition:  0.3s ease-in-out;
+  //  -ms-transition:  0.3s ease-in-out;
+  //  -o-transition:  0.3s ease-in-out;
+  //  transition:  0.3s ease-in-out;
+  &:hover {
+   background: #6b6b6b;
+  }
+ }
 }
-@mixin  sidemenu-bottom {
-  color: #fff;
-   ul {
-     list-style: none;
+@mixin sidemenu-bottom {
+ color: #fff;
+ ul {
+  list-style: none;
+ }
+ img {
+  margin-right: 10px;
+ }
+ li a {
+  text-decoration: none;
+  color: white;
+  padding: 15px 20px 15px 13px;
+  border-bottom: 1px solid #dadada;
+  border-top: 1px solid #dadada;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  &:hover {
+   path {
+    fill: white;
    }
-   img {
-     margin-right: 10px;
-   }
-   li a {
-     text-decoration: none;
-     color: white;
-     padding: 15px 20px 15px 13px;
-     border-bottom: 1px solid #dadada;
-     border-top: 1px solid #dadada;
-     display: flex;
-     align-items: center;
-     -webkit-transition: 0.3s ease-in-out;
-     -moz-transition:  0.3s ease-in-out;
-     -ms-transition:  0.3s ease-in-out;
-     -o-transition:  0.3s ease-in-out;
-     transition:  0.3s ease-in-out;
-     &:hover {
-      path {
-        fill: white;
-    }
-      background: #047a6f; 
-    }
-     &:focus {
-      background: #26a69a;
+   background: #047a6f;
+  }
+  &:focus {
+   background: #26a69a;
 
-    path {
-      fill: white;
+   path {
+    fill: white;
+   }
   }
-    }
-  }
+ }
 }
 @mixin red-btn {
-    background: #D44949;
-    color: white;
-    font-size: 14px;
-    // -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.45);
-    // -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.45);
-    // box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.45);
-    border: 0px;    
+ background: #d44949;
+ color: white;
+ font-size: 14px;
+ // -webkit-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.45);
+ // -moz-box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.45);
+ // box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.45);
+ border: 0px;
 
-    &:hover {
-      color:#fff;
-      background: #ee5e5e;
-    }
+ &:hover {
+  color: #fff;
+  background: #ee5e5e;
+ }
 
-    &:focus {
-      color:#fff;
-      background: #ee5e5e;
-    }
+ &:focus {
+  color: #fff;
+  background: #ee5e5e;
+ }
 }
 
 @mixin button-animation {
-  z-index: 1;
-  position: relative;
-&::after {
+ z-index: 1;
+ position: relative;
+ &::after {
   z-index: -1;
   content: " ";
   width: 0px;
@@ -509,19 +507,67 @@ $normal-line-height:20px;
   left: 0px;
   transform-origin: center bottom;
   transition: all 0.15s cubic-bezier(0.2, 0, 0, 1) 0s;
-}
-&:hover::after {
+ }
+ &:hover::after {
   right: 0px;
   left: 0px;
   top: 0px;
   bottom: 0px;
   width: 100%;
-}
+ }
 }
 
 @mixin box-depth {
- 
-  -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.19);
-  -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.19);
-  box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.19);
+ -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.19);
+ -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.19);
+ box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.19);
+}
+
+@mixin box-hover-animation {
+ transition: all 220ms ease-in-out;
+
+ &:hover {
+ }
+}
+
+@mixin search-field {
+ border: 1px solid #cecece;
+ position: relative;
+ padding: 9px 15px 9px 35px;
+}
+
+.button-with-icon {
+ button {
+  display: flex;
+
+  img {
+   margin-right: 10px;
+  }
+ }
+}
+
+.theme-blue {
+ background: $theme-blue;
+}
+
+.theme-gray {
+ background: $theme-gray;
+}
+
+.theme-red {
+ background: $theme-red;
+}
+
+.theme-green {
+ background: $themebg;
+}
+
+.white-txt {
+ color: white;
+}
+
+:root {
+ --nm: 6px 6px 16px 0 rgba(0, 0, 0, 0.2), -6px -6px 16px 0 rgba(255, 255, 255, 1);
+
+ --nm-inset: inset 4px 4px 8px 0 rgba(0, 0, 0, 0.2), inset -4px -4px 8px 0 rgba(255, 255, 255, 0.8);
 }

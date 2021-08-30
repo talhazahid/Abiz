@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$gray-400".
-        on line 18 of D:\Talha\Aplosbiz\html\github\scss\core\breadcrumb\breadcrumb.scss
+        on line 18 of D:\My Projects\AplosBiz\html\scss\core\breadcrumb\breadcrumb.scss
 
 13:         background: transparent;
 14:         font-size: 12px;
@@ -14,7 +14,7 @@ Error: Undefined variable: "$gray-400".
 22: }
 
 Backtrace:
-D:\Talha\Aplosbiz\html\github\scss\core\breadcrumb\breadcrumb.scss:18
+D:\My Projects\AplosBiz\html\scss\core\breadcrumb\breadcrumb.scss:18
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -83,4 +83,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$gray-400\".\A         on line 18 of D:\Talha\Aplosbiz\html\github\scss\core\breadcrumb\breadcrumb.scss\A \A 13:         background: transparent;\A 14:         font-size: 12px;\A 15:         .breadcrumb-item+.breadcrumb-item::before {\A 16:             content: \"\e649\";\A 17:             font-family: themify;\A 18:             color: $gray-400;\A 19:             font-size: 11px;\A 20:         }\A 21:     }\A 22: }"; }
+  content: "Error: Undefined variable: \"$gray-400\".\A         on line 18 of D:\My Projects\AplosBiz\html\scss\core\breadcrumb\breadcrumb.scss\A \A 13:         background: transparent;\A 14:         font-size: 12px;\A 15:         .breadcrumb-item+.breadcrumb-item::before {\A 16:             content: \"\e649\";\A 17:             font-family: themify;\A 18:             color: $gray-400;\A 19:             font-size: 11px;\A 20:         }\A 21:     }\A 22: }"; }

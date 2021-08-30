@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$gray-800".
-        on line 33 of D:\Talha\Aplosbiz\html\github\scss\widgets\chat-widgets.scss
+        on line 33 of D:\My Projects\AplosBiz\html\scss\widgets\chat-widgets.scss
 
 28:             }
 29:             .box {
@@ -15,7 +15,7 @@ Error: Undefined variable: "$gray-800".
 38:             display: block;
 
 Backtrace:
-D:\Talha\Aplosbiz\html\github\scss\widgets\chat-widgets.scss:33
+D:\My Projects\AplosBiz\html\scss\widgets\chat-widgets.scss:33
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -95,4 +95,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$gray-800\".\A         on line 33 of D:\Talha\Aplosbiz\html\github\scss\widgets\chat-widgets.scss\A \A 28:             }\A 29:             .box {\A 30:                 display: inline-block;\A 31:                 padding: 10px;\A 32:                 margin-bottom: 3px;\A 33:                 color:$gray-800;\A 34:                 background: $gray-100;\A 35:             }\A 36:         }\A 37:         .chat-time {\A 38:             display: block;"; }
+  content: "Error: Undefined variable: \"$gray-800\".\A         on line 33 of D:\My Projects\AplosBiz\html\scss\widgets\chat-widgets.scss\A \A 28:             }\A 29:             .box {\A 30:                 display: inline-block;\A 31:                 padding: 10px;\A 32:                 margin-bottom: 3px;\A 33:                 color:$gray-800;\A 34:                 background: $gray-100;\A 35:             }\A 36:         }\A 37:         .chat-time {\A 38:             display: block;"; }

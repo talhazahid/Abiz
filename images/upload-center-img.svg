@@ -1,0 +1,9 @@
+<svg id="Group_255" data-name="Group 255" xmlns="http://www.w3.org/2000/svg" width="237.429" height="20" viewBox="0 0 237.429 20">
+  <text id="Drag_Images_here_to_upload" data-name="Drag Images here to upload" transform="translate(30.429 16)" fill="#acacac" font-size="17" font-family="Roboto-Light, Roboto" font-weight="300"><tspan x="0" y="0">Drag Images here to upload</tspan></text>
+  <g id="image-add-button">
+    <g id="Group_254" data-name="Group 254">
+      <path id="Path_302" data-name="Path 302" d="M20,4.857H17.143L14.286,2H8.571L5.714,4.857H2.857A2.8,2.8,0,0,0,0,7.714v8.571a2.8,2.8,0,0,0,2.857,2.857h8.227a6.422,6.422,0,0,0,11.37-1.349,3.573,3.573,0,0,0,.4-1.508V7.714A2.8,2.8,0,0,0,20,4.857ZM10.024,16.043A4.281,4.281,0,1,1,14.79,9.361,6.424,6.424,0,0,0,10,15.571C10,15.731,10.013,15.886,10.024,16.043Zm6.4,4.445a4.917,4.917,0,1,1,4.916-4.916A4.927,4.927,0,0,1,16.429,20.488Z" transform="translate(0 -2)" fill="#acacac"/>
+      <path id="Path_303" data-name="Path 303" d="M22.287,16h-1.43v2.857H18v1.429h2.857v2.857h1.43V20.286h2.856V18.857H22.287Z" transform="translate(-5.143 -6)" fill="#acacac"/>
+    </g>
+  </g>
+</svg>

@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$border-color".
-        on line 6 of D:\Talha\Aplosbiz\html\github\scss\widgets\steamline.scss
+        on line 6 of D:\My Projects\AplosBiz\html\scss\widgets\steamline.scss
 
 1: /*******************\/
 2: /*Steam line widget*\/
@@ -15,7 +15,7 @@ Error: Undefined variable: "$border-color".
 11:         z-index: 1;
 
 Backtrace:
-D:\Talha\Aplosbiz\html\github\scss\widgets\steamline.scss:6
+D:\My Projects\AplosBiz\html\scss\widgets\steamline.scss:6
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
@@ -66,4 +66,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$border-color\".\A         on line 6 of D:\Talha\Aplosbiz\html\github\scss\widgets\steamline.scss\A \A 1: /*******************/\A 2: /*Steam line widget*/\A 3: /*******************/\A 4: .steamline {\A 5:     position: relative;\A 6:     border-left: 1px solid $border-color;\A 7:     margin-left: 20px;\A 8:     .sl-left {\A 9:         float: $lft;\A 10:         margin-left: -20px;\A 11:         z-index: 1;"; }
+  content: "Error: Undefined variable: \"$border-color\".\A         on line 6 of D:\My Projects\AplosBiz\html\scss\widgets\steamline.scss\A \A 1: /*******************/\A 2: /*Steam line widget*/\A 3: /*******************/\A 4: .steamline {\A 5:     position: relative;\A 6:     border-left: 1px solid $border-color;\A 7:     margin-left: 20px;\A 8:     .sl-left {\A 9:         float: $lft;\A 10:         margin-left: -20px;\A 11:         z-index: 1;"; }

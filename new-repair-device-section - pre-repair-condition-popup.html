@@ -1,0 +1,1053 @@
+<!DOCTYPE html>
+<html lang="en" class="light-theme">
+
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+ <link rel="stylesheet" href="scss/main.css" />
+ <link rel="stylesheet" href="scss/owl.carousel.css" />
+ <link rel="stylesheet" href="scss/owl.theme.default.css" />
+
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <script src="js/custom.js"></script>
+ <script src="js/owl.carousel.js"></script>
+</head>
+
+<body>
+ <div class="container-fluid p-0 m-0">
+  <!-- Header Fluid -->
+  <header>
+   <div class="row align-items-center">
+    <div class="col-12 left-header col-md-4 col-lg-2 d-flex align-items-center">
+     <div class="menu-trigger">
+      <img src="images/icon-menu.svg" class="white-svg">
+     </div>
+     <div class="logo-fluid">
+      <img src="images/white-logo.svg" />
+     </div>
+    </div>
+    <div class="col-md-8 col-lg-10 header-right d-flex">
+
+     <div class="shortcut-menu-box">
+
+      <ul>
+       <li>
+        <a href="#">
+         <img src="images/ico-new-product.svg" class="white-svg">
+         Register
+        </a>
+       </li>
+       <li>
+        <a href="#">
+         <img src="images/ico-new-product.svg" class="white-svg">
+         Sales
+        </a>
+       </li>
+
+
+      </ul>
+
+     </div>
+
+
+     <div class="right-header-options">
+      <a href="#" class="fulscreen-toggle">
+       <img src="images/fullscreen.svg">
+      </a>
+      <div class="placement-search-box">
+       <div>
+        <a href="#" class="header-placement">
+         <img src="images/icon-thumbtack.svg">
+        </a>
+       </div>
+       <div>
+        <a href="#" class="header-search" data-toggle="modal" data-target="#search-modal">
+         <img src="images/icon-header-search.svg">
+        </a>
+       </div>
+      </div>
+
+      <div class="header-btns-box">
+       <button data-toggle="modal" data-target="#exampleModal" class="btn  dashboard-btn-big header-btn">
+        Register
+       </button>
+       <div class="dropdown">
+        <button class="btn switch-store-btn btn-theme-style dropdown-toggle" type="button" id="dropdownMenuButton"
+         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Switch Store
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+         <a class="dropdown-item" href="#">Action</a>
+         <a class="dropdown-item" href="#">Another action</a>
+         <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+       </div>
+       <div class="dropdown">
+        <button class="btn  btn-theme-style dropdown-toggle bell-btn" type="button" id="bell" data-toggle="dropdown"
+         aria-haspopup="true" aria-expanded="false">
+         <img src="images/bell.png" />
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+         <a class="dropdown-item" href="#">Notification 1</a>
+         <a class="dropdown-item" href="#">Notification 2</a>
+         <a class="dropdown-item" href="#">Notification 3</a>
+        </div>
+       </div>
+       <div class="dropdown">
+        <button class="btn  btn-theme-style dropdown-toggle user-profile" type="button" id="user-profile"
+         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         <img src="images/profile.png" />
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+         <a class="dropdown-item" href="#">Profile</a>
+         <a class="dropdown-item" href="#">Settings</a>
+         <a class="dropdown-item" href="#">Logout</a>
+        </div>
+       </div>
+      </div>
+
+
+     </div>
+
+
+
+
+
+    </div>
+   </div>
+  </header>
+  <!-- Header Fluid -->
+  <div class="container-fluid p-0">
+   <div class="row relative ">
+
+    <div id="slide-menu" class="p-0 sidemenu-bg">
+
+
+     <div class="sidemenu">
+      <ul>
+       <li class="active tooltip-parent">
+        <!-- Tooltip Parent Class add hogi -->
+        <a href="#">
+         <img src="images/home-ico.svg" class="menu-svg">
+         <span>Home</span>
+        </a>
+
+
+        <!-- Extra menu item class wrapper-->
+        <div class="menu-hover-tooltip">
+         <span>Home</span>
+        </div>
+        <!-- Extra menu item class wrapper-->
+
+
+       </li>
+       <li class=" tooltip-parent"><a href="#"> <img src="images/sales-ico.svg" class="menu-svg"> <span>Sales</span></a>
+        <div class="menu-hover-tooltip">
+         <span>Sales</span>
+        </div>
+
+       </li>
+       <li><a href="#"> <img src="images/history-ico.svg" class="menu-svg"> <span>History</span></a></li>
+       <li><a href="#"> <img src="images/inventory-ico.svg" class="menu-svg"> <span>Inventory</span></a></li>
+       <li><a href="#"> <img src="images/customers-ico.svg" class="menu-svg"> <span>Customers</span></a></li>
+       <li><a href="#"> <img src="images/repair-ico.svg" class="menu-svg"> <span>Repairs</span></a></li>
+       <li><a href="#"> <img src="images/admin-tools-ico.svg" class="menu-svg"> <span>Admin Tools</span> </a></li>
+      </ul>
+     </div>
+     <div class="sidemenu-bottom-section">
+      <ul>
+       <li><a href="#"> <img src="images/help-ico.svg" class="menu-svg">Help</a></li>
+      </ul>
+      <p>Powered by Aplosbiz ver 1.1v</p>
+     </div>
+    </div>
+
+
+
+    <div class="p-0  section-bg" id="content">
+
+     <div class="row flex-grow-parent">
+      <div class="col-12 p-0 ">
+       <div class="right-content-wrapper flex-grow-parent p-0">
+
+        <div class="register-page-wrapper flex-grow-parent ">
+
+
+         <div class="register-page-left-col register-page">
+
+          <div class="row  flex-center justify-content-center">
+
+
+
+           <div class="register-page-container">
+
+
+
+
+            <div class="repair-section-customer-details-row mb-4">
+
+
+             <div class="repair-customer-profilebox">
+
+
+              <div class="repair-customer-profile-details">
+               <div class="customer-profile">
+                <img src="images/avatar.png">
+               </div>
+
+
+               <div class="customer-details">
+                <div>Walkin Customer</div>
+
+                <div class="customer-email">
+                 <span>Email:</span> <a href="#">Setve@gmail.com</a>
+                </div>
+
+
+
+               </div>
+
+               <div class="customer-profile-edit-btn">
+                <div class="button-with-icon">
+                 <button type="button" class="btn theme-btn ">
+                  <img src="images/icon-edit.svg">
+                  <div>Edit</div>
+                 </button>
+                </div>
+               </div>
+
+
+
+
+               <div class="email-notification-repair-customers">
+                <div class="notification-heading">Notifications</div>
+                <div class="email-alert-row">
+                 <div class="mr-2">Email Alert:</div>
+                 <div> <img src="images/icon-switch-on.svg"> </div>
+
+                </div>
+               </div>
+              </div>
+
+
+
+              <div class="view-purchase-history">
+               <a href="#">View Purchase HIstory</a>
+              </div>
+
+
+             </div>
+
+
+
+
+
+
+
+
+
+
+
+             <div class="walk-in-customer">
+
+
+              <ul class="navbar-nav ml-auto">
+               <li class="nav-item dropdown walkin-customer-menu">
+                <a class="nav-link dropdown-toggle walkin-placeholder" href="#" id="navbarDropdown" role="button"
+                 data-toggle="dropdown">
+
+                 <div>
+                  Walk-in Customer
+                 </div>
+                 <div>
+                  <img src="images/icon-drop-down-arrow.svg">
+                 </div>
+
+
+                </a>
+
+                <div class="dropdown-menu dropdown-menu-right animate slideIn">
+                 <a class="dropdown-item" href="#">Create New Customer</a>
+
+                 <a class="dropdown-item" href="#">Another action</a>
+                 <!-- <div class="dropdown-divider"></div> -->
+                 <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+               </li>
+              </ul>
+
+
+             </div>
+
+
+            </div>
+
+
+            <!-- <a href="#" class="open-invoice-box">
+              <div class="open-invoice-heading">Open Invoice</div>
+              <div class="open-invoice-numbers">4</div>
+              <div class="open-invoice-amount">$800.33</div>
+             </a> -->
+
+
+
+            <!-- <div class="search-field">
+             <input type="text" class="full-width theme-input" id="text" placeholder="Start typing to Search">
+            </div> -->
+
+
+
+
+            <div class="right-col-full-width-tabs mt-4 custom-tab-form">
+             <ul class="nav nav-tabs no-border " id="myTab" role="tablist">
+              <li class="nav-item">
+               <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                aria-selected="true"> <img src="images/tabs-general.svg" class="hover-white"> Device</a>
+              </li>
+              <li class="nav-item">
+               <a class="nav-link" id="profile-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+                aria-selected="false"><img src="images/tabs-contact.svg" class="hover-white"> Device Issues</a>
+              </li>
+              <li class="nav-item">
+               <a class="nav-link" id="profile-taffb" data-toggle="tab" href="#contactf" role="tab"
+                aria-controls="contact" aria-selected="false"><img src="images/tabs-contact.svg" class="hover-white">
+                Invoices</a>
+              </li>
+             </ul>
+             <div class="tab-content no-bg " id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+               <div>
+
+
+
+                <div class="right-content-items-row">
+
+
+
+                 <div class="grid-one-column-wrapper repair-center-section">
+
+
+                  <div class="grid-one-column">
+
+
+
+                   <div class="owl-carousel owl-theme repair-center-category">
+
+                    <div class="item">
+                     <a href="#" class="add-category">
+                      <img src="images/icon-plus.svg">
+                      <span>ADD device Issue</span>
+                     </a>
+
+                     <a href="#" class="category">
+
+                      <input type="checkbox" style="-webkit-appearance: checkbox;height: 20px;"
+                       class="select-repair-box">
+
+                      <!-- <img src="images/icon-smartphone.svg"> -->
+
+                      <div class="device-issue-title">
+                       <div>a.</div>
+                       <div>LCD/Glass
+                        X05</div>
+                      </div>
+                      <span>$0.00</span>
+                     </a>
+                     <a href="#" class="category">
+
+                      <input type="checkbox" style="-webkit-appearance: checkbox;height: 20px;"
+                       class="select-repair-box">
+
+                      <!-- <img src="images/icon-smartphone.svg"> -->
+
+                      <div class="device-issue-title">
+                       <div>a.</div>
+                       <div>LCD/Glass
+                        X05</div>
+                      </div>
+                      <span>$0.00</span>
+                     </a>
+                     <a href="#" class="category">
+
+                      <input type="checkbox" style="-webkit-appearance: checkbox;height: 20px;"
+                       class="select-repair-box">
+
+                      <!-- <img src="images/icon-smartphone.svg"> -->
+
+                      <div class="device-issue-title">
+                       <div>a.</div>
+                       <div>LCD/Glass
+                        X05</div>
+                      </div>
+                      <span>$0.00</span>
+                     </a>
+                     <a href="#" class="category">
+
+                      <input type="checkbox" style="-webkit-appearance: checkbox;height: 20px;"
+                       class="select-repair-box">
+
+                      <!-- <img src="images/icon-smartphone.svg"> -->
+
+                      <div class="device-issue-title">
+                       <div>a.</div>
+                       <div>LCD/Glass
+                        X05</div>
+                      </div>
+                      <span>$0.00</span>
+                     </a>
+                     <a href="#" class="category">
+
+                      <input type="checkbox" style="-webkit-appearance: checkbox;height: 20px;"
+                       class="select-repair-box">
+
+                      <!-- <img src="images/icon-smartphone.svg"> -->
+
+                      <div class="device-issue-title">
+                       <div>a.</div>
+                       <div>LCD/Glass
+                        X05</div>
+                      </div>
+                      <span>$0.00</span>
+                     </a>
+                     <a href="#" class="category">
+
+                      <input type="checkbox" style="-webkit-appearance: checkbox;height: 20px;"
+                       class="select-repair-box">
+
+                      <!-- <img src="images/icon-smartphone.svg"> -->
+
+                      <div class="device-issue-title">
+                       <div>a.</div>
+                       <div>LCD/Glass
+                        X05</div>
+                      </div>
+                      <span>$0.00</span>
+                     </a>
+                     <a href="#" class="category">
+
+                      <input type="checkbox" style="-webkit-appearance: checkbox;height: 20px;"
+                       class="select-repair-box">
+
+                      <!-- <img src="images/icon-smartphone.svg"> -->
+
+                      <div class="device-issue-title">
+                       <div>a.</div>
+                       <div>LCD/Glass
+                        X05</div>
+                      </div>
+                      <span>$0.00</span>
+                     </a>
+                     <a href="#" class="category">
+
+                      <input type="checkbox" style="-webkit-appearance: checkbox;height: 20px;"
+                       class="select-repair-box">
+
+                      <!-- <img src="images/icon-smartphone.svg"> -->
+
+                      <div class="device-issue-title">
+                       <div>a.</div>
+                       <div>LCD/Glass
+                        X05</div>
+                      </div>
+                      <span>$0.00</span>
+                     </a>
+
+
+                    </div>
+
+
+                    <div class="item">
+                     <a href="#" class="category">
+
+                      <input type="checkbox" style="-webkit-appearance: checkbox;height: 20px;"
+                       class="select-repair-box">
+
+                      <!-- <img src="images/icon-smartphone.svg"> -->
+
+                      <div class="device-issue-title">
+                       <div>a.</div>
+                       <div>LCD/Glass
+                        X05</div>
+                      </div>
+                      <span>$0.00</span>
+                     </a>
+                     <a href="#" class="category">
+
+                      <input type="checkbox" style="-webkit-appearance: checkbox;height: 20px;"
+                       class="select-repair-box">
+
+                      <!-- <img src="images/icon-smartphone.svg"> -->
+
+                      <div class="device-issue-title">
+                       <div>a.</div>
+                       <div>LCD/Glass
+                        X05</div>
+                      </div>
+                      <span>$0.00</span>
+                     </a>
+                     <a href="#" class="category">
+
+                      <input type="checkbox" style="-webkit-appearance: checkbox;height: 20px;"
+                       class="select-repair-box">
+
+                      <!-- <img src="images/icon-smartphone.svg"> -->
+
+                      <div class="device-issue-title">
+                       <div>a.</div>
+                       <div>LCD/Glass
+                        X05</div>
+                      </div>
+                      <span>$0.00</span>
+                     </a>
+                     <a href="#" class="category">
+
+                      <input type="checkbox" style="-webkit-appearance: checkbox;height: 20px;"
+                       class="select-repair-box">
+
+                      <!-- <img src="images/icon-smartphone.svg"> -->
+
+                      <div class="device-issue-title">
+                       <div>a.</div>
+                       <div>LCD/Glass
+                        X05</div>
+                      </div>
+                      <span>$0.00</span>
+                     </a>
+                     <a href="#" class="category">
+
+                      <input type="checkbox" style="-webkit-appearance: checkbox;height: 20px;"
+                       class="select-repair-box">
+
+                      <!-- <img src="images/icon-smartphone.svg"> -->
+
+                      <div class="device-issue-title">
+                       <div>a.</div>
+                       <div>LCD/Glass
+                        X05</div>
+                      </div>
+                      <span>$0.00</span>
+                     </a>
+                     <a href="#" class="category">
+
+                      <input type="checkbox" style="-webkit-appearance: checkbox;height: 20px;"
+                       class="select-repair-box">
+
+                      <!-- <img src="images/icon-smartphone.svg"> -->
+
+                      <div class="device-issue-title">
+                       <div>a.</div>
+                       <div>LCD/Glass
+                        X05</div>
+                      </div>
+                      <span>$0.00</span>
+                     </a>
+                     <a href="#" class="category">
+
+                      <input type="checkbox" style="-webkit-appearance: checkbox;height: 20px;"
+                       class="select-repair-box">
+
+                      <!-- <img src="images/icon-smartphone.svg"> -->
+
+                      <div class="device-issue-title">
+                       <div>a.</div>
+                       <div>LCD/Glass
+                        X05</div>
+                      </div>
+                      <span>$0.00</span>
+                     </a>
+                     <a href="#" class="category">
+
+                      <input type="checkbox" style="-webkit-appearance: checkbox;height: 20px;"
+                       class="select-repair-box">
+
+                      <!-- <img src="images/icon-smartphone.svg"> -->
+
+                      <div class="device-issue-title">
+                       <div>a.</div>
+                       <div>LCD/Glass
+                        X05</div>
+                      </div>
+                      <span>$0.00</span>
+                     </a>
+
+                    </div>
+
+
+
+                   </div>
+
+
+
+
+                   <div class="buttons-full-width mt-3 mb-3">
+
+                    <div class="button-with-icon">
+                     <button type="button" class="btn theme-btn ">
+                      <img src="images/icon-backbutton.svg">
+                      <div>Back</div>
+                     </button>
+                    </div>
+
+
+                    <nav aria-label="Page navigation example">
+                     <ul class="pagination">
+                      <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                      <li class="page-item"><a class="page-link" href="#">1</a></li>
+                      <li class="page-item"><a class="page-link" href="#">2</a></li>
+                      <li class="page-item"><a class="page-link" href="#">3</a></li>
+                      <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                     </ul>
+                    </nav>
+
+
+
+
+                    <div class="button-with-icon">
+                     <button type="button" class="btn theme-btn ">
+                      <img src="images/icon-backbutton.svg" class="button-fwd">
+                      <div>Next</div>
+                     </button>
+                    </div>
+
+                   </div>
+
+
+                  </div>
+
+
+
+
+
+                 </div>
+                </div>
+
+
+
+
+               </div>
+              </div>
+              <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+               <div>
+                dsgdgsdgsd
+               </div>
+              </div>
+             </div>
+            </div>
+
+
+
+
+           </div>
+
+          </div>
+         </div>
+
+
+
+
+
+
+
+
+
+
+         <div class="register-page-right-col repair-right-col">
+          <div class="right-payment-upper-section">
+
+
+
+           <div class="card">
+
+            <div class="register-current-payment">
+             <div class="register-payment-row">
+              <div class="repair-info-box">
+               <div class="repair-info-heading-row">
+                <h2>
+                 Heading
+                </h2>
+                <div>
+                 <div class="button-with-icon">
+                  <button type="button" class="btn theme-btn " data-toggle="modal" data-target="#exampleModal">
+                   <img src="images/icon-edit.svg">
+                   <div>Edit</div>
+                  </button>
+                 </div>
+                </div>
+               </div>
+
+
+               <div class="info-box-data-row white-bg">
+                <div>
+                 Device
+                </div>
+                <div>
+                 IPhone5
+                </div>
+               </div>
+
+               <div class="info-box-data-row">
+                <div>
+                 Issue
+                </div>
+                <div>
+                 IPhone5
+                </div>
+               </div>
+
+
+               <div class="info-box-data-row white-bg">
+                <div>
+                 Device
+                </div>
+                <div>
+                 LCD/Glass X05
+
+                 <span>
+                  $0.00
+                 </span>
+                </div>
+               </div>
+              </div>
+
+             </div>
+            </div>
+
+           </div>
+
+
+          </div>
+
+
+          <div class="right-payment-bottom-section">
+           <div class="ticket-issues-actions">
+
+            <a href="#" class="theme-gray">
+             <div>
+              <img src="images/icon-plus-btn.svg">
+             </div>
+
+             <div>
+              Create Save
+             </div>
+            </a>
+
+            <a href="#" class="theme-gray">
+             <div>
+              <img src="images/icon-plus-btn.svg">
+             </div>
+
+             <div>
+              Create Save
+             </div>
+            </a>
+
+            <a href="#" class="theme-gray">
+             <div>
+              <img src="images/icon-plus-btn.svg">
+             </div>
+
+             <div>
+              Create Save
+             </div>
+            </a>
+
+            <a href="#" class="theme-green">
+             <div>
+              <img src="images/icon-checkout.svg">
+             </div>
+
+             <div>
+              Checkout
+             </div>
+            </a>
+
+
+            <a href="#" class="theme-red">
+             <div>
+              <img src="images/icon-trash.svg">
+             </div>
+
+             <div>
+              Cancel
+             </div>
+            </a>
+
+            <a href="#" class="theme-blue" data-toggle="modal" data-target="#exampleModal2">
+             <div>
+              <img src="images/icon-ticket.svg">
+             </div>
+
+             <div>
+              Create Ticket
+             </div>
+            </a>
+
+           </div>
+          </div>
+
+
+
+
+
+
+
+
+
+
+
+
+         </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+  </div>
+ </div>
+
+
+
+
+
+
+
+
+ <!-- edit modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-auto-width" role="document">
+   <div class="modal-content model-content-auto-width">
+    <div class="modal-body no-spacing">
+
+
+
+     <div class="row">
+      <!-- Aqib-->
+      <div class="col-lg-8 col-md-6 col-xl-5 mx-auto white-bg p-0">
+
+       <div class="row mt-3 mb-3">
+
+
+
+
+
+
+        <div class="modal-heading">
+         Pre Repair Condition Checklist
+        </div>
+
+
+        <div class="modal-full-width-bg">
+
+
+
+         <label class="full-width">
+          <div class="modal-semi-heading">Category <img src="images/icon-information.svg" class="ml-1"></div>
+          <select required="" class="half-width">
+           <option value="" disabled="" selected="">Mobile</option>
+           <option value="1">One</option>
+           <option value="2">Two</option>
+          </select>
+         </label>
+
+         <div class="three-column-grid-auto">
+
+          <div class="three-column-grid-cols">
+           <div><img src="images/icon-switch-on.svg"></div>
+           <div> Select All</div>
+          </div>
+
+
+
+          <div class="three-column-grid-cols">
+           <div><img src="images/icon-switch-off.svg"></div>
+           <div> Power On/ Restart</div>
+          </div>
+
+
+
+          <div class="three-column-grid-cols">
+           <div><img src="images/icon-switch-on.svg"></div>
+           <div> Select All</div>
+          </div>
+          <div class="three-column-grid-cols">
+           <div><img src="images/icon-switch-on.svg"></div>
+           <div> Select All</div>
+          </div>
+
+
+
+          <div class="three-column-grid-cols">
+           <div><img src="images/icon-switch-off.svg"></div>
+           <div> Power On/ Restart</div>
+          </div>
+
+
+
+          <div class="three-column-grid-cols">
+           <div><img src="images/icon-switch-on.svg"></div>
+           <div> Select All</div>
+          </div>
+          <div class="three-column-grid-cols">
+           <div><img src="images/icon-switch-on.svg"></div>
+           <div> Select All</div>
+          </div>
+
+
+
+          <div class="three-column-grid-cols">
+           <div><img src="images/icon-switch-off.svg"></div>
+           <div> Power On/ Restart</div>
+          </div>
+
+
+
+          <div class="three-column-grid-cols">
+           <div><img src="images/icon-switch-on.svg"></div>
+           <div> Select All</div>
+          </div>
+          <div class="three-column-grid-cols">
+           <div><img src="images/icon-switch-on.svg"></div>
+           <div> Select All</div>
+          </div>
+
+
+
+          <div class="three-column-grid-cols">
+           <div><img src="images/icon-switch-off.svg"></div>
+           <div> Power On/ Restart</div>
+          </div>
+
+
+
+          <div class="three-column-grid-cols">
+           <div><img src="images/icon-switch-on.svg"></div>
+           <div> Select All</div>
+          </div>
+          <div class="three-column-grid-cols">
+           <div><img src="images/icon-switch-on.svg"></div>
+           <div> Select All</div>
+          </div>
+
+
+
+
+
+
+         </div>
+
+
+
+        </div>
+
+
+
+
+       </div>
+
+
+
+
+
+       <div class="modal-footer pt-0 modal-footer-no-border">
+
+        <div class="mx-auto  mb-1 cancel-save-btn-row">
+         <button type="button" class="btn btn-outline-secondary">
+          CANCEL
+         </button>
+         <button type="button" class="btn theme-btn ">
+          SAVE CHANGES
+         </button>
+        </div>
+
+
+       </div>
+
+
+
+
+      </div>
+
+
+
+
+     </div>
+
+
+    </div>
+
+   </div>
+  </div>
+ </div>
+
+
+
+
+
+ </div>
+
+ <script>
+  $('.owl-carousel').owlCarousel({
+   stagePadding: 0,
+
+   margin: 10,
+   loop: true,
+   nav: true,
+   dots: false,
+   responsive: {
+    0: {
+     items: 1
+    },
+    600: {
+     items: 1
+    },
+    1000: {
+     items: 1
+    }
+   }
+  })
+ </script>
+
+
+ <script>
+  $("#myModal").on("shown.bs.modal", function () {
+   $("#myInput").trigger("focus");
+  });
+
+
+
+
+
+  (function () {
+   var $body = document.body
+    , $menu_trigger = $body.getElementsByClassName('menu-trigger')[0];
+
+   if (typeof $menu_trigger !== 'undefined') {
+    $menu_trigger.addEventListener('click', function () {
+     $body.className = ($body.className == 'menu-active') ? '' : 'menu-active';
+    });
+   }
+
+  }).call(this);
+ </script>
+</body>
+
+</html>

@@ -1,6 +1,6 @@
 /*
 Error: Undefined variable: "$white".
-        on line 20 of D:\Talha\Aplosbiz\html\github\scss\widgets\chat-popup.scss
+        on line 20 of D:\My Projects\AplosBiz\html\scss\widgets\chat-popup.scss
 
 15:         bottom: -$chat-window-height;
 16:     }
@@ -15,7 +15,7 @@ Error: Undefined variable: "$white".
 25:             min-width: 40px;
 
 Backtrace:
-D:\Talha\Aplosbiz\html\github\scss\widgets\chat-popup.scss:20
+D:\My Projects\AplosBiz\html\scss\widgets\chat-popup.scss:20
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -73,4 +73,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 20 of D:\Talha\Aplosbiz\html\github\scss\widgets\chat-popup.scss\A \A 15:         bottom: -$chat-window-height;\A 16:     }\A 17:     .user-chat {\A 18:         min-width: $chat-window-width;\A 19:         min-height: $chat-window-height;\A 20:         background-color: $white;\A 21:         box-shadow: $shadow;\A 22:         float: $rgt;\A 23:         margin: 0 2px 0 0;\A 24:         &.mini-chat {\A 25:             min-width: 40px;"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 20 of D:\My Projects\AplosBiz\html\scss\widgets\chat-popup.scss\A \A 15:         bottom: -$chat-window-height;\A 16:     }\A 17:     .user-chat {\A 18:         min-width: $chat-window-width;\A 19:         min-height: $chat-window-height;\A 20:         background-color: $white;\A 21:         box-shadow: $shadow;\A 22:         float: $rgt;\A 23:         margin: 0 2px 0 0;\A 24:         &.mini-chat {\A 25:             min-width: 40px;"; }

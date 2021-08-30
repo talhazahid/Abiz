@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en" class="light-theme">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="scss/main.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <script src="js/custom.js"></script>
+  <title>AplosBiz</title>
+</head>
+
+<body>
+  <div class="container-fluid p-0 m-0">
+    <!-- Header Fluid -->
+    <header>
+      <div class="row align-items-center">
+        <div class="left-header  d-flex align-items-center">
+          <div class="menu-trigger">
+            <img src="images/icon-menu.svg" class="white-svg">
+          </div>
+          <div class="logo-fluid">
+            <img src="images/white-logo.svg" />
+          </div>
+        </div>
+        <div class=" header-right d-flex">
+
+          <div class="shortcut-menu-box">
+
+              <div>
+                  <a href="#" class="header-placement">
+                    <img src="images/icon-thumbtack.svg">
+                  </a>
+                </div>
+
+            <ul>
+              <li>
+                <a href="#">
+                  <img src="images/ico-new-product.svg" class="white-svg">
+                  Register
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                    <img src="images/ico-new-product.svg" class="white-svg">
+                  Sales
+                </a>
+              </li>
+                
+             
+            </ul>
+
+          </div>
+
+
+          <div class="right-header-options">
+            <div class="placement-search-box">
+             
+              <div>
+                  <a href="#" class="header-search"  data-toggle="modal" data-target="#search-modal">
+                      <img src="images/icon-header-search.svg">
+                    </a>
+              </div>
+            </div>
+
+            <div class="header-btns-box">
+                <button data-toggle="modal" data-target="#exampleModal" class="btn  dashboard-btn-big header-btn">
+                    Register
+                  </button>
+                  <div class="dropdown">
+                    <button class="btn switch-store-btn btn-theme-style dropdown-toggle" type="button" id="dropdownMenuButton"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Switch Store
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Another action</a>
+                      <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <button class="btn  btn-theme-style dropdown-toggle bell-btn" type="button" id="bell" data-toggle="dropdown"
+                      aria-haspopup="true" aria-expanded="false">
+                      <img src="images/bell.png" />
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Notification 1</a>
+                      <a class="dropdown-item" href="#">Notification 2</a>
+                      <a class="dropdown-item" href="#">Notification 3</a>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <button class="btn  btn-theme-style dropdown-toggle user-profile" type="button" id="user-profile"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <img src="images/profile.png" />
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Profile</a>
+                      <a class="dropdown-item" href="#">Settings</a>
+                      <a class="dropdown-item" href="#">Logout</a>
+                    </div>
+                  </div>
+            </div>
+
+
+          </div>
+
+
+
+
+          
+        </div>
+      </div>
+    </header>
+    <!-- Header Fluid -->
+    <div class="container-fluid p-0">
+      <div class="row relative ">
+
+        <div id="slide-menu" class="p-0 sidemenu-bg">
+
+
+          <div class="sidemenu">
+            <ul>
+              <li class="active tooltip-parent">  <!-- Tooltip Parent Class add hogi -->
+                <a href="#"> 
+                <img src="images/home-ico.svg" class="menu-svg"> 
+                <span>Home</span>
+              </a>
+
+              
+                <!-- Extra menu item class wrapper-->
+                <div class="menu-hover-tooltip">  
+                  <span>Home</span>
+                </div>
+                <!-- Extra menu item class wrapper-->
+
+
+              </li>
+              <li class=" tooltip-parent"><a href="#"> <img src="images/sales-ico.svg" class="menu-svg">  <span>Sales</span></a>
+                <div class="menu-hover-tooltip">
+                  <span>Sales</span>
+                </div>
+              
+              </li>
+              <li><a href="#"> <img src="images/history-ico.svg" class="menu-svg">  <span>History</span></a></li>
+              <li><a href="#"> <img src="images/inventory-ico.svg" class="menu-svg">  <span>Inventory</span></a></li>
+              <li><a href="#"> <img src="images/customers-ico.svg" class="menu-svg">  <span>Customers</span></a></li>
+              <li><a href="#"> <img src="images/repair-ico.svg" class="menu-svg">  <span>Repairs</span></a></li>
+              <li><a href="#"> <img src="images/admin-tools-ico.svg" class="menu-svg"> <span>Admin Tools</span> </a></li>
+            </ul>
+          </div>
+          <div class="sidemenu-bottom-section">
+            <ul>
+              <li><a href="#"> <img src="images/help-ico.svg" class="menu-svg">Help</a></li>
+            </ul>
+            <p>Powered by Aplosbiz ver 1.1v</p>
+          </div>
+        </div>
+
+
+
+        <div class="p-0  section-bg" id="content">
+
+          <div class="row flex-grow-parent">
+            <div class="col-12 p-0 ">
+              <div class="right-content-wrapper flex-grow-parent p-0">
+
+                <div class="dashboard-page flex-grow-parent ">
+
+
+          
+                  <div class="row mt-4">
+
+                    <div class="col-lg-12">
+                      <div class="row mb-4">
+
+                        <div class="col-lg-4">
+                          <div class="widget-box">
+                            <div class="widget-heading">
+                              Total Customers
+                            </div>
+                            <div class="total-data-widget">
+
+                              <div class="data-widget-left-col">                                
+                                      <div>246K</div>
+                                      <div class="downwards">
+                                        <span>
+                                         <img src="images/icon-downarrow-red.svg">
+                                        </span>
+                                        13.8%
+                                    </div>
+                              </div>
+
+
+                              <div class="data-widget-right-col">
+                                <img src="images/icon-barchart-blue.svg">
+                              </div>   
+                              
+                              
+                            </div>
+
+                          </div>
+                        </div>
+    
+                        <div class="col-lg-4">
+                          <div class="widget-box">
+                            <div class="widget-heading">
+                              Products Sold
+                            </div>
+                            <div class="total-data-widget">
+
+                              <div class="data-widget-left-col">                                
+                                      <div>2444</div>
+                                      <div class="upwards">
+                                        <span>
+                                         <img src="images/icon-uparrow-green.svg">
+                                        </span>
+                                        13.8%
+                                    </div>
+                              </div>
+
+
+                              <div class="data-widget-right-col">
+                                <img src="images/icon-barchart-orange.svg">
+                              </div>   
+                              
+                              
+                            </div>
+
+                          </div>
+                        </div>
+    
+                        <div class="col-lg-4">
+                          <div class="widget-box">
+                            <div class="widget-heading">
+                         Total Earnings
+                            </div>
+                            <div class="total-data-widget">
+
+                              <div class="data-widget-left-col">                                
+                                      <div>$39K</div>
+                                      <div class="downwards">
+                                        <span>
+                                         <img src="images/icon-downarrow-red.svg">
+                                        </span>
+                                        13.8%
+                                    </div>
+                              </div>
+
+
+                              <div class="data-widget-right-col">
+                                <img src="images/icon-barchart-green.svg">
+                              </div>   
+                              
+                              
+                            </div>
+
+                          </div>
+                        </div>
+    
+                      </div>
+    
+    
+    
+                      <div class="row mb-4">
+    
+                        <div class="col-lg-4">
+                          <div class="widget-box widget-equal-height-fix">
+                            <div class="widget-heading">
+                         Total Orders
+                            </div>
+                            
+                       
+
+                            <div class="pie-widget-box">
+                              <div class="pie-widget-box-left-col">
+
+                                <div class="pie-widget-wheel">
+                                  <img src="images/Circle.svg" style="width: 100%;">
+
+
+                                  <div class="pie-widget-wheel-text">
+                                    <div class="pie-widget-wheel-numbers">9204</div>
+                                    <div class="pie-widget-wheel-heading">Total Orders</div>
+                                  </div>
+                                </div>
+                               
+
+                              </div>
+
+
+                 
+                              <div class="pie-widget-box-right-col">
+                                 
+                                <div class="pie-legend-row">
+                                  <div class="pie-legend-col">
+                                    <div class="pie-legend-left-col">
+                                      <div class=" pie-completed">
+                                       
+                                      </div>
+                                    </div>
+
+                                    <div class="pie-legend-right-col">
+                                      <div>
+                                        <div class="pie-widget-legend-numbers">56.8%</div>
+                                        <div class="pie-widget-legend-heading">Completed</div>
+                                      </div>
+                                    </div>
+
+                                    
+                                  
+                                  </div>
+                                  <div class="pie-legend-col">
+                                    <div class="pie-legend-left-col">
+                                      <div class=" pie-cancelled">
+                                       
+                                      </div>
+                                    </div>
+
+                                    <div class="pie-legend-right-col">
+                                      <div>
+                                        <div class="pie-widget-legend-numbers">16.8%</div>
+                                        <div class="pie-widget-legend-heading">Completed</div>
+                                      </div>
+                                    </div>
+
+                                    
+                                  
+                                  </div>
+                                  <div class="pie-legend-col">
+                                    <div class="pie-legend-left-col">
+                                      <div class="pie-pending">
+                                       
+                                      </div>
+                                    </div>
+
+                                    <div class="pie-legend-right-col">
+                                      <div>
+                                        <div class="pie-widget-legend-numbers">32.8%</div>
+                                        <div class="pie-widget-legend-heading">Completed</div>
+                                      </div>
+                                    </div>
+
+                                    
+                                  
+                                  </div>
+                                </div>
+
+                              </div>
+                            </div>
+
+                          </div>
+                        </div>
+    
+                        <div class="col-lg-8">
+                          <div class="widget-box  widget-equal-height-fix">
+                            <p>
+                              https://apexcharts.com/javascript-chart-demos/line-charts/basic/
+                            </p>
+                            <p>
+                              WIdget 
+                            </p>
+                            <p>
+                              WIdget 
+                            </p>
+                            <p>
+                              WIdget 
+                            </p>
+                            <p>
+                              WIdget 
+                            </p>
+                            <p>
+                              WIdget 
+                            </p>
+                          </div>
+                        </div>
+    
+                      </div>
+    
+    
+                      <div class="row mb-4">
+    
+                        <div class="col-lg-4">
+                        
+                            <div class="widget-box">
+                              <div class="widget-heading  mb-1">
+                                Inventory
+                              </div>
+
+
+                      
+                              <div class="inventory-data-widget">
+
+
+                                <div class="inventory-data-row">
+                                    <div>Vendors</div>
+                                    <div>35,896</div>
+                                </div>
+
+
+                                <div class="inventory-data-bar">
+                                  <div class="progress">
+                                    <div class="progress-bar blue-light-bar" role="progressbar" aria-valuenow="70"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                      <span class="sr-only">70% Complete</span>
+                                    </div>
+                                  </div>
+                                </div>
+
+                              </div>
+
+
+
+
+
+
+                              <div class="inventory-data-widget mt-2">
+
+
+                                <div class="inventory-data-row">
+                                    <div>Products</div>
+                                    <div>35,896</div>
+                                </div>
+
+
+                                <div class="inventory-data-bar">
+                                  <div class="progress">
+                                    <div class="progress-bar light-orange" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                                      <span class="sr-only">70% Complete</span>
+                                    </div>
+                                  </div>
+                                </div>
+
+                              </div>
+  
+                            </div>
+                           
+                          
+                        </div>
+    
+                       
+    
+                      </div>
+                      <div class="row mb-4">
+    
+                        <div class="col-lg-4">
+                        
+                            <div class="widget-box">
+                              <div class="widget-heading  mb-1">
+                                Points & Discounts
+                              </div>
+
+
+                      
+                              <div class="inventory-data-widget">
+
+
+                                <div class="inventory-data-row">
+                                    <div>Loyalty Points</div>
+                                    <div>35,896</div>
+                                </div>
+
+
+                                <div class="inventory-data-bar">
+                                  <div class="progress">
+                                    <div class="progress-bar green-bar" role="progressbar" aria-valuenow="70"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:70%">
+                                      <span class="sr-only">70% Complete</span>
+                                    </div>
+                                  </div>
+                                </div>
+
+                              </div>
+
+
+
+
+
+
+                              <div class="inventory-data-widget mt-2">
+
+
+                                <div class="inventory-data-row">
+                                    <div>Discounts & Coupons</div>
+                                    <div>35,896</div>
+                                </div>
+
+
+                                <div class="inventory-data-bar">
+                                  <div class="progress">
+                                    <div class="progress-bar blue-bar" role="progressbar" aria-valuenow="40"
+                                    aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                                      <span class="sr-only">70% Complete</span>
+                                    </div>
+                                  </div>
+                                </div>
+
+                              </div>
+  
+                            </div>
+                           
+                          
+                        </div>
+    
+                       
+    
+                      </div>
+                    </div>
+
+                  </div>
+         
+
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+  <!-- edit modal -->
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-auto-width" role="document">
+      <div class="modal-content model-content-auto-width">
+        <div class="modal-body no-spacing">
+
+
+
+          <div class="row">
+            <!-- Aqib-->
+            <div class="col-lg-4 col-md-6 col-xl-4 mx-auto white-bg p-0">
+
+              <div class="row mt-3 mb-3">
+
+
+            <div class="col">
+
+              <div class="add-scan-serial-imei-popup-wrapper">
+
+                <div class="heading">
+                  Select or Scan IMEI Number
+                </div>
+
+
+                <div class="add-serial-field">
+              
+                  <input type="text" class=" theme-input" id="text" placeholder="">
+                  <div>
+                    <button class="btn theme-btn ">
+                      Search
+                    </button>
+                  </div>
+                </div>
+
+
+                <div class="select-imei-number-header">
+                  Select IMEI Number
+                </div>
+
+                <div class="table-overflow-container">
+                  <table>
+                 
+                    <tr>                
+                    
+                      <td>
+                        <div class="numbers">
+                            893043890489023894038
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>                
+                    
+                      <td>
+                        <div class="numbers">
+                            893043890489023894038
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>                
+                    
+                      <td>
+                        <div class="numbers">
+                            893043890489023894038
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>                
+                    
+                      <td>
+                        <div class="numbers">
+                            893043890489023894038
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>                
+                    
+                      <td>
+                        <div class="numbers">
+                            893043890489023894038
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>                
+                    
+                      <td>
+                        <div class="numbers">
+                            893043890489023894038
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>                
+                    
+                      <td>
+                        <div class="numbers">
+                            893043890489023894038
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>                
+                    
+                      <td>
+                        <div class="numbers">
+                            893043890489023894038
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>                
+                    
+                      <td>
+                        <div class="numbers">
+                            893043890489023894038
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>                
+                    
+                      <td>
+                        <div class="numbers">
+                            893043890489023894038
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>                
+                    
+                      <td>
+                        <div class="numbers">
+                            893043890489023894038
+                        </div>
+                      </td>
+                    </tr>
+                    <tr>                
+                    
+                      <td>
+                        <div class="numbers">
+                            893043890489023894038
+                        </div>
+                      </td>
+                    </tr>
+                   
+                  </table>
+                </div>
+              
+
+                
+
+                
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+              </div>
+
+              <div class="modal-footer pt-0 modal-footer-no-border">
+
+                <div class="mx-auto  mb-1 cancel-save-btn-row">
+                  <button type="button" class="btn btn-outline-secondary">
+                    CANCEL
+                  </button>
+                  <button type="button" class="btn theme-btn ">
+                    SAVE CHANGES
+                  </button>
+                </div>
+
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- Search Modal -->
+<div class="modal fade" id="search-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-search-dialog" role="document">
+      <div class="modal-content">
+       
+          <div class="row  align-items-center ">
+              <div class="col-lg-7 col-xl-5 mx-auto">
+                <div class=" search-modal-box">
+                    <input type="text" class="full-width theme-input" id="text" placeholder="Search">
+                    <button></button>
+                </div>
+              </div>
+          </div>
+
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+  </div>
+  <script>
+    $("#myModal").on("shown.bs.modal", function () {
+      $("#myInput").trigger("focus");
+    });
+
+
+
+
+
+    (function () {
+      var $body = document.body
+        , $menu_trigger = $body.getElementsByClassName('menu-trigger')[0];
+
+      if (typeof $menu_trigger !== 'undefined') {
+        $menu_trigger.addEventListener('click', function () {
+          $body.className = ($body.className == 'menu-active') ? '' : 'menu-active';
+        });
+      }
+
+    }).call(this);
+  </script>
+</body>
+
+</html>

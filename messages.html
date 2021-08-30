@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" class="light-theme">
+
+<head>
+ <meta charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+ <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+ <link rel="stylesheet" href="scss/main.css" />
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+ <script src="js/custom.js"></script>
+ <title>AplosBiz</title>
+</head>
+
+<body style="margin: 20px;">
+
+
+
+ <div class="error-field toast toast--green">
+
+  <div class="toast-icon">
+   <img src="images/toast-tick.svg">
+  </div>
+  <div class="toast-message-box">
+   <div class="toast-type">Success</div>
+   <div class="toast-message">Anyone with access can view your invited visitors.</div>
+  </div>
+
+  <a href="#" class="toast-closebtn">
+   <img src="images/toast-close-icon.svg">
+  </a>
+
+ </div>
+
+ <br>
+ <br>
+
+
+ <div class="error-field toast toast--red">
+
+  <div class="toast-icon">
+   <img src="images/toast-close.svg">
+  </div>
+  <div class="toast-message-box">
+   <div class="toast-type">Error</div>
+   <div class="toast-message">Anyone with access can view your invited visitors.</div>
+  </div>
+
+  <a href="#" class="toast-closebtn">
+   <img src="images/toast-close-icon.svg">
+  </a>
+
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+ </div>
+ <script>
+  $("#myModal").on("shown.bs.modal", function () {
+   $("#myInput").trigger("focus");
+  });
+
+
+
+
+
+  (function () {
+   var $body = document.body
+    , $menu_trigger = $body.getElementsByClassName('menu-trigger')[0];
+
+   if (typeof $menu_trigger !== 'undefined') {
+    $menu_trigger.addEventListener('click', function () {
+     $body.className = ($body.className == 'menu-active') ? '' : 'menu-active';
+    });
+   }
+
+  }).call(this);
+ </script>
+</body>
+
+</html>

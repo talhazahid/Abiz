@@ -55,6 +55,9 @@
 
 
           <div class="right-header-options">
+            <a href="#" class="fulscreen-toggle">
+              <img src="images/fullscreen.svg">
+            </a>
             <div class="placement-search-box">
               <div>
                 <a href="#" class="header-placement">
@@ -226,61 +229,88 @@
 
 
                         <div class="right-col-full-width-tabs mt-4 custom-tab-form">
-                          <ul class="nav nav-tabs no-border " id="myTab" role="tablist">
-                            <li class="nav-item">
-                              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab"
-                                aria-controls="home" aria-selected="true"> <img src="images/tabs-general.svg"
-                                  class="hover-white"> Categories</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#contact" role="tab"
-                                aria-controls="contact" aria-selected="false"><img src="images/tabs-contact.svg"
-                                  class="hover-white"> Products</a>
-                            </li>
-                          </ul>
+                      
                           <div class="tab-content no-bg " id="myTabContent">
                             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                               <div>
 
 
 
-                                <div class="right-content-items-row">
-                                  <div class="right-content-items-heading   mt-0">
-                                    Customer Operations
-                                  </div>
+               <div class="right-content-items-row">
+               <div class="right-content-items-heading   mt-0">
 
 
-                                  <div class="right-content-items-column grid-menu-items-layout">
+                <a href="#" class="go-back-products">
+                 
 
-                                    <a class="right-column-menu-item">
-                                      <img src="images/repair-ico.svg" class="dark-svg">
-                                      Add Customer
-                                    </a>
-                                    <a class="right-column-menu-item">
-                                      <img src="images/repair-ico.svg" class="dark-svg">
-                                      Customer List
-                                    </a>
-                                    <a class="right-column-menu-item">
-                                      <img src="images/repair-ico.svg" class="dark-svg">
-                                      Store Credit
-                                    </a>
-                                    <a class="right-column-menu-item">
-                                      <img src="images/repair-ico.svg" class="dark-svg">
-                                      Quick Sale
-                                    </a>
-                                    <a class="right-column-menu-item">
-                                      <img src="images/repair-ico.svg" class="dark-svg">
-                                      Quick Sale
-                                    </a>
-                                    <a class="right-column-menu-item">
-                                      <img src="images/repair-ico.svg" class="dark-svg">
-                                      Quick Sale
-                                    </a>
+                  <div class="go-back-text">
+                    Go Back
+                  </div>
+                
+                </a>
 
+                <span class="breadcrumb-heading">
+                  Products   
+                </span>
+         
+        
+        
+          <span> <img src="images/breadcrumb-arrow.svg" class="breadcrumb-icon"> </span>
+
+          <span class="breadcrumb-heading">
+            Serialized   
+          </span>
+
+          <span> <img src="images/breadcrumb-arrow.svg" class="breadcrumb-icon"> </span>
+
+          <span class="breadcrumb-heading">
+            Laptops   
+          </span>
 
 
 
-                                  </div>
+         </div>
+
+
+                <div class="grid-container-flow">
+                  <div class="right-content-items-column grid-menu-items-layout">
+
+                    <a class="right-column-menu-item">
+                      <div class="product-img-box-bg">
+                       
+                      </div>
+                   <span> Add Customer</span>
+                     
+                    </a>
+                    <a class="right-column-menu-item">
+                      <div class="product-img-box-bg">
+                       
+                      </div>
+                      <span>Customer List</span>
+                    </a>
+                    <a class="right-column-menu-item">
+                      <img src="images/repair-ico.svg" class="dark-svg">
+                      Store Credit
+                    </a>
+                    <a class="right-column-menu-item">
+                      <img src="images/repair-ico.svg" class="dark-svg">
+                      Quick Sale
+                    </a>
+                    <a class="right-column-menu-item">
+                      <img src="images/repair-ico.svg" class="dark-svg">
+                      Quick Sale
+                    </a>
+                    <a class="right-column-menu-item">
+                      <img src="images/repair-ico.svg" class="dark-svg">
+                      Quick Sale
+                    </a>
+
+
+
+
+                  </div>
+                </div>
+                                  
 
                                 </div>
 
@@ -417,6 +447,9 @@
                         <div class="payment-amount">$1200.00</div>
                       </div>
 
+                        <a href="#"  data-toggle="modal" data-target="#notes-modal" class="notes-checkout-pop">
+                          Notes
+                        </a>
                       <a href="#" class="paynow-row">
                         <div class="paynow-heading">CHECKOUT</div>
                         <div class="paynow-amount">$1200.00</div>
@@ -468,7 +501,7 @@
 
           <div class="row">
             <!-- Aqib-->
-            <div class="col-lg-10 col-md-11 col-xl-8 mx-auto white-bg p-0">
+            <div class="col-lg-10 col-md-11 col-xl-8 mx-auto white-bg p-0 modal-max-width-limit">
 
               <div class="row  mb-3 sales-checkout-wrapper">
 
@@ -487,190 +520,15 @@
 
                             <div class="salescheckout-left-col">
 
+                      
 
-                              <div class="sales-left-upper-section">
-                                <div class="salescheckout-left-box">
-                                  <label class="mt-1">
-                                    <div class="field-heading">Name</div>
-                                    <input type="text" class=" theme-input" id="text" placeholder="Please Enter Name">
-                                  </label>
-      
-                                  <label class="mt-1">
-                                    <div class="field-heading">Phone Number</div>
-                                    <input type="text" class=" theme-input" id="text" placeholder="Please Enter Phone Number">
-                                  </label>
-      
-      
-                                  <label class="mt-1">
-    
-                                    <div class="flex-two-column">
-                                      <div class="field-heading">Email</div>
-    
-                                      <div>
-                                        <span>checkbox</span>
-                                        <span>Email Receipt</span>
-                                      </div>
-                                    </div>
-                                  
-    
-    
-                                    <input type="text" class=" theme-input" id="text" placeholder="Please Enter Email Address">
-                                  </label>
-                                </div>
-                               
-                                <div class="salescheckout-right-box">
-  
-                                  <div class="salescheckout-two-columns-table">
-                                    <div class="salescheckout-data-field">
-                                      <span>
-                                        Spending
-                                      </span>
-                                      <span>
-                                        $0.00
-                                      </span>
-                                    </div>
-                                    <div class="salescheckout-data-field">
-                                      <span>
-                                      Amount
-                                      </span>
-                                      <span>
-                                        $0.00
-                                      </span>
-                                    </div>
-
-                                    <div class="salescheckout-data-field">
-                                      <span>
-                                        Credit
-                                      </span>
-                                      <span>
-                                        $0.00
-                                      </span>
-                                    </div>
-                                    <div class="salescheckout-data-field">
-                                      <span>
-                                      Points
-                                      </span>
-                                      <span>
-                                        $0.00
-                                      </span>
-                                    </div>
-                                  </div>
-  
-                               
-                                </div>
-                              </div>
-
-                          
-
-
-
-                            
-
-
-<!-- 
-                              <div class="salescheckout-two-columns-table mt-2">
-
-                                <div class="salescheckout-data-field">
-                                  <span>
-                                    Store Credit
-                                  </span>
-                                  <span>
-                                    $0.00
-                                  </span>
-                                </div>
-                                <div class="salescheckout-data-field">
-                                  <span>
-                                Points
-                                  </span>
-                                  <span>
-                                    $0.00
-                                  </span>
-                                </div>
-                              </div> -->
-
-                              <div class="payment-method mt-3">
-
-
-                                <div class="payment-method-heading-row">
-                                  <div class="payment-checkout-heading">Payment Method</div>
-                                  <div class="payment-checkout-options">
-  
-                                    <div class="mr-2">
-                                      <span>
-                                        <input type="checkbox" name="vehicle1" value="Bike" style="    -webkit-appearance: checkbox;">
-                                      </span>
-                                      <span>Manual Entry</span>
-                                    </div>
-  
-                                    <div>
-                                      <span>
-                                        <input type="checkbox" name="vehicle1" value="Bike" style="    -webkit-appearance: checkbox;">
-                                       </span>
-                                      <span>Capital Signature</span>
-                                    </div>
-                                  </div>
-  
-                                </div>
-  
-  
-                                <div class="select-payment">
-  
-  
-                                  <a class="payment-icon-box">
-                                    <div class="payment-icon">
-                                      <img src="images/icon-bank.svg" class="white-svg"> 
-                                    </div>
-  
-                                  <div>Debit Card</div>
-                                  </a>
-                                  <a class="payment-icon-box">
-                                    <div class="payment-icon">
-                                      <img src="images/icon-bank.svg" class="white-svg"> 
-                                    </div>
-  
-                                  <div>Store Credit</div>
-                                  </a>
-                                  <a class="payment-icon-box">
-                                    <div class="payment-icon">
-                                      <img src="images/icon-bank.svg" class="white-svg"> 
-                                    </div>
-  
-                                  <div>Account</div>
-                                  </a>
-                                  <a class="payment-icon-box">
-                                    <div class="payment-icon">
-                                      <img src="images/icon-bank.svg" class="white-svg"> 
-                                    </div>
-  
-                                  <div>Trade In</div>
-                                  </a>
-                                  <a class="payment-icon-box">
-                                    <div class="payment-icon">
-                                      <img src="images/icon-bank.svg" class="white-svg"> 
-                                    </div>
-  
-                                  <div>Points Money</div>
-                                  </a>
-                               
-                                 
-                                
-                             
-                         
-  
-                                </div>
-  
-  
-                                <div class="add-payment">
-                                  <a href="#">Add Payment Method</a>
-                                </div>
-  
-  
-                              </div>
-
+                              <label>
+                                <div class="field-heading">Current Payment Method</div>
+                             </label>
 
                               <div class="current-payment-methods-box">
 
-                                <div class="flex-two-column">
+                                <div class="flex-two-column print-recep">
                                   <div>Payment</div>
                                   <div>
                                     <span>
@@ -681,39 +539,85 @@
                                 </div>
 
 
-                                <div class="enter-payment-to-change">
-                                  <label>
-    
-                                    <input type="text" class="mt-1 theme-input" id="text" placeholder="Please Enter Amount">
-                                  </label>
+                                <div class="payment-method-scroll">
+                                  <div class="current-selected-payments mt-0">
 
-                                </div>
-
-
-                                <div class="current-selected-payments">
-
-                                  <div class="delete-selected-payment">
-                                    <a href="#">
-                                      <img src="images/icon-delete-fill.svg">
-                                    </a>
-                                  </div>
-
-                                  <div class="selected-payment-name">
-                                    Cash
-                                  </div>
-
-                                  <div class="selected-payment-edit">
-                                    <div>
-                                      $0.00
-                                    </div>
-                                    <div class="selected-payment-edit-icon">
+                                    <div class="delete-selected-payment">
                                       <a href="#">
-                                        <img src="images/icon-edit-pencil.svg">
+                                        <img src="images/icon-delete-fill.svg">
                                       </a>
                                     </div>
+  
+                                    <div class="selected-payment-name">
+                                      Cash
+                                    </div>
+  
+                                    <div class="selected-payment-edit">
+  
+                                      <input type="text" class="theme-input" id="text" placeholder="$0.00">
+  
+  
+                                      <div class="selected-payment-edit-icon">
+                                        <a href="#">
+                                          <img src="images/icon-edit-pencil.svg">
+                                        </a>
+                                      </div>
+                                    </div>
+  
                                   </div>
-
+                                  <div class="current-selected-payments">
+  
+                                    <div class="delete-selected-payment">
+                                      <a href="#">
+                                        <img src="images/icon-delete-fill.svg">
+                                      </a>
+                                    </div>
+  
+                                    <div class="selected-payment-name">
+                                      Credit Card
+                                    </div>
+  
+                                    <div class="selected-payment-edit">
+  
+                                      <input type="text" class="theme-input" id="text" placeholder="$0.00">
+  
+  
+                                      <div class="selected-payment-edit-icon">
+                                        <a href="#">
+                                          <img src="images/icon-edit-pencil.svg">
+                                        </a>
+                                      </div>
+                                    </div>
+  
+                                  </div>
+  
+                                  <div class="current-selected-payments">
+  
+                                    <div class="delete-selected-payment">
+                                      <a href="#">
+                                        <img src="images/icon-delete-fill.svg">
+                                      </a>
+                                    </div>
+  
+                                    <div class="selected-payment-name">
+                                      Paypal
+                                    </div>
+  
+                                    <div class="selected-payment-edit">
+  
+                                      <input type="text" class="theme-input" id="text" placeholder="$0.00">
+  
+  
+                                      <div class="selected-payment-edit-icon">
+                                        <a href="#">
+                                          <img src="images/icon-edit-pencil.svg">
+                                        </a>
+                                      </div>
+                                    </div>
+  
+                                  </div>
                                 </div>
+                              
                            
 
 
@@ -733,74 +637,130 @@
                           </div>
                           <div class="col-lg-6 d-flex-col">
                            
-                            <div class="field-heading mb-1">Quick Cash</div>
-                            <div class="quick-cash">
-                        
-                              <button>
-                                $1
-                              </button>
-                              <button>
-                                $5
-                              </button>
-                              <button>
-                                $10
-                              </button>
-                              <button>
-                                $15
-                              </button>
-                              <button>
-                                $20
-                              </button>
-                              <button>
-                                $30
-                              </button>
-                              <button>
-                                $40
-                              </button>
-                              <button>
-                                $50
-                              </button>
-                              <button>
-                                $100
-                              </button>
-                              <button>
-                                $200
-                              </button>
-                              <button>
-                                $5000
-                              </button>
-                              <button>
-                                $338.98
-                              </button>
+
+                           
+
+
+                           
+                            <div class="sales-right-upper-section">
+                              <div class="salescheckout-left-box">
+                                <label>
+                                  <div class="field-heading">Vendor Name</div>
+                                  <input type="text" class=" theme-input" id="text" placeholder="Albert John">
+                                </label>
+                              
+                            
+
+                                <label class="mt-1">
+                                
+                              <div class="field-heading">Username</div>
+                              <input type="text" class=" theme-input" id="text" placeholder="Albert56">
+                            </label>
+
+  
+
+
+                            <label class="mt-1">
+                                
+                              <div class="field-heading">Total Cost</div>
+                                       
+                              <div class="salescheckout-data-field">
+                                <span>
+                                  $0.00
+                                </span>
+
+                              </div>
+
+
+
+                            </label>
+
+                                 
+                               
+                            
+                               
+                           
+    
+    
+                             
+                              </div>
+                             
+                              <div class="salescheckout-right-box">
+
+                                <label>
+                                  <div class="field-heading">Balance</div>
+                                       
+                                <div class="salescheckout-data-field">
+                                  <span>
+                                    $0.00
+                                  </span>
+
+                                </div>
+
+                                 </label>
+
+                                <div class="salescheckout-two-columns-table">
+                                
+
+                                
+                                  <label class="mt-1">
+                                
+                                    <div class="field-heading">Tax</div>
+                                             
+                                    <div class="salescheckout-data-field">
+                                      <span>
+                                        $0.00
+                                      </span>
+      
+                                    </div>
+      
+      
+      
+                                  </label>
+      
+                                   
+                                <!-- <label>
+                                  <div class="field-heading">  Points</div>
+                                       
+                                <div class="salescheckout-data-field">
+                                  <span>
+                                    $0.00
+                                  </span>
+
+                                </div>
+
+                                 </label> -->
+                                </div>
+
+                             
+                              </div>
                             </div>
+
+                        
+                        
 
 
                     
+                            <div class="payment-buttons mt-2">
 
-
-
-                            <div class="checkout-pay-amount-box mt-3">
-                              <div class="checkout-pay-heading">Due Amount</div>
-                              <div class="checkout-pay-money">$339<span>.49</span>
-                                <div class="checkout-pay-sold"><span>2</span>Items Sold</div>
-                              
-                              </div>
-
-                            
-                            
-                            </div>
-
-                            <div class="payment-buttons">
-
-                              <button type="button" class="btn theme-btn uppercase ">
-                                QUOTE
+                              <button type="button" class="btn theme-btn  ">
+                                Others
                                </button>
 
-                              <button type="button" class="btn btn-outline-secondary uppercase">
-                             CHANGE <span>0.00</span>
-                              </button>
+                              <button type="button" class="btn theme-btn  ">
+                                Register Amount
+                               </button>
+
+                              <button type="button" class="btn theme-btn  ">
+                                Pay Later
+                               </button>
+
+                             
                            
                             </div>
+
+
+                         
                       
                           </div>
                         </div>
@@ -815,34 +775,18 @@
               </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-              <div class="modal-footer pt-0 modal-footer-no-border">
-
-                <div class="mx-auto  mb-1 cancel-save-btn-row">
-                  <button type="button" class="btn btn-outline-secondary">
-                    CANCEL
-                  </button>
-                  <button type="button" class="btn theme-btn ">
-                    SAVE CHANGES
-                  </button>
-                </div>
-
-
+              <div class="row">
+                <div class="col-lg-12 text-center main-action-btns-row mt-3 mb-3">
+        
+                    <button class="btn btn-outline-secondary mr-3" type="button"> Cancel </button>
+                    
+                    <button class="btn theme-btn mr-1 " type="submit"> Save </button>
+                  </div>
               </div>
+
+              
+
+
 
 
             </div>
@@ -850,6 +794,53 @@
 
           </div>
 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+  <div class="modal" id="notes-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content model-content-auto-width">
+        <div class="modal-body no-spacing">
+    
+    
+    
+          <div class="row">
+            <!-- Aqib-->
+            <div class="col-lg-5 col-md-11 col-xl-5 mx-auto white-bg p-0">
+    
+              <div class="heading-row-notes">
+               
+                Notes
+                
+              </div>
+
+              <div class="checkout-notes">
+                <textarea placeholder="Notes..."></textarea>
+              </div>
+            
+         
+    
+             <div class="row">
+              <div class="mx-auto mt-2 mb-4 cancel-save-btn-row">
+                
+                <button type="button" class="btn theme-btn ">
+                 Apply
+                </button>
+                <button type="button" class="btn btn-outline-secondary">
+                  CANCEL
+                </button>
+              </div>
+            </div>
+    
+            </div>
+    
+    
+          </div>
+    
         </div>
       </div>
     </div>

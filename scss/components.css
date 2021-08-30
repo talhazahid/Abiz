@@ -1,7 +1,7 @@
 /*
 Error: Undefined variable: "$skin1".
-        on line 8 of D:/Talha/Aplosbiz/html/github/scss/theme-colors/theme-colors.scss
-        from line 4 of D:\Talha\Aplosbiz\html\github\scss\components.scss
+        on line 8 of D:/My Projects/AplosBiz/html/scss/theme-colors/theme-colors.scss
+        from line 4 of D:\My Projects\AplosBiz\html\scss\components.scss
 
 3: //Theme colors
 4: @import 'theme-colors/theme-colors';
@@ -16,8 +16,8 @@ Error: Undefined variable: "$skin1".
 13:   cursor: pointer;
 
 Backtrace:
-D:/Talha/Aplosbiz/html/github/scss/theme-colors/theme-colors.scss:8
-D:\Talha\Aplosbiz\html\github\scss\components.scss:4
+D:/My Projects/AplosBiz/html/scss/theme-colors/theme-colors.scss:8
+D:\My Projects\AplosBiz\html\scss\components.scss:4
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -110,4 +110,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$skin1\".\A         on line 8 of D:/Talha/Aplosbiz/html/github/scss/theme-colors/theme-colors.scss\A         from line 4 of D:\Talha\Aplosbiz\html\github\scss\components.scss\A \A 3: //Theme colors\A 4: @import 'theme-colors/theme-colors';\A 5: \A 6: // core\A 7: @import 'core/core';\A 8: \A 9: // rtl\A 10: @import 'rtl/rtl';\A 11: .table-actions-wrap {\A 12:   position: relative;\A 13:   cursor: pointer;"; }
+  content: "Error: Undefined variable: \"$skin1\".\A         on line 8 of D:/My Projects/AplosBiz/html/scss/theme-colors/theme-colors.scss\A         from line 4 of D:\My Projects\AplosBiz\html\scss\components.scss\A \A 3: //Theme colors\A 4: @import 'theme-colors/theme-colors';\A 5: \A 6: // core\A 7: @import 'core/core';\A 8: \A 9: // rtl\A 10: @import 'rtl/rtl';\A 11: .table-actions-wrap {\A 12:   position: relative;\A 13:   cursor: pointer;"; }

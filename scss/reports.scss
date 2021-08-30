@@ -1,0 +1,323 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+ display: block;
+}
+body {
+ line-height: 1;
+}
+ol,
+ul {
+ list-style: none;
+}
+blockquote,
+q {
+ quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+ content: "";
+ content: none;
+}
+
+body {
+ font-family: "Roboto", sans-serif;
+}
+
+header {
+ background: #13505b;
+ font-size: 28px;
+ font-weight: bold;
+ color: white;
+ padding: 15px 20px;
+}
+
+.report-wrapper {
+ width: 1180px;
+ padding: 20px;
+ margin: 0 auto;
+}
+.report-wrapper {
+ .inventory-name-row {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  padding: 20px 0px 20px;
+ }
+
+ .person-name {
+  font-size: 28px;
+  font-weight: 500;
+ }
+
+ .register-code {
+  font-size: 17px;
+  color: #616161;
+ }
+
+ .table-section-heading {
+  font-size: 26px;
+  border-bottom: 3px solid #23afa2;
+  display: table;
+  padding: 0px 0px 15px 0px;
+  margin-bottom: 40px;
+ }
+
+ .table-heading {
+  display: flex;
+  background: #67aaa3;
+  color: white;
+  padding: 17px 30px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  justify-content: space-between;
+  font-size: 22px;
+ }
+
+ .hidden {
+  visibility: hidden;
+ }
+
+ .table th {
+  font-size: 17px;
+  color: #60b2c2;
+  font-weight: 500;
+ }
+
+ .table thead th {
+  text-align: center;
+  border: 1px solid #d7d9ce;
+ }
+
+ .table td {
+  text-align: right;
+  border: 1px solid #d7d9ce;
+  color: #949494;
+ }
+ .table td:first-child {
+  text-align: left;
+ }
+
+ .table thead th:first-child {
+  text-align: left;
+ }
+
+ .total-row td {
+  background: #f2f2f2;
+  color: #5b5b5b;
+ }
+
+ .sale-receipt-wrapper {
+  width: 450px;
+  margin: 30px auto 60px;
+  border: 1px solid;
+  padding-top: 50px;
+ }
+
+ .bold {
+  font-weight: bold;
+ }
+
+ .text-center {
+  text-align: center;
+ }
+
+ .div-bottom-spacing div {
+  margin-bottom: 10px;
+ }
+
+ .barcode {
+  width: 300px;
+ }
+
+ .receipt-two-columns {
+  display: flex;
+  padding: 20px 40px 0px;
+ }
+
+ .receipt-two-columns .left-column {
+  margin-right: 20px;
+  margin-bottom: 0px;
+ }
+
+ .receipt-two-columns .right-column {
+  flex: 1;
+  text-align: right;
+  margin-bottom: 0px;
+ }
+
+ .line {
+  height: 2px;
+  width: 90%;
+  margin: 11px auto 10px;
+  background: black;
+ }
+
+ .item-names {
+  width: 60%;
+ }
+
+ .item-quantity {
+  width: 70px;
+ }
+
+ .item-price {
+  flex: 1;
+  text-align: right;
+ }
+
+ .receipt-items-container .items-row {
+  display: flex;
+  align-items: center;
+  padding: 12px 26px;
+ }
+
+ .discount-row {
+  display: flex;
+  padding: 0px 40px 8px;
+  justify-content: space-between;
+ }
+
+ .item-data-row {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .heading-receipt {
+  font-weight: bold;
+  font-size: 17px;
+  padding: 12px 25px;
+ }
+
+ .total-section {
+  display: flex;
+  padding: 0px 25px;
+ }
+
+ .total-left-section {
+  flex: 1;
+  text-align: right;
+ }
+
+ .total-left-section div {
+  margin-bottom: 7px;
+ }
+ .total-right-section div {
+  margin-bottom: 7px;
+ }
+
+ .total-right-section {
+  margin-left: 40px;
+ }
+}
+
+@media (max-width: 767px) {
+ .report-wrapper {
+  width: auto;
+ }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+ .report-wrapper {
+  width: auto;
+ }
+}

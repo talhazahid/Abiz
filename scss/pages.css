@@ -34,6 +34,30 @@
  *  11. Tables
  *  12. Forms
  *  14. Component */
+.button-with-icon button {
+  display: flex; }
+  .button-with-icon button img {
+    margin-right: 10px; }
+
+.theme-blue {
+  background: #03a9f4; }
+
+.theme-gray {
+  background: #455a64; }
+
+.theme-red {
+  background: #ee5966; }
+
+.theme-green {
+  background: #26a69a; }
+
+.white-txt {
+  color: white; }
+
+:root {
+  --nm: 6px 6px 16px 0 rgba(0, 0, 0, 0.2), -6px -6px 16px 0 rgba(255, 255, 255, 1);
+  --nm-inset: inset 4px 4px 8px 0 rgba(0, 0, 0, 0.2), inset -4px -4px 8px 0 rgba(255, 255, 255, 0.8); }
+
 /*******************
  Campaign
 *******************/
@@ -86,6 +110,30 @@
  *  11. Tables
  *  12. Forms
  *  14. Component */
+.button-with-icon button {
+  display: flex; }
+  .button-with-icon button img {
+    margin-right: 10px; }
+
+.theme-blue {
+  background: #03a9f4; }
+
+.theme-gray {
+  background: #455a64; }
+
+.theme-red {
+  background: #ee5966; }
+
+.theme-green {
+  background: #26a69a; }
+
+.white-txt {
+  color: white; }
+
+:root {
+  --nm: 6px 6px 16px 0 rgba(0, 0, 0, 0.2), -6px -6px 16px 0 rgba(255, 255, 255, 1);
+  --nm-inset: inset 4px 4px 8px 0 rgba(0, 0, 0, 0.2), inset -4px -4px 8px 0 rgba(255, 255, 255, 0.8); }
+
 .auth-wrapper {
   min-height: 100vh;
   position: relative; }
@@ -149,6 +197,30 @@
  *  11. Tables
  *  12. Forms
  *  14. Component */
+.button-with-icon button {
+  display: flex; }
+  .button-with-icon button img {
+    margin-right: 10px; }
+
+.theme-blue {
+  background: #03a9f4; }
+
+.theme-gray {
+  background: #455a64; }
+
+.theme-red {
+  background: #ee5966; }
+
+.theme-green {
+  background: #26a69a; }
+
+.white-txt {
+  color: white; }
+
+:root {
+  --nm: 6px 6px 16px 0 rgba(0, 0, 0, 0.2), -6px -6px 16px 0 rgba(255, 255, 255, 1);
+  --nm-inset: inset 4px 4px 8px 0 rgba(0, 0, 0, 0.2), inset -4px -4px 8px 0 rgba(255, 255, 255, 0.8); }
+
 .email-app {
   position: relative; }
   .email-app .list-group .list-group-item {
@@ -227,6 +299,30 @@
  *  11. Tables
  *  12. Forms
  *  14. Component */
+.button-with-icon button {
+  display: flex; }
+  .button-with-icon button img {
+    margin-right: 10px; }
+
+.theme-blue {
+  background: #03a9f4; }
+
+.theme-gray {
+  background: #455a64; }
+
+.theme-red {
+  background: #ee5966; }
+
+.theme-green {
+  background: #26a69a; }
+
+.white-txt {
+  color: white; }
+
+:root {
+  --nm: 6px 6px 16px 0 rgba(0, 0, 0, 0.2), -6px -6px 16px 0 rgba(255, 255, 255, 1);
+  --nm-inset: inset 4px 4px 8px 0 rgba(0, 0, 0, 0.2), inset -4px -4px 8px 0 rgba(255, 255, 255, 0.8); }
+
 .lobilists .lobilist {
   box-shadow: none; }
 .lobilists .lobilist.lobilist-primary {
@@ -331,6 +427,30 @@
  *  11. Tables
  *  12. Forms
  *  14. Component */
+.button-with-icon button {
+  display: flex; }
+  .button-with-icon button img {
+    margin-right: 10px; }
+
+.theme-blue {
+  background: #03a9f4; }
+
+.theme-gray {
+  background: #455a64; }
+
+.theme-red {
+  background: #ee5966; }
+
+.theme-green {
+  background: #26a69a; }
+
+.white-txt {
+  color: white; }
+
+:root {
+  --nm: 6px 6px 16px 0 rgba(0, 0, 0, 0.2), -6px -6px 16px 0 rgba(255, 255, 255, 1);
+  --nm-inset: inset 4px 4px 8px 0 rgba(0, 0, 0, 0.2), inset -4px -4px 8px 0 rgba(255, 255, 255, 0.8); }
+
 .twitter-typeahead {
   width: 100%; }
 
@@ -401,6 +521,30 @@ File: scss
  *  11. Tables
  *  12. Forms
  *  14. Component */
+.button-with-icon button {
+  display: flex; }
+  .button-with-icon button img {
+    margin-right: 10px; }
+
+.theme-blue {
+  background: #03a9f4; }
+
+.theme-gray {
+  background: #455a64; }
+
+.theme-red {
+  background: #ee5966; }
+
+.theme-green {
+  background: #26a69a; }
+
+.white-txt {
+  color: white; }
+
+:root {
+  --nm: 6px 6px 16px 0 rgba(0, 0, 0, 0.2), -6px -6px 16px 0 rgba(255, 255, 255, 1);
+  --nm-inset: inset 4px 4px 8px 0 rgba(0, 0, 0, 0.2), inset -4px -4px 8px 0 rgba(255, 255, 255, 0.8); }
+
 /*******************
 User card page
 ******************/
@@ -521,6 +665,30 @@ File: scss
  *  11. Tables
  *  12. Forms
  *  14. Component */
+.button-with-icon button {
+  display: flex; }
+  .button-with-icon button img {
+    margin-right: 10px; }
+
+.theme-blue {
+  background: #03a9f4; }
+
+.theme-gray {
+  background: #455a64; }
+
+.theme-red {
+  background: #ee5966; }
+
+.theme-green {
+  background: #26a69a; }
+
+.white-txt {
+  color: white; }
+
+:root {
+  --nm: 6px 6px 16px 0 rgba(0, 0, 0, 0.2), -6px -6px 16px 0 rgba(255, 255, 255, 1);
+  --nm-inset: inset 4px 4px 8px 0 rgba(0, 0, 0, 0.2), inset -4px -4px 8px 0 rgba(255, 255, 255, 0.8); }
+
 /*******************
 google map Page
 ******************/
@@ -605,6 +773,30 @@ File: scss
  *  11. Tables
  *  12. Forms
  *  14. Component */
+.button-with-icon button {
+  display: flex; }
+  .button-with-icon button img {
+    margin-right: 10px; }
+
+.theme-blue {
+  background: #03a9f4; }
+
+.theme-gray {
+  background: #455a64; }
+
+.theme-red {
+  background: #ee5966; }
+
+.theme-green {
+  background: #26a69a; }
+
+.white-txt {
+  color: white; }
+
+:root {
+  --nm: 6px 6px 16px 0 rgba(0, 0, 0, 0.2), -6px -6px 16px 0 rgba(255, 255, 255, 1);
+  --nm-inset: inset 4px 4px 8px 0 rgba(0, 0, 0, 0.2), inset -4px -4px 8px 0 rgba(255, 255, 255, 0.8); }
+
 /*******************
 Timeline page
 ******************/
@@ -785,6 +977,30 @@ Horizontal Timeline page
  *  11. Tables
  *  12. Forms
  *  14. Component */
+.button-with-icon button {
+  display: flex; }
+  .button-with-icon button img {
+    margin-right: 10px; }
+
+.theme-blue {
+  background: #03a9f4; }
+
+.theme-gray {
+  background: #455a64; }
+
+.theme-red {
+  background: #ee5966; }
+
+.theme-green {
+  background: #26a69a; }
+
+.white-txt {
+  color: white; }
+
+:root {
+  --nm: 6px 6px 16px 0 rgba(0, 0, 0, 0.2), -6px -6px 16px 0 rgba(255, 255, 255, 1);
+  --nm-inset: inset 4px 4px 8px 0 rgba(0, 0, 0, 0.2), inset -4px -4px 8px 0 rgba(255, 255, 255, 0.8); }
+
 .dd {
   position: relative;
   display: block;
