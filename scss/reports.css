@@ -176,11 +176,12 @@ header {
 }
 .report-wrapper .table th {
  font-size: 17px;
- color: #60b2c2;
+ color: white;
  font-weight: 500;
 }
 .report-wrapper .table thead th {
  text-align: center;
+ background-color: #647a84 !important;
  border: 1px solid #d7d9ce;
 }
 .report-wrapper .table td {
@@ -703,11 +704,8 @@ td {
 }
 
 @media print {
- @page {
-  size: landscape;
- }
  .report-wrapper {
-  width: 250px;
+  width: 100%;
   margin: 0;
   padding: 0px;
  }
@@ -717,12 +715,12 @@ td {
  }
 
  .layaway-wrapper {
-  width: 250px;
+  width: 100%;
   margin: 0;
  }
 
  .report-wrapper .sale-receipt-wrapper {
-  width: 250px;
+  width: 100%;
   margin: 0;
  }
 
@@ -823,4 +821,18 @@ td {
   display: flex;
   justify-content: flex-end;
  }
+}
+
+.sale-receipt-small div {
+ margin: 0;
+ padding: 0;
+}
+
+.sale-receipt-small img {
+ height: 70px;
+ width: auto !important;
+}
+
+.sale-receipt-small .receipt-two-columns {
+ padding-top: 0;
 }
